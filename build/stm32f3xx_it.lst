@@ -1,0 +1,672 @@
+ARM GAS  /tmp/ccpwGXyC.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m4
+   3              		.eabi_attribute 27, 3
+   4              		.eabi_attribute 28, 1
+   5              		.fpu fpv4-sp-d16
+   6              		.eabi_attribute 20, 1
+   7              		.eabi_attribute 21, 1
+   8              		.eabi_attribute 23, 1
+   9              		.eabi_attribute 24, 1
+  10              		.eabi_attribute 25, 1
+  11              		.eabi_attribute 26, 1
+  12              		.eabi_attribute 30, 1
+  13              		.eabi_attribute 34, 1
+  14              		.eabi_attribute 18, 4
+  15              		.thumb
+  16              		.file	"stm32f3xx_it.c"
+  17              		.text
+  18              	.Ltext0:
+  19              		.cfi_sections	.debug_frame
+  20              		.section	.text.NMI_Handler,"ax",%progbits
+  21              		.align	2
+  22              		.global	NMI_Handler
+  23              		.thumb
+  24              		.thumb_func
+  26              	NMI_Handler:
+  27              	.LFB123:
+  28              		.file 1 "Src/stm32f3xx_it.c"
+   1:Src/stm32f3xx_it.c **** /**
+   2:Src/stm32f3xx_it.c ****   ******************************************************************************
+   3:Src/stm32f3xx_it.c ****   * @file    stm32f3xx_it.c
+   4:Src/stm32f3xx_it.c ****   * @brief   Interrupt Service Routines.
+   5:Src/stm32f3xx_it.c ****   ******************************************************************************
+   6:Src/stm32f3xx_it.c ****   *
+   7:Src/stm32f3xx_it.c ****   * COPYRIGHT(c) 2018 STMicroelectronics
+   8:Src/stm32f3xx_it.c ****   *
+   9:Src/stm32f3xx_it.c ****   * Redistribution and use in source and binary forms, with or without modification,
+  10:Src/stm32f3xx_it.c ****   * are permitted provided that the following conditions are met:
+  11:Src/stm32f3xx_it.c ****   *   1. Redistributions of source code must retain the above copyright notice,
+  12:Src/stm32f3xx_it.c ****   *      this list of conditions and the following disclaimer.
+  13:Src/stm32f3xx_it.c ****   *   2. Redistributions in binary form must reproduce the above copyright notice,
+  14:Src/stm32f3xx_it.c ****   *      this list of conditions and the following disclaimer in the documentation
+  15:Src/stm32f3xx_it.c ****   *      and/or other materials provided with the distribution.
+  16:Src/stm32f3xx_it.c ****   *   3. Neither the name of STMicroelectronics nor the names of its contributors
+  17:Src/stm32f3xx_it.c ****   *      may be used to endorse or promote products derived from this software
+  18:Src/stm32f3xx_it.c ****   *      without specific prior written permission.
+  19:Src/stm32f3xx_it.c ****   *
+  20:Src/stm32f3xx_it.c ****   * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+  21:Src/stm32f3xx_it.c ****   * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+  22:Src/stm32f3xx_it.c ****   * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+  23:Src/stm32f3xx_it.c ****   * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+  24:Src/stm32f3xx_it.c ****   * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+  25:Src/stm32f3xx_it.c ****   * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+  26:Src/stm32f3xx_it.c ****   * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+  27:Src/stm32f3xx_it.c ****   * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+  28:Src/stm32f3xx_it.c ****   * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  29:Src/stm32f3xx_it.c ****   * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  30:Src/stm32f3xx_it.c ****   *
+ARM GAS  /tmp/ccpwGXyC.s 			page 2
+
+
+  31:Src/stm32f3xx_it.c ****   ******************************************************************************
+  32:Src/stm32f3xx_it.c ****   */
+  33:Src/stm32f3xx_it.c **** /* Includes ------------------------------------------------------------------*/
+  34:Src/stm32f3xx_it.c **** #include "stm32f3xx_hal.h"
+  35:Src/stm32f3xx_it.c **** #include "stm32f3xx.h"
+  36:Src/stm32f3xx_it.c **** #include "stm32f3xx_it.h"
+  37:Src/stm32f3xx_it.c **** 
+  38:Src/stm32f3xx_it.c **** /* USER CODE BEGIN 0 */
+  39:Src/stm32f3xx_it.c **** 
+  40:Src/stm32f3xx_it.c **** /* USER CODE END 0 */
+  41:Src/stm32f3xx_it.c **** 
+  42:Src/stm32f3xx_it.c **** /* External variables --------------------------------------------------------*/
+  43:Src/stm32f3xx_it.c **** extern DMA_HandleTypeDef hdma_adc1;
+  44:Src/stm32f3xx_it.c **** extern DMA_HandleTypeDef hdma_adc2;
+  45:Src/stm32f3xx_it.c **** extern ADC_HandleTypeDef hadc1;
+  46:Src/stm32f3xx_it.c **** extern ADC_HandleTypeDef hadc2;
+  47:Src/stm32f3xx_it.c **** extern DMA_HandleTypeDef hdma_usart1_rx;
+  48:Src/stm32f3xx_it.c **** extern DMA_HandleTypeDef hdma_usart1_tx;
+  49:Src/stm32f3xx_it.c **** 
+  50:Src/stm32f3xx_it.c **** /******************************************************************************/
+  51:Src/stm32f3xx_it.c **** /*            Cortex-M4 Processor Interruption and Exception Handlers         */
+  52:Src/stm32f3xx_it.c **** /******************************************************************************/
+  53:Src/stm32f3xx_it.c **** 
+  54:Src/stm32f3xx_it.c **** /**
+  55:Src/stm32f3xx_it.c **** * @brief This function handles Non maskable interrupt.
+  56:Src/stm32f3xx_it.c **** */
+  57:Src/stm32f3xx_it.c **** void NMI_Handler(void)
+  58:Src/stm32f3xx_it.c **** {
+  29              		.loc 1 58 0
+  30              		.cfi_startproc
+  31              		@ args = 0, pretend = 0, frame = 0
+  32              		@ frame_needed = 0, uses_anonymous_args = 0
+  33              		@ link register save eliminated.
+  34 0000 7047     		bx	lr
+  35              		.cfi_endproc
+  36              	.LFE123:
+  38 0002 00BF     		.section	.text.HardFault_Handler,"ax",%progbits
+  39              		.align	2
+  40              		.global	HardFault_Handler
+  41              		.thumb
+  42              		.thumb_func
+  44              	HardFault_Handler:
+  45              	.LFB124:
+  59:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN NonMaskableInt_IRQn 0 */
+  60:Src/stm32f3xx_it.c **** 
+  61:Src/stm32f3xx_it.c ****   /* USER CODE END NonMaskableInt_IRQn 0 */
+  62:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN NonMaskableInt_IRQn 1 */
+  63:Src/stm32f3xx_it.c **** 
+  64:Src/stm32f3xx_it.c ****   /* USER CODE END NonMaskableInt_IRQn 1 */
+  65:Src/stm32f3xx_it.c **** }
+  66:Src/stm32f3xx_it.c **** 
+  67:Src/stm32f3xx_it.c **** /**
+  68:Src/stm32f3xx_it.c **** * @brief This function handles Hard fault interrupt.
+  69:Src/stm32f3xx_it.c **** */
+  70:Src/stm32f3xx_it.c **** void HardFault_Handler(void)
+  71:Src/stm32f3xx_it.c **** {
+  46              		.loc 1 71 0
+ARM GAS  /tmp/ccpwGXyC.s 			page 3
+
+
+  47              		.cfi_startproc
+  48              		@ Volatile: function does not return.
+  49              		@ args = 0, pretend = 0, frame = 0
+  50              		@ frame_needed = 0, uses_anonymous_args = 0
+  51              		@ link register save eliminated.
+  52              	.L3:
+  53 0000 FEE7     		b	.L3
+  54              		.cfi_endproc
+  55              	.LFE124:
+  57 0002 00BF     		.section	.text.MemManage_Handler,"ax",%progbits
+  58              		.align	2
+  59              		.global	MemManage_Handler
+  60              		.thumb
+  61              		.thumb_func
+  63              	MemManage_Handler:
+  64              	.LFB125:
+  72:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN HardFault_IRQn 0 */
+  73:Src/stm32f3xx_it.c **** 
+  74:Src/stm32f3xx_it.c ****   /* USER CODE END HardFault_IRQn 0 */
+  75:Src/stm32f3xx_it.c ****   while (1)
+  76:Src/stm32f3xx_it.c ****   {
+  77:Src/stm32f3xx_it.c ****   }
+  78:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN HardFault_IRQn 1 */
+  79:Src/stm32f3xx_it.c **** 
+  80:Src/stm32f3xx_it.c ****   /* USER CODE END HardFault_IRQn 1 */
+  81:Src/stm32f3xx_it.c **** }
+  82:Src/stm32f3xx_it.c **** 
+  83:Src/stm32f3xx_it.c **** /**
+  84:Src/stm32f3xx_it.c **** * @brief This function handles Memory management fault.
+  85:Src/stm32f3xx_it.c **** */
+  86:Src/stm32f3xx_it.c **** void MemManage_Handler(void)
+  87:Src/stm32f3xx_it.c **** {
+  65              		.loc 1 87 0
+  66              		.cfi_startproc
+  67              		@ Volatile: function does not return.
+  68              		@ args = 0, pretend = 0, frame = 0
+  69              		@ frame_needed = 0, uses_anonymous_args = 0
+  70              		@ link register save eliminated.
+  71              	.L5:
+  72 0000 FEE7     		b	.L5
+  73              		.cfi_endproc
+  74              	.LFE125:
+  76 0002 00BF     		.section	.text.BusFault_Handler,"ax",%progbits
+  77              		.align	2
+  78              		.global	BusFault_Handler
+  79              		.thumb
+  80              		.thumb_func
+  82              	BusFault_Handler:
+  83              	.LFB126:
+  88:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN MemoryManagement_IRQn 0 */
+  89:Src/stm32f3xx_it.c **** 
+  90:Src/stm32f3xx_it.c ****   /* USER CODE END MemoryManagement_IRQn 0 */
+  91:Src/stm32f3xx_it.c ****   while (1)
+  92:Src/stm32f3xx_it.c ****   {
+  93:Src/stm32f3xx_it.c ****   }
+  94:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN MemoryManagement_IRQn 1 */
+  95:Src/stm32f3xx_it.c **** 
+ARM GAS  /tmp/ccpwGXyC.s 			page 4
+
+
+  96:Src/stm32f3xx_it.c ****   /* USER CODE END MemoryManagement_IRQn 1 */
+  97:Src/stm32f3xx_it.c **** }
+  98:Src/stm32f3xx_it.c **** 
+  99:Src/stm32f3xx_it.c **** /**
+ 100:Src/stm32f3xx_it.c **** * @brief This function handles Pre-fetch fault, memory access fault.
+ 101:Src/stm32f3xx_it.c **** */
+ 102:Src/stm32f3xx_it.c **** void BusFault_Handler(void)
+ 103:Src/stm32f3xx_it.c **** {
+  84              		.loc 1 103 0
+  85              		.cfi_startproc
+  86              		@ Volatile: function does not return.
+  87              		@ args = 0, pretend = 0, frame = 0
+  88              		@ frame_needed = 0, uses_anonymous_args = 0
+  89              		@ link register save eliminated.
+  90              	.L7:
+  91 0000 FEE7     		b	.L7
+  92              		.cfi_endproc
+  93              	.LFE126:
+  95 0002 00BF     		.section	.text.UsageFault_Handler,"ax",%progbits
+  96              		.align	2
+  97              		.global	UsageFault_Handler
+  98              		.thumb
+  99              		.thumb_func
+ 101              	UsageFault_Handler:
+ 102              	.LFB127:
+ 104:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN BusFault_IRQn 0 */
+ 105:Src/stm32f3xx_it.c **** 
+ 106:Src/stm32f3xx_it.c ****   /* USER CODE END BusFault_IRQn 0 */
+ 107:Src/stm32f3xx_it.c ****   while (1)
+ 108:Src/stm32f3xx_it.c ****   {
+ 109:Src/stm32f3xx_it.c ****   }
+ 110:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN BusFault_IRQn 1 */
+ 111:Src/stm32f3xx_it.c **** 
+ 112:Src/stm32f3xx_it.c ****   /* USER CODE END BusFault_IRQn 1 */
+ 113:Src/stm32f3xx_it.c **** }
+ 114:Src/stm32f3xx_it.c **** 
+ 115:Src/stm32f3xx_it.c **** /**
+ 116:Src/stm32f3xx_it.c **** * @brief This function handles Undefined instruction or illegal state.
+ 117:Src/stm32f3xx_it.c **** */
+ 118:Src/stm32f3xx_it.c **** void UsageFault_Handler(void)
+ 119:Src/stm32f3xx_it.c **** {
+ 103              		.loc 1 119 0
+ 104              		.cfi_startproc
+ 105              		@ Volatile: function does not return.
+ 106              		@ args = 0, pretend = 0, frame = 0
+ 107              		@ frame_needed = 0, uses_anonymous_args = 0
+ 108              		@ link register save eliminated.
+ 109              	.L9:
+ 110 0000 FEE7     		b	.L9
+ 111              		.cfi_endproc
+ 112              	.LFE127:
+ 114 0002 00BF     		.section	.text.SVC_Handler,"ax",%progbits
+ 115              		.align	2
+ 116              		.global	SVC_Handler
+ 117              		.thumb
+ 118              		.thumb_func
+ 120              	SVC_Handler:
+ARM GAS  /tmp/ccpwGXyC.s 			page 5
+
+
+ 121              	.LFB128:
+ 120:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN UsageFault_IRQn 0 */
+ 121:Src/stm32f3xx_it.c **** 
+ 122:Src/stm32f3xx_it.c ****   /* USER CODE END UsageFault_IRQn 0 */
+ 123:Src/stm32f3xx_it.c ****   while (1)
+ 124:Src/stm32f3xx_it.c ****   {
+ 125:Src/stm32f3xx_it.c ****   }
+ 126:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN UsageFault_IRQn 1 */
+ 127:Src/stm32f3xx_it.c **** 
+ 128:Src/stm32f3xx_it.c ****   /* USER CODE END UsageFault_IRQn 1 */
+ 129:Src/stm32f3xx_it.c **** }
+ 130:Src/stm32f3xx_it.c **** 
+ 131:Src/stm32f3xx_it.c **** /**
+ 132:Src/stm32f3xx_it.c **** * @brief This function handles System service call via SWI instruction.
+ 133:Src/stm32f3xx_it.c **** */
+ 134:Src/stm32f3xx_it.c **** void SVC_Handler(void)
+ 135:Src/stm32f3xx_it.c **** {
+ 122              		.loc 1 135 0
+ 123              		.cfi_startproc
+ 124              		@ args = 0, pretend = 0, frame = 0
+ 125              		@ frame_needed = 0, uses_anonymous_args = 0
+ 126              		@ link register save eliminated.
+ 127 0000 7047     		bx	lr
+ 128              		.cfi_endproc
+ 129              	.LFE128:
+ 131 0002 00BF     		.section	.text.DebugMon_Handler,"ax",%progbits
+ 132              		.align	2
+ 133              		.global	DebugMon_Handler
+ 134              		.thumb
+ 135              		.thumb_func
+ 137              	DebugMon_Handler:
+ 138              	.LFB129:
+ 136:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN SVCall_IRQn 0 */
+ 137:Src/stm32f3xx_it.c **** 
+ 138:Src/stm32f3xx_it.c ****   /* USER CODE END SVCall_IRQn 0 */
+ 139:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN SVCall_IRQn 1 */
+ 140:Src/stm32f3xx_it.c **** 
+ 141:Src/stm32f3xx_it.c ****   /* USER CODE END SVCall_IRQn 1 */
+ 142:Src/stm32f3xx_it.c **** }
+ 143:Src/stm32f3xx_it.c **** 
+ 144:Src/stm32f3xx_it.c **** /**
+ 145:Src/stm32f3xx_it.c **** * @brief This function handles Debug monitor.
+ 146:Src/stm32f3xx_it.c **** */
+ 147:Src/stm32f3xx_it.c **** void DebugMon_Handler(void)
+ 148:Src/stm32f3xx_it.c **** {
+ 139              		.loc 1 148 0
+ 140              		.cfi_startproc
+ 141              		@ args = 0, pretend = 0, frame = 0
+ 142              		@ frame_needed = 0, uses_anonymous_args = 0
+ 143              		@ link register save eliminated.
+ 144 0000 7047     		bx	lr
+ 145              		.cfi_endproc
+ 146              	.LFE129:
+ 148 0002 00BF     		.section	.text.PendSV_Handler,"ax",%progbits
+ 149              		.align	2
+ 150              		.global	PendSV_Handler
+ 151              		.thumb
+ARM GAS  /tmp/ccpwGXyC.s 			page 6
+
+
+ 152              		.thumb_func
+ 154              	PendSV_Handler:
+ 155              	.LFB130:
+ 149:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN DebugMonitor_IRQn 0 */
+ 150:Src/stm32f3xx_it.c **** 
+ 151:Src/stm32f3xx_it.c ****   /* USER CODE END DebugMonitor_IRQn 0 */
+ 152:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN DebugMonitor_IRQn 1 */
+ 153:Src/stm32f3xx_it.c **** 
+ 154:Src/stm32f3xx_it.c ****   /* USER CODE END DebugMonitor_IRQn 1 */
+ 155:Src/stm32f3xx_it.c **** }
+ 156:Src/stm32f3xx_it.c **** 
+ 157:Src/stm32f3xx_it.c **** /**
+ 158:Src/stm32f3xx_it.c **** * @brief This function handles Pendable request for system service.
+ 159:Src/stm32f3xx_it.c **** */
+ 160:Src/stm32f3xx_it.c **** void PendSV_Handler(void)
+ 161:Src/stm32f3xx_it.c **** {
+ 156              		.loc 1 161 0
+ 157              		.cfi_startproc
+ 158              		@ args = 0, pretend = 0, frame = 0
+ 159              		@ frame_needed = 0, uses_anonymous_args = 0
+ 160              		@ link register save eliminated.
+ 161 0000 7047     		bx	lr
+ 162              		.cfi_endproc
+ 163              	.LFE130:
+ 165 0002 00BF     		.section	.text.SysTick_Handler,"ax",%progbits
+ 166              		.align	2
+ 167              		.global	SysTick_Handler
+ 168              		.thumb
+ 169              		.thumb_func
+ 171              	SysTick_Handler:
+ 172              	.LFB131:
+ 162:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN PendSV_IRQn 0 */
+ 163:Src/stm32f3xx_it.c **** 
+ 164:Src/stm32f3xx_it.c ****   /* USER CODE END PendSV_IRQn 0 */
+ 165:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN PendSV_IRQn 1 */
+ 166:Src/stm32f3xx_it.c **** 
+ 167:Src/stm32f3xx_it.c ****   /* USER CODE END PendSV_IRQn 1 */
+ 168:Src/stm32f3xx_it.c **** }
+ 169:Src/stm32f3xx_it.c **** 
+ 170:Src/stm32f3xx_it.c **** /**
+ 171:Src/stm32f3xx_it.c **** * @brief This function handles System tick timer.
+ 172:Src/stm32f3xx_it.c **** */
+ 173:Src/stm32f3xx_it.c **** void SysTick_Handler(void)
+ 174:Src/stm32f3xx_it.c **** {
+ 173              		.loc 1 174 0
+ 174              		.cfi_startproc
+ 175              		@ args = 0, pretend = 0, frame = 0
+ 176              		@ frame_needed = 0, uses_anonymous_args = 0
+ 177              		.loc 1 174 0
+ 178 0000 08B5     		push	{r3, lr}
+ 179              	.LCFI0:
+ 180              		.cfi_def_cfa_offset 8
+ 181              		.cfi_offset 3, -8
+ 182              		.cfi_offset 14, -4
+ 175:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN SysTick_IRQn 0 */
+ 176:Src/stm32f3xx_it.c **** 
+ 177:Src/stm32f3xx_it.c ****   /* USER CODE END SysTick_IRQn 0 */
+ARM GAS  /tmp/ccpwGXyC.s 			page 7
+
+
+ 178:Src/stm32f3xx_it.c ****   HAL_IncTick();
+ 183              		.loc 1 178 0
+ 184 0002 FFF7FEFF 		bl	HAL_IncTick
+ 185              	.LVL0:
+ 179:Src/stm32f3xx_it.c ****   HAL_SYSTICK_IRQHandler();
+ 186              		.loc 1 179 0
+ 187 0006 FFF7FEFF 		bl	HAL_SYSTICK_IRQHandler
+ 188              	.LVL1:
+ 189 000a 08BD     		pop	{r3, pc}
+ 190              		.cfi_endproc
+ 191              	.LFE131:
+ 193              		.section	.text.DMA1_Channel1_IRQHandler,"ax",%progbits
+ 194              		.align	2
+ 195              		.global	DMA1_Channel1_IRQHandler
+ 196              		.thumb
+ 197              		.thumb_func
+ 199              	DMA1_Channel1_IRQHandler:
+ 200              	.LFB132:
+ 180:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN SysTick_IRQn 1 */
+ 181:Src/stm32f3xx_it.c **** 
+ 182:Src/stm32f3xx_it.c ****   /* USER CODE END SysTick_IRQn 1 */
+ 183:Src/stm32f3xx_it.c **** }
+ 184:Src/stm32f3xx_it.c **** 
+ 185:Src/stm32f3xx_it.c **** /******************************************************************************/
+ 186:Src/stm32f3xx_it.c **** /* STM32F3xx Peripheral Interrupt Handlers                                    */
+ 187:Src/stm32f3xx_it.c **** /* Add here the Interrupt Handlers for the used peripherals.                  */
+ 188:Src/stm32f3xx_it.c **** /* For the available peripheral interrupt handler names,                      */
+ 189:Src/stm32f3xx_it.c **** /* please refer to the startup file (startup_stm32f3xx.s).                    */
+ 190:Src/stm32f3xx_it.c **** /******************************************************************************/
+ 191:Src/stm32f3xx_it.c **** 
+ 192:Src/stm32f3xx_it.c **** /**
+ 193:Src/stm32f3xx_it.c **** * @brief This function handles DMA1 channel1 global interrupt.
+ 194:Src/stm32f3xx_it.c **** */
+ 195:Src/stm32f3xx_it.c **** void DMA1_Channel1_IRQHandler(void)
+ 196:Src/stm32f3xx_it.c **** {
+ 201              		.loc 1 196 0
+ 202              		.cfi_startproc
+ 203              		@ args = 0, pretend = 0, frame = 0
+ 204              		@ frame_needed = 0, uses_anonymous_args = 0
+ 205 0000 08B5     		push	{r3, lr}
+ 206              	.LCFI1:
+ 207              		.cfi_def_cfa_offset 8
+ 208              		.cfi_offset 3, -8
+ 209              		.cfi_offset 14, -4
+ 197:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN DMA1_Channel1_IRQn 0 */
+ 198:Src/stm32f3xx_it.c **** 
+ 199:Src/stm32f3xx_it.c ****   /* USER CODE END DMA1_Channel1_IRQn 0 */
+ 200:Src/stm32f3xx_it.c ****   HAL_DMA_IRQHandler(&hdma_adc1);
+ 210              		.loc 1 200 0
+ 211 0002 0248     		ldr	r0, .L15
+ 212 0004 FFF7FEFF 		bl	HAL_DMA_IRQHandler
+ 213              	.LVL2:
+ 214 0008 08BD     		pop	{r3, pc}
+ 215              	.L16:
+ 216 000a 00BF     		.align	2
+ 217              	.L15:
+ 218 000c 00000000 		.word	hdma_adc1
+ARM GAS  /tmp/ccpwGXyC.s 			page 8
+
+
+ 219              		.cfi_endproc
+ 220              	.LFE132:
+ 222              		.section	.text.DMA1_Channel2_IRQHandler,"ax",%progbits
+ 223              		.align	2
+ 224              		.global	DMA1_Channel2_IRQHandler
+ 225              		.thumb
+ 226              		.thumb_func
+ 228              	DMA1_Channel2_IRQHandler:
+ 229              	.LFB133:
+ 201:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN DMA1_Channel1_IRQn 1 */
+ 202:Src/stm32f3xx_it.c **** 
+ 203:Src/stm32f3xx_it.c ****   /* USER CODE END DMA1_Channel1_IRQn 1 */
+ 204:Src/stm32f3xx_it.c **** }
+ 205:Src/stm32f3xx_it.c **** 
+ 206:Src/stm32f3xx_it.c **** /**
+ 207:Src/stm32f3xx_it.c **** * @brief This function handles DMA1 channel2 global interrupt.
+ 208:Src/stm32f3xx_it.c **** */
+ 209:Src/stm32f3xx_it.c **** void DMA1_Channel2_IRQHandler(void)
+ 210:Src/stm32f3xx_it.c **** {
+ 230              		.loc 1 210 0
+ 231              		.cfi_startproc
+ 232              		@ args = 0, pretend = 0, frame = 0
+ 233              		@ frame_needed = 0, uses_anonymous_args = 0
+ 234 0000 08B5     		push	{r3, lr}
+ 235              	.LCFI2:
+ 236              		.cfi_def_cfa_offset 8
+ 237              		.cfi_offset 3, -8
+ 238              		.cfi_offset 14, -4
+ 211:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN DMA1_Channel2_IRQn 0 */
+ 212:Src/stm32f3xx_it.c **** 
+ 213:Src/stm32f3xx_it.c ****   /* USER CODE END DMA1_Channel2_IRQn 0 */
+ 214:Src/stm32f3xx_it.c ****   HAL_DMA_IRQHandler(&hdma_adc2);
+ 239              		.loc 1 214 0
+ 240 0002 0248     		ldr	r0, .L18
+ 241 0004 FFF7FEFF 		bl	HAL_DMA_IRQHandler
+ 242              	.LVL3:
+ 243 0008 08BD     		pop	{r3, pc}
+ 244              	.L19:
+ 245 000a 00BF     		.align	2
+ 246              	.L18:
+ 247 000c 00000000 		.word	hdma_adc2
+ 248              		.cfi_endproc
+ 249              	.LFE133:
+ 251              		.section	.text.DMA1_Channel4_IRQHandler,"ax",%progbits
+ 252              		.align	2
+ 253              		.global	DMA1_Channel4_IRQHandler
+ 254              		.thumb
+ 255              		.thumb_func
+ 257              	DMA1_Channel4_IRQHandler:
+ 258              	.LFB134:
+ 215:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN DMA1_Channel2_IRQn 1 */
+ 216:Src/stm32f3xx_it.c **** 
+ 217:Src/stm32f3xx_it.c ****   /* USER CODE END DMA1_Channel2_IRQn 1 */
+ 218:Src/stm32f3xx_it.c **** }
+ 219:Src/stm32f3xx_it.c **** 
+ 220:Src/stm32f3xx_it.c **** /**
+ 221:Src/stm32f3xx_it.c **** * @brief This function handles DMA1 channel4 global interrupt.
+ARM GAS  /tmp/ccpwGXyC.s 			page 9
+
+
+ 222:Src/stm32f3xx_it.c **** */
+ 223:Src/stm32f3xx_it.c **** void DMA1_Channel4_IRQHandler(void)
+ 224:Src/stm32f3xx_it.c **** {
+ 259              		.loc 1 224 0
+ 260              		.cfi_startproc
+ 261              		@ args = 0, pretend = 0, frame = 0
+ 262              		@ frame_needed = 0, uses_anonymous_args = 0
+ 263 0000 08B5     		push	{r3, lr}
+ 264              	.LCFI3:
+ 265              		.cfi_def_cfa_offset 8
+ 266              		.cfi_offset 3, -8
+ 267              		.cfi_offset 14, -4
+ 225:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN DMA1_Channel4_IRQn 0 */
+ 226:Src/stm32f3xx_it.c **** 
+ 227:Src/stm32f3xx_it.c ****   /* USER CODE END DMA1_Channel4_IRQn 0 */
+ 228:Src/stm32f3xx_it.c ****   HAL_DMA_IRQHandler(&hdma_usart1_tx);
+ 268              		.loc 1 228 0
+ 269 0002 0248     		ldr	r0, .L21
+ 270 0004 FFF7FEFF 		bl	HAL_DMA_IRQHandler
+ 271              	.LVL4:
+ 272 0008 08BD     		pop	{r3, pc}
+ 273              	.L22:
+ 274 000a 00BF     		.align	2
+ 275              	.L21:
+ 276 000c 00000000 		.word	hdma_usart1_tx
+ 277              		.cfi_endproc
+ 278              	.LFE134:
+ 280              		.section	.text.DMA1_Channel5_IRQHandler,"ax",%progbits
+ 281              		.align	2
+ 282              		.global	DMA1_Channel5_IRQHandler
+ 283              		.thumb
+ 284              		.thumb_func
+ 286              	DMA1_Channel5_IRQHandler:
+ 287              	.LFB135:
+ 229:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN DMA1_Channel4_IRQn 1 */
+ 230:Src/stm32f3xx_it.c **** 
+ 231:Src/stm32f3xx_it.c ****   /* USER CODE END DMA1_Channel4_IRQn 1 */
+ 232:Src/stm32f3xx_it.c **** }
+ 233:Src/stm32f3xx_it.c **** 
+ 234:Src/stm32f3xx_it.c **** /**
+ 235:Src/stm32f3xx_it.c **** * @brief This function handles DMA1 channel5 global interrupt.
+ 236:Src/stm32f3xx_it.c **** */
+ 237:Src/stm32f3xx_it.c **** void DMA1_Channel5_IRQHandler(void)
+ 238:Src/stm32f3xx_it.c **** {
+ 288              		.loc 1 238 0
+ 289              		.cfi_startproc
+ 290              		@ args = 0, pretend = 0, frame = 0
+ 291              		@ frame_needed = 0, uses_anonymous_args = 0
+ 292 0000 08B5     		push	{r3, lr}
+ 293              	.LCFI4:
+ 294              		.cfi_def_cfa_offset 8
+ 295              		.cfi_offset 3, -8
+ 296              		.cfi_offset 14, -4
+ 239:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN DMA1_Channel5_IRQn 0 */
+ 240:Src/stm32f3xx_it.c **** 
+ 241:Src/stm32f3xx_it.c ****   /* USER CODE END DMA1_Channel5_IRQn 0 */
+ 242:Src/stm32f3xx_it.c ****   HAL_DMA_IRQHandler(&hdma_usart1_rx);
+ARM GAS  /tmp/ccpwGXyC.s 			page 10
+
+
+ 297              		.loc 1 242 0
+ 298 0002 0248     		ldr	r0, .L24
+ 299 0004 FFF7FEFF 		bl	HAL_DMA_IRQHandler
+ 300              	.LVL5:
+ 301 0008 08BD     		pop	{r3, pc}
+ 302              	.L25:
+ 303 000a 00BF     		.align	2
+ 304              	.L24:
+ 305 000c 00000000 		.word	hdma_usart1_rx
+ 306              		.cfi_endproc
+ 307              	.LFE135:
+ 309              		.section	.text.ADC1_2_IRQHandler,"ax",%progbits
+ 310              		.align	2
+ 311              		.global	ADC1_2_IRQHandler
+ 312              		.thumb
+ 313              		.thumb_func
+ 315              	ADC1_2_IRQHandler:
+ 316              	.LFB136:
+ 243:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN DMA1_Channel5_IRQn 1 */
+ 244:Src/stm32f3xx_it.c **** 
+ 245:Src/stm32f3xx_it.c ****   /* USER CODE END DMA1_Channel5_IRQn 1 */
+ 246:Src/stm32f3xx_it.c **** }
+ 247:Src/stm32f3xx_it.c **** 
+ 248:Src/stm32f3xx_it.c **** /**
+ 249:Src/stm32f3xx_it.c **** * @brief This function handles ADC1 and ADC2 interrupts.
+ 250:Src/stm32f3xx_it.c **** */
+ 251:Src/stm32f3xx_it.c **** void ADC1_2_IRQHandler(void)
+ 252:Src/stm32f3xx_it.c **** {
+ 317              		.loc 1 252 0
+ 318              		.cfi_startproc
+ 319              		@ args = 0, pretend = 0, frame = 0
+ 320              		@ frame_needed = 0, uses_anonymous_args = 0
+ 321 0000 08B5     		push	{r3, lr}
+ 322              	.LCFI5:
+ 323              		.cfi_def_cfa_offset 8
+ 324              		.cfi_offset 3, -8
+ 325              		.cfi_offset 14, -4
+ 253:Src/stm32f3xx_it.c ****   /* USER CODE BEGIN ADC1_2_IRQn 0 */
+ 254:Src/stm32f3xx_it.c ****   DCDC_Reg();
+ 326              		.loc 1 254 0
+ 327 0002 FFF7FEFF 		bl	DCDC_Reg
+ 328              	.LVL6:
+ 255:Src/stm32f3xx_it.c **** 
+ 256:Src/stm32f3xx_it.c ****   /* USER CODE END ADC1_2_IRQn 0 */
+ 257:Src/stm32f3xx_it.c ****   HAL_ADC_IRQHandler(&hadc1);
+ 329              		.loc 1 257 0
+ 330 0006 0348     		ldr	r0, .L27
+ 331 0008 FFF7FEFF 		bl	HAL_ADC_IRQHandler
+ 332              	.LVL7:
+ 258:Src/stm32f3xx_it.c ****   HAL_ADC_IRQHandler(&hadc2);
+ 333              		.loc 1 258 0
+ 334 000c 0248     		ldr	r0, .L27+4
+ 335 000e FFF7FEFF 		bl	HAL_ADC_IRQHandler
+ 336              	.LVL8:
+ 337 0012 08BD     		pop	{r3, pc}
+ 338              	.L28:
+ 339              		.align	2
+ARM GAS  /tmp/ccpwGXyC.s 			page 11
+
+
+ 340              	.L27:
+ 341 0014 00000000 		.word	hadc1
+ 342 0018 00000000 		.word	hadc2
+ 343              		.cfi_endproc
+ 344              	.LFE136:
+ 346              		.text
+ 347              	.Letext0:
+ 348              		.file 2 "/home/niklas/Downloads/gcc-arm-none-eabi-4_8-2014q3/arm-none-eabi/include/machine/_defaul
+ 349              		.file 3 "/home/niklas/Downloads/gcc-arm-none-eabi-4_8-2014q3/arm-none-eabi/include/stdint.h"
+ 350              		.file 4 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f334x8.h"
+ 351              		.file 5 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h"
+ 352              		.file 6 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h"
+ 353              		.file 7 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_adc_ex.h"
+ 354              		.file 8 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_adc.h"
+ 355              		.file 9 "Drivers/CMSIS/Include/core_cm4.h"
+ 356              		.file 10 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
+ 357              		.file 11 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h"
+ARM GAS  /tmp/ccpwGXyC.s 			page 12
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 stm32f3xx_it.c
+     /tmp/ccpwGXyC.s:21     .text.NMI_Handler:00000000 $t
+     /tmp/ccpwGXyC.s:26     .text.NMI_Handler:00000000 NMI_Handler
+     /tmp/ccpwGXyC.s:39     .text.HardFault_Handler:00000000 $t
+     /tmp/ccpwGXyC.s:44     .text.HardFault_Handler:00000000 HardFault_Handler
+     /tmp/ccpwGXyC.s:58     .text.MemManage_Handler:00000000 $t
+     /tmp/ccpwGXyC.s:63     .text.MemManage_Handler:00000000 MemManage_Handler
+     /tmp/ccpwGXyC.s:77     .text.BusFault_Handler:00000000 $t
+     /tmp/ccpwGXyC.s:82     .text.BusFault_Handler:00000000 BusFault_Handler
+     /tmp/ccpwGXyC.s:96     .text.UsageFault_Handler:00000000 $t
+     /tmp/ccpwGXyC.s:101    .text.UsageFault_Handler:00000000 UsageFault_Handler
+     /tmp/ccpwGXyC.s:115    .text.SVC_Handler:00000000 $t
+     /tmp/ccpwGXyC.s:120    .text.SVC_Handler:00000000 SVC_Handler
+     /tmp/ccpwGXyC.s:132    .text.DebugMon_Handler:00000000 $t
+     /tmp/ccpwGXyC.s:137    .text.DebugMon_Handler:00000000 DebugMon_Handler
+     /tmp/ccpwGXyC.s:149    .text.PendSV_Handler:00000000 $t
+     /tmp/ccpwGXyC.s:154    .text.PendSV_Handler:00000000 PendSV_Handler
+     /tmp/ccpwGXyC.s:166    .text.SysTick_Handler:00000000 $t
+     /tmp/ccpwGXyC.s:171    .text.SysTick_Handler:00000000 SysTick_Handler
+     /tmp/ccpwGXyC.s:194    .text.DMA1_Channel1_IRQHandler:00000000 $t
+     /tmp/ccpwGXyC.s:199    .text.DMA1_Channel1_IRQHandler:00000000 DMA1_Channel1_IRQHandler
+     /tmp/ccpwGXyC.s:218    .text.DMA1_Channel1_IRQHandler:0000000c $d
+     /tmp/ccpwGXyC.s:223    .text.DMA1_Channel2_IRQHandler:00000000 $t
+     /tmp/ccpwGXyC.s:228    .text.DMA1_Channel2_IRQHandler:00000000 DMA1_Channel2_IRQHandler
+     /tmp/ccpwGXyC.s:247    .text.DMA1_Channel2_IRQHandler:0000000c $d
+     /tmp/ccpwGXyC.s:252    .text.DMA1_Channel4_IRQHandler:00000000 $t
+     /tmp/ccpwGXyC.s:257    .text.DMA1_Channel4_IRQHandler:00000000 DMA1_Channel4_IRQHandler
+     /tmp/ccpwGXyC.s:276    .text.DMA1_Channel4_IRQHandler:0000000c $d
+     /tmp/ccpwGXyC.s:281    .text.DMA1_Channel5_IRQHandler:00000000 $t
+     /tmp/ccpwGXyC.s:286    .text.DMA1_Channel5_IRQHandler:00000000 DMA1_Channel5_IRQHandler
+     /tmp/ccpwGXyC.s:305    .text.DMA1_Channel5_IRQHandler:0000000c $d
+     /tmp/ccpwGXyC.s:310    .text.ADC1_2_IRQHandler:00000000 $t
+     /tmp/ccpwGXyC.s:315    .text.ADC1_2_IRQHandler:00000000 ADC1_2_IRQHandler
+     /tmp/ccpwGXyC.s:341    .text.ADC1_2_IRQHandler:00000014 $d
+                     .debug_frame:00000010 $d
+
+UNDEFINED SYMBOLS
+HAL_IncTick
+HAL_SYSTICK_IRQHandler
+HAL_DMA_IRQHandler
+hdma_adc1
+hdma_adc2
+hdma_usart1_tx
+hdma_usart1_rx
+DCDC_Reg
+HAL_ADC_IRQHandler
+hadc1
+hadc2

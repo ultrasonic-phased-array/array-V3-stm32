@@ -1,0 +1,186 @@
+ARM GAS  /tmp/cc7tMVVj.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m4
+   3              		.eabi_attribute 27, 3
+   4              		.eabi_attribute 28, 1
+   5              		.fpu fpv4-sp-d16
+   6              		.eabi_attribute 20, 1
+   7              		.eabi_attribute 21, 1
+   8              		.eabi_attribute 23, 1
+   9              		.eabi_attribute 24, 1
+  10              		.eabi_attribute 25, 1
+  11              		.eabi_attribute 26, 1
+  12              		.eabi_attribute 30, 1
+  13              		.eabi_attribute 34, 1
+  14              		.eabi_attribute 18, 4
+  15              		.thumb
+  16              		.file	"util.c"
+  17              		.text
+  18              	.Ltext0:
+  19              		.cfi_sections	.debug_frame
+  20              		.section	.text.r2temp,"ax",%progbits
+  21              		.align	2
+  22              		.global	r2temp
+  23              		.thumb
+  24              		.thumb_func
+  26              	r2temp:
+  27              	.LFB123:
+  28              		.file 1 "Src/util.c"
+   1:Src/util.c    **** 
+   2:Src/util.c    **** #include "stm32f3xx_hal.h"
+   3:Src/util.c    **** #include "defines.h"
+   4:Src/util.c    **** 
+   5:Src/util.c    **** float r2temp(float r){
+  29              		.loc 1 5 0
+  30              		.cfi_startproc
+  31              		@ args = 0, pretend = 0, frame = 72
+  32              		@ frame_needed = 0, uses_anonymous_args = 0
+  33              	.LVL0:
+  34 0000 00B5     		push	{lr}
+  35              	.LCFI0:
+  36              		.cfi_def_cfa_offset 4
+  37              		.cfi_offset 14, -4
+  38 0002 2DED028B 		fstmfdd	sp!, {d8}
+  39              	.LCFI1:
+  40              		.cfi_def_cfa_offset 12
+  41              		.cfi_offset 80, -12
+  42 0006 93B0     		sub	sp, sp, #76
+  43              	.LCFI2:
+  44              		.cfi_def_cfa_offset 88
+   6:Src/util.c    ****   r = r / 1000;
+  45              		.loc 1 6 0
+  46 0008 9FED1D8A 		flds	s16, .L9
+  47 000c 80EE088A 		fdivs	s16, s0, s16
+  48              	.LVL1:
+   7:Src/util.c    ****   const int step = 10;
+   8:Src/util.c    ****   const int start = -10;
+   9:Src/util.c    ****   //-10..160
+  10:Src/util.c    ****   const float temp[] = {42.45, 27.28, 17.96, 12.09, 8.31, 5.83, 4.16, 3.02, 2.23, 1.67, 1.27, 0.975
+ARM GAS  /tmp/cc7tMVVj.s 			page 2
+
+
+  49              		.loc 1 10 0
+  50 0010 01A8     		add	r0, sp, #4
+  51 0012 1C49     		ldr	r1, .L9+4
+  52 0014 4422     		movs	r2, #68
+  53 0016 FFF7FEFF 		bl	memcpy
+  54              	.LVL2:
+  55              	.LBB2:
+  11:Src/util.c    **** 
+  12:Src/util.c    ****   for(int i = 1; i < ARRAY_SIZE(temp); i++){
+  56              		.loc 1 12 0
+  57 001a 0123     		movs	r3, #1
+  58 001c 22E0     		b	.L2
+  59              	.LVL3:
+  60              	.L6:
+  13:Src/util.c    ****     if(temp[i] < r){
+  61              		.loc 1 13 0
+  62 001e 12A9     		add	r1, sp, #72
+  63 0020 01EB8302 		add	r2, r1, r3, lsl #2
+  64 0024 52ED117A 		flds	s15, [r2, #-68]
+  65 0028 F4EEC87A 		fcmpes	s15, s16
+  66 002c F1EE10FA 		fmstat
+  67 0030 17D5     		bpl	.L8
+  68              	.LBB3:
+  14:Src/util.c    ****       float a = temp[i - 1];
+  69              		.loc 1 14 0
+  70 0032 12ED127A 		flds	s14, [r2, #-72]
+  71              	.LVL4:
+  15:Src/util.c    ****       float b = temp[i];
+  16:Src/util.c    ****       return(-(r - b) / (a - b) * step + i * step + start);
+  72              		.loc 1 16 0
+  73 0036 37EEC80A 		fsubs	s0, s15, s16
+  74 003a 77EE677A 		fsubs	s15, s14, s15
+  75              	.LVL5:
+  76 003e 80EE270A 		fdivs	s0, s0, s15
+  77 0042 B2EE047A 		fconsts	s14, #36
+  78              	.LVL6:
+  79 0046 20EE070A 		fmuls	s0, s0, s14
+  80 004a 03EB8303 		add	r3, r3, r3, lsl #2
+  81              	.LVL7:
+  82 004e 5B00     		lsls	r3, r3, #1
+  83 0050 06EE903A 		fmsr	s13, r3	@ int
+  84 0054 F8EEE67A 		fsitos	s15, s13
+  85 0058 30EE270A 		fadds	s0, s0, s15
+  86 005c 30EE470A 		fsubs	s0, s0, s14
+  87 0060 08E0     		b	.L5
+  88              	.LVL8:
+  89              	.L8:
+  90              	.LBE3:
+  12:Src/util.c    ****   for(int i = 1; i < ARRAY_SIZE(temp); i++){
+  91              		.loc 1 12 0
+  92 0062 0133     		adds	r3, r3, #1
+  93              	.LVL9:
+  94              	.L2:
+  12:Src/util.c    ****   for(int i = 1; i < ARRAY_SIZE(temp); i++){
+  95              		.loc 1 12 0 is_stmt 0 discriminator 1
+  96 0064 102B     		cmp	r3, #16
+  97 0066 DAD9     		bls	.L6
+ARM GAS  /tmp/cc7tMVVj.s 			page 3
+
+
+  98              	.LBE2:
+  17:Src/util.c    ****     }
+  18:Src/util.c    ****   }
+  19:Src/util.c    ****   return(temp[ARRAY_SIZE(temp)] + step);
+  99              		.loc 1 19 0 is_stmt 1
+ 100 0068 F2EE047A 		fconsts	s15, #36
+ 101 006c 9DED120A 		flds	s0, [sp, #72]
+ 102 0070 30EE270A 		fadds	s0, s0, s15
+ 103              	.LVL10:
+ 104              	.L5:
+  20:Src/util.c    **** }
+ 105              		.loc 1 20 0
+ 106 0074 13B0     		add	sp, sp, #76
+ 107              		@ sp needed
+ 108 0076 BDEC028B 		fldmfdd	sp!, {d8}
+ 109              	.LVL11:
+ 110 007a 5DF804FB 		ldr	pc, [sp], #4
+ 111              	.L10:
+ 112 007e 00BF     		.align	2
+ 113              	.L9:
+ 114 0080 00007A44 		.word	1148846080
+ 115 0084 00000000 		.word	.LANCHOR0
+ 116              		.cfi_endproc
+ 117              	.LFE123:
+ 119              		.section	.rodata
+ 120              		.align	2
+ 121              		.set	.LANCHOR0,. + 0
+ 122              	.LC0:
+ 123 0000 CDCC2942 		.word	1110035661
+ 124 0004 713DDA41 		.word	1104821617
+ 125 0008 14AE8F41 		.word	1099935252
+ 126 000c A4704141 		.word	1094807716
+ 127 0010 C3F50441 		.word	1090844099
+ 128 0014 5C8FBA40 		.word	1085968220
+ 129 0018 B81E8540 		.word	1082465976
+ 130 001c AE474140 		.word	1078020014
+ 131 0020 52B80E40 		.word	1074706514
+ 132 0024 8FC2D53F 		.word	1070973583
+ 133 0028 5C8FA23F 		.word	1067618140
+ 134 002c 9A99793F 		.word	1064933786
+ 135 0030 5C8F423F 		.word	1061326684
+ 136 0034 1058193F 		.word	1058625552
+ 137 0038 0000003F 		.word	1056964608
+ 138 003c CDCCCC3E 		.word	1053609165
+ 139 0040 9A99993E 		.word	1050253722
+ 140              		.text
+ 141              	.Letext0:
+ 142              		.file 2 "/home/niklas/Downloads/gcc-arm-none-eabi-4_8-2014q3/arm-none-eabi/include/machine/_defaul
+ 143              		.file 3 "/home/niklas/Downloads/gcc-arm-none-eabi-4_8-2014q3/arm-none-eabi/include/stdint.h"
+ 144              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
+ARM GAS  /tmp/cc7tMVVj.s 			page 4
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 util.c
+     /tmp/cc7tMVVj.s:21     .text.r2temp:00000000 $t
+     /tmp/cc7tMVVj.s:26     .text.r2temp:00000000 r2temp
+     /tmp/cc7tMVVj.s:114    .text.r2temp:00000080 $d
+     /tmp/cc7tMVVj.s:120    .rodata:00000000 $d
+                     .debug_frame:00000010 $d
+
+UNDEFINED SYMBOLS
+memcpy

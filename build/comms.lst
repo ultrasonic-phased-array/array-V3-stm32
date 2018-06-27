@@ -1,0 +1,105 @@
+ARM GAS  /tmp/ccQmq3pJ.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m4
+   3              		.eabi_attribute 27, 3
+   4              		.eabi_attribute 28, 1
+   5              		.fpu fpv4-sp-d16
+   6              		.eabi_attribute 20, 1
+   7              		.eabi_attribute 21, 1
+   8              		.eabi_attribute 23, 1
+   9              		.eabi_attribute 24, 1
+  10              		.eabi_attribute 25, 1
+  11              		.eabi_attribute 26, 1
+  12              		.eabi_attribute 30, 1
+  13              		.eabi_attribute 34, 1
+  14              		.eabi_attribute 18, 4
+  15              		.thumb
+  16              		.file	"comms.c"
+  17              		.text
+  18              	.Ltext0:
+  19              		.cfi_sections	.debug_frame
+  20              		.section	.text.__io_putchar,"ax",%progbits
+  21              		.align	2
+  22              		.global	__io_putchar
+  23              		.thumb
+  24              		.thumb_func
+  26              	__io_putchar:
+  27              	.LFB123:
+  28              		.file 1 "Src/comms.c"
+   1:Src/comms.c   **** 
+   2:Src/comms.c   **** #include "stm32f3xx_hal.h"
+   3:Src/comms.c   **** extern UART_HandleTypeDef huart1;
+   4:Src/comms.c   **** 
+   5:Src/comms.c   **** #ifdef __GNUC__
+   6:Src/comms.c   **** #define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
+   7:Src/comms.c   **** #else
+   8:Src/comms.c   **** #define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
+   9:Src/comms.c   **** #endif /* __GNUC__ */
+  10:Src/comms.c   **** 
+  11:Src/comms.c   **** 
+  12:Src/comms.c   **** PUTCHAR_PROTOTYPE
+  13:Src/comms.c   **** {
+  29              		.loc 1 13 0
+  30              		.cfi_startproc
+  31              		@ args = 0, pretend = 0, frame = 8
+  32              		@ frame_needed = 0, uses_anonymous_args = 0
+  33              	.LVL0:
+  34 0000 00B5     		push	{lr}
+  35              	.LCFI0:
+  36              		.cfi_def_cfa_offset 4
+  37              		.cfi_offset 14, -4
+  38 0002 83B0     		sub	sp, sp, #12
+  39              	.LCFI1:
+  40              		.cfi_def_cfa_offset 16
+  41 0004 02A9     		add	r1, sp, #8
+  42 0006 41F8040D 		str	r0, [r1, #-4]!
+  14:Src/comms.c   ****   HAL_UART_Transmit(&huart1, (uint8_t *)&ch, 1, 0xFFFF);
+  43              		.loc 1 14 0
+  44 000a 0548     		ldr	r0, .L2
+ARM GAS  /tmp/ccQmq3pJ.s 			page 2
+
+
+  45              	.LVL1:
+  46 000c 0122     		movs	r2, #1
+  47 000e 4FF6FF73 		movw	r3, #65535
+  48 0012 FFF7FEFF 		bl	HAL_UART_Transmit
+  49              	.LVL2:
+  15:Src/comms.c   ****   //HAL_Delay(1);
+  16:Src/comms.c   **** 
+  17:Src/comms.c   ****   return ch;
+  18:Src/comms.c   **** }
+  50              		.loc 1 18 0
+  51 0016 0198     		ldr	r0, [sp, #4]
+  52 0018 03B0     		add	sp, sp, #12
+  53              		@ sp needed
+  54 001a 5DF804FB 		ldr	pc, [sp], #4
+  55              	.L3:
+  56 001e 00BF     		.align	2
+  57              	.L2:
+  58 0020 00000000 		.word	huart1
+  59              		.cfi_endproc
+  60              	.LFE123:
+  62              		.text
+  63              	.Letext0:
+  64              		.file 2 "/home/niklas/Downloads/gcc-arm-none-eabi-4_8-2014q3/arm-none-eabi/include/machine/_defaul
+  65              		.file 3 "/home/niklas/Downloads/gcc-arm-none-eabi-4_8-2014q3/arm-none-eabi/include/stdint.h"
+  66              		.file 4 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f334x8.h"
+  67              		.file 5 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h"
+  68              		.file 6 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h"
+  69              		.file 7 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h"
+  70              		.file 8 "Drivers/CMSIS/Include/core_cm4.h"
+ARM GAS  /tmp/ccQmq3pJ.s 			page 3
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 comms.c
+     /tmp/ccQmq3pJ.s:21     .text.__io_putchar:00000000 $t
+     /tmp/ccQmq3pJ.s:26     .text.__io_putchar:00000000 __io_putchar
+     /tmp/ccQmq3pJ.s:58     .text.__io_putchar:00000020 $d
+                     .debug_frame:00000010 $d
+
+UNDEFINED SYMBOLS
+HAL_UART_Transmit
+huart1
