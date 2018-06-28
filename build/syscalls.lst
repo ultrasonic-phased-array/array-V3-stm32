@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cct7kfGb.s 			page 1
+ARM GAS  /tmp/ccCUY7XB.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cct7kfGb.s 			page 1
   28:Src/syscalls.c **** /* Includes */
   29:Src/syscalls.c **** #include <sys/stat.h>
   30:Src/syscalls.c **** #include <stdlib.h>
-ARM GAS  /tmp/cct7kfGb.s 			page 2
+ARM GAS  /tmp/ccCUY7XB.s 			page 2
 
 
   31:Src/syscalls.c **** #include <errno.h>
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cct7kfGb.s 			page 1
   50              		@ link register save eliminated.
   66:Src/syscalls.c **** 	return 1;
   67:Src/syscalls.c **** }
-ARM GAS  /tmp/cct7kfGb.s 			page 3
+ARM GAS  /tmp/ccCUY7XB.s 			page 3
 
 
   51              		.loc 1 67 0
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cct7kfGb.s 			page 1
  100 0000 08B5     		push	{r3, lr}
  101              	.LCFI1:
  102              		.cfi_def_cfa_offset 8
-ARM GAS  /tmp/cct7kfGb.s 			page 4
+ARM GAS  /tmp/ccCUY7XB.s 			page 4
 
 
  103              		.cfi_offset 3, -8
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cct7kfGb.s 			page 1
  148              	.LVL8:
  149 0010 2870     		strb	r0, [r5]
   85:Src/syscalls.c **** 	for (DataIdx = 0; DataIdx < len; DataIdx++)
-ARM GAS  /tmp/cct7kfGb.s 			page 5
+ARM GAS  /tmp/ccCUY7XB.s 			page 5
 
 
  150              		.loc 1 85 0 discriminator 2
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cct7kfGb.s 			page 1
  193              		.loc 1 99 0 discriminator 2
  194 0008 4D1C     		adds	r5, r1, #1
  195              	.LVL14:
-ARM GAS  /tmp/cct7kfGb.s 			page 6
+ARM GAS  /tmp/ccCUY7XB.s 			page 6
 
 
  196 000a 0878     		ldrb	r0, [r1]	@ zero_extendqisi2
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cct7kfGb.s 			page 1
  238 0008 0A4A     		ldr	r2, .L16+4
  239 000a 094B     		ldr	r3, .L16
  240 000c 1A60     		str	r2, [r3]
-ARM GAS  /tmp/cct7kfGb.s 			page 7
+ARM GAS  /tmp/ccCUY7XB.s 			page 7
 
 
  241              	.L13:
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cct7kfGb.s 			page 1
  282              		.thumb_func
  284              	_close:
  285              	.LFB7:
-ARM GAS  /tmp/cct7kfGb.s 			page 8
+ARM GAS  /tmp/ccCUY7XB.s 			page 8
 
 
  126:Src/syscalls.c **** 
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cct7kfGb.s 			page 1
  139:Src/syscalls.c **** int _isatty(int file)
  140:Src/syscalls.c **** {
  331              		.loc 1 140 0
-ARM GAS  /tmp/cct7kfGb.s 			page 9
+ARM GAS  /tmp/ccCUY7XB.s 			page 9
 
 
  332              		.cfi_startproc
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cct7kfGb.s 			page 1
  380              	.LCFI5:
  381              		.cfi_def_cfa_offset 12
  382              		.cfi_offset 1, -12
-ARM GAS  /tmp/cct7kfGb.s 			page 10
+ARM GAS  /tmp/ccCUY7XB.s 			page 10
 
 
  383              		.cfi_offset 2, -8
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cct7kfGb.s 			page 1
  162:Src/syscalls.c **** {
  430              		.loc 1 162 0
  431              		.cfi_startproc
-ARM GAS  /tmp/cct7kfGb.s 			page 11
+ARM GAS  /tmp/ccCUY7XB.s 			page 11
 
 
  432              		@ args = 0, pretend = 0, frame = 0
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cct7kfGb.s 			page 1
  173:Src/syscalls.c **** {
  480              		.loc 1 173 0
  481              		.cfi_startproc
-ARM GAS  /tmp/cct7kfGb.s 			page 12
+ARM GAS  /tmp/ccCUY7XB.s 			page 12
 
 
  482              		@ args = 0, pretend = 0, frame = 0
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cct7kfGb.s 			page 1
  531              	_fork:
  532              	.LFB17:
  183:Src/syscalls.c **** 
-ARM GAS  /tmp/cct7kfGb.s 			page 13
+ARM GAS  /tmp/ccCUY7XB.s 			page 13
 
 
  184:Src/syscalls.c **** int _fork(void)
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cct7kfGb.s 			page 1
  578 000e 08BD     		pop	{r3, pc}
  579              		.cfi_endproc
  580              	.LFE18:
-ARM GAS  /tmp/cct7kfGb.s 			page 14
+ARM GAS  /tmp/ccCUY7XB.s 			page 14
 
 
  582              		.global	environ
@@ -805,56 +805,56 @@ ARM GAS  /tmp/cct7kfGb.s 			page 1
  609              		.file 4 "/home/niklas/Downloads/gcc-arm-none-eabi-4_8-2014q3/arm-none-eabi/include/sys/stat.h"
  610              		.file 5 "/home/niklas/Downloads/gcc-arm-none-eabi-4_8-2014q3/arm-none-eabi/include/sys/times.h"
  611              		.file 6 "/home/niklas/Downloads/gcc-arm-none-eabi-4_8-2014q3/arm-none-eabi/include/sys/errno.h"
-ARM GAS  /tmp/cct7kfGb.s 			page 15
+ARM GAS  /tmp/ccCUY7XB.s 			page 15
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 syscalls.c
-     /tmp/cct7kfGb.s:21     .text.initialise_monitor_handles:00000000 $t
-     /tmp/cct7kfGb.s:26     .text.initialise_monitor_handles:00000000 initialise_monitor_handles
-     /tmp/cct7kfGb.s:39     .text._getpid:00000000 $t
-     /tmp/cct7kfGb.s:44     .text._getpid:00000000 _getpid
-     /tmp/cct7kfGb.s:58     .text._kill:00000000 $t
-     /tmp/cct7kfGb.s:63     .text._kill:00000000 _kill
-     /tmp/cct7kfGb.s:87     .text._exit:00000000 $t
-     /tmp/cct7kfGb.s:92     .text._exit:00000000 _exit
-     /tmp/cct7kfGb.s:115    .text._read:00000000 $t
-     /tmp/cct7kfGb.s:120    .text._read:00000000 _read
-     /tmp/cct7kfGb.s:167    .text._write:00000000 $t
-     /tmp/cct7kfGb.s:172    .text._write:00000000 _write
-     /tmp/cct7kfGb.s:216    .text._sbrk:00000000 $t
-     /tmp/cct7kfGb.s:221    .text._sbrk:00000000 _sbrk
-     /tmp/cct7kfGb.s:273    .text._sbrk:00000030 $d
-     /tmp/cct7kfGb.s:279    .text._close:00000000 $t
-     /tmp/cct7kfGb.s:284    .text._close:00000000 _close
-     /tmp/cct7kfGb.s:300    .text._fstat:00000000 $t
-     /tmp/cct7kfGb.s:305    .text._fstat:00000000 _fstat
-     /tmp/cct7kfGb.s:324    .text._isatty:00000000 $t
-     /tmp/cct7kfGb.s:329    .text._isatty:00000000 _isatty
-     /tmp/cct7kfGb.s:345    .text._lseek:00000000 $t
-     /tmp/cct7kfGb.s:350    .text._lseek:00000000 _lseek
-     /tmp/cct7kfGb.s:366    .text._open:00000000 $t
-     /tmp/cct7kfGb.s:371    .text._open:00000000 _open
-     /tmp/cct7kfGb.s:394    .text._wait:00000000 $t
-     /tmp/cct7kfGb.s:399    .text._wait:00000000 _wait
-     /tmp/cct7kfGb.s:423    .text._unlink:00000000 $t
-     /tmp/cct7kfGb.s:428    .text._unlink:00000000 _unlink
-     /tmp/cct7kfGb.s:452    .text._times:00000000 $t
-     /tmp/cct7kfGb.s:457    .text._times:00000000 _times
-     /tmp/cct7kfGb.s:473    .text._stat:00000000 $t
-     /tmp/cct7kfGb.s:478    .text._stat:00000000 _stat
-     /tmp/cct7kfGb.s:497    .text._link:00000000 $t
-     /tmp/cct7kfGb.s:502    .text._link:00000000 _link
-     /tmp/cct7kfGb.s:526    .text._fork:00000000 $t
-     /tmp/cct7kfGb.s:531    .text._fork:00000000 _fork
-     /tmp/cct7kfGb.s:554    .text._execve:00000000 $t
-     /tmp/cct7kfGb.s:559    .text._execve:00000000 _execve
-     /tmp/cct7kfGb.s:588    .data.environ:00000000 environ
-     /tmp/cct7kfGb.s:594    .bss.__env:00000000 __env
-     /tmp/cct7kfGb.s:585    .data.environ:00000000 $d
-     /tmp/cct7kfGb.s:591    .bss.__env:00000000 $d
-     /tmp/cct7kfGb.s:597    .bss.heap_end.5582:00000000 $d
-     /tmp/cct7kfGb.s:601    .bss.heap_end.5582:00000000 heap_end.5582
+     /tmp/ccCUY7XB.s:21     .text.initialise_monitor_handles:00000000 $t
+     /tmp/ccCUY7XB.s:26     .text.initialise_monitor_handles:00000000 initialise_monitor_handles
+     /tmp/ccCUY7XB.s:39     .text._getpid:00000000 $t
+     /tmp/ccCUY7XB.s:44     .text._getpid:00000000 _getpid
+     /tmp/ccCUY7XB.s:58     .text._kill:00000000 $t
+     /tmp/ccCUY7XB.s:63     .text._kill:00000000 _kill
+     /tmp/ccCUY7XB.s:87     .text._exit:00000000 $t
+     /tmp/ccCUY7XB.s:92     .text._exit:00000000 _exit
+     /tmp/ccCUY7XB.s:115    .text._read:00000000 $t
+     /tmp/ccCUY7XB.s:120    .text._read:00000000 _read
+     /tmp/ccCUY7XB.s:167    .text._write:00000000 $t
+     /tmp/ccCUY7XB.s:172    .text._write:00000000 _write
+     /tmp/ccCUY7XB.s:216    .text._sbrk:00000000 $t
+     /tmp/ccCUY7XB.s:221    .text._sbrk:00000000 _sbrk
+     /tmp/ccCUY7XB.s:273    .text._sbrk:00000030 $d
+     /tmp/ccCUY7XB.s:279    .text._close:00000000 $t
+     /tmp/ccCUY7XB.s:284    .text._close:00000000 _close
+     /tmp/ccCUY7XB.s:300    .text._fstat:00000000 $t
+     /tmp/ccCUY7XB.s:305    .text._fstat:00000000 _fstat
+     /tmp/ccCUY7XB.s:324    .text._isatty:00000000 $t
+     /tmp/ccCUY7XB.s:329    .text._isatty:00000000 _isatty
+     /tmp/ccCUY7XB.s:345    .text._lseek:00000000 $t
+     /tmp/ccCUY7XB.s:350    .text._lseek:00000000 _lseek
+     /tmp/ccCUY7XB.s:366    .text._open:00000000 $t
+     /tmp/ccCUY7XB.s:371    .text._open:00000000 _open
+     /tmp/ccCUY7XB.s:394    .text._wait:00000000 $t
+     /tmp/ccCUY7XB.s:399    .text._wait:00000000 _wait
+     /tmp/ccCUY7XB.s:423    .text._unlink:00000000 $t
+     /tmp/ccCUY7XB.s:428    .text._unlink:00000000 _unlink
+     /tmp/ccCUY7XB.s:452    .text._times:00000000 $t
+     /tmp/ccCUY7XB.s:457    .text._times:00000000 _times
+     /tmp/ccCUY7XB.s:473    .text._stat:00000000 $t
+     /tmp/ccCUY7XB.s:478    .text._stat:00000000 _stat
+     /tmp/ccCUY7XB.s:497    .text._link:00000000 $t
+     /tmp/ccCUY7XB.s:502    .text._link:00000000 _link
+     /tmp/ccCUY7XB.s:526    .text._fork:00000000 $t
+     /tmp/ccCUY7XB.s:531    .text._fork:00000000 _fork
+     /tmp/ccCUY7XB.s:554    .text._execve:00000000 $t
+     /tmp/ccCUY7XB.s:559    .text._execve:00000000 _execve
+     /tmp/ccCUY7XB.s:588    .data.environ:00000000 environ
+     /tmp/ccCUY7XB.s:594    .bss.__env:00000000 __env
+     /tmp/ccCUY7XB.s:585    .data.environ:00000000 $d
+     /tmp/ccCUY7XB.s:591    .bss.__env:00000000 $d
+     /tmp/ccCUY7XB.s:597    .bss.heap_end.5582:00000000 $d
+     /tmp/ccCUY7XB.s:601    .bss.heap_end.5582:00000000 heap_end.5582
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

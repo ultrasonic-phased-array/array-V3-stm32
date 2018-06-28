@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc4W5OMd.s 			page 1
+ARM GAS  /tmp/ccQmd3It.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
   28:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****           and can be set on GPIO pins.
   29:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****           For STM32F3xx devices please refer to the COMP peripheral section in corresponding 
   30:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****           Reference Manual.
-ARM GAS  /tmp/cc4W5OMd.s 			page 2
+ARM GAS  /tmp/ccQmd3It.s 			page 2
 
 
   31:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****   
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
   85:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****     
   86:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****       (#) Use HAL_COMP_TriggerCallback() and/or HAL_COMP_GetOutputLevel() functions
   87:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****           to manage comparator outputs (events and output level).
-ARM GAS  /tmp/cc4W5OMd.s 			page 3
+ARM GAS  /tmp/ccQmd3It.s 			page 3
 
 
   88:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c **** 
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  142:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****     |                 | IO2            |  ---  |  ---  |  PB12U |  PB2  |  PB10U |  PB15U |  ---  |
  143:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****     |-----------------|----------------|-------|-------|-------|-------|-------|-------|-------|
  144:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****     |  Non Inverting  | IO1            |  PA1  |  PA7  |  PB14U |  PB0  |  PD12U |  PD11U |  PA0  |
-ARM GAS  /tmp/cc4W5OMd.s 			page 4
+ARM GAS  /tmp/ccQmd3It.s 			page 4
 
 
  145:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****     |    Input        | IO2            |  ---  |  PA3  |  PD14U |  PE7  |  PB13U |  PB11U |  PC1  |
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  199:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****     |                |                |                |                |                |         
  200:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****     |  TIM1 BKIN2    |  TIM1 BKIN2    |  TIM1 BKIN2    |  TIM1 BKIN2    |  TIM1 BKIN2    |  TIM1 BK
  201:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****     |     +          |     +          |     +          |     +          |     +          |     +   
-ARM GAS  /tmp/cc4W5OMd.s 			page 5
+ARM GAS  /tmp/ccQmd3It.s 			page 5
 
 
  202:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****     |  TIM8BKIN2     |  TIM8BKIN2     |  TIM8BKIN2     |  TIM8BKIN2     |  TIM8BKIN2     |  TIM8BKI
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  256:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c **** 
  257:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c **** #ifdef HAL_COMP_MODULE_ENABLED
  258:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c **** 
-ARM GAS  /tmp/cc4W5OMd.s 			page 6
+ARM GAS  /tmp/ccQmd3It.s 			page 6
 
 
  259:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c **** /* Private typedef -----------------------------------------------------------*/
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  313:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****     assert_param(IS_COMP_INVERTINGINPUT(hcomp->Init.InvertingInput));
  314:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****     assert_param(IS_COMP_NONINVERTINGINPUT(hcomp->Init.NonInvertingInput));
  315:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****     assert_param(IS_COMP_NONINVERTINGINPUT_INSTANCE(hcomp->Instance, hcomp->Init.NonInvertingInput)
-ARM GAS  /tmp/cc4W5OMd.s 			page 7
+ARM GAS  /tmp/ccQmd3It.s 			page 7
 
 
  316:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****     assert_param(IS_COMP_OUTPUT(hcomp->Init.Output));
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  370:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c **** HAL_StatusTypeDef HAL_COMP_DeInit(COMP_HandleTypeDef *hcomp)
  371:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c **** {
  372:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****   HAL_StatusTypeDef status = HAL_OK;
-ARM GAS  /tmp/cc4W5OMd.s 			page 8
+ARM GAS  /tmp/ccQmd3It.s 			page 8
 
 
  373:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c **** 
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
   51              	.LVL1:
  301:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c **** {
   52              		.loc 1 301 0
-ARM GAS  /tmp/cc4W5OMd.s 			page 9
+ARM GAS  /tmp/ccQmd3It.s 			page 9
 
 
   53 0000 10B5     		push	{r4, lr}
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
   99 0046 9342     		cmp	r3, r2
  100 0048 00D0     		beq	.L5
  344:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****     hcomp->Init.InvertingInput = COMP_INVERTINGINPUT_SELECTION(hcomp->Instance, hcomp->Init.Inverti
-ARM GAS  /tmp/cc4W5OMd.s 			page 10
+ARM GAS  /tmp/ccQmd3It.s 			page 10
 
 
  101              		.loc 1 344 0
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  357:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****     hcomp->State = HAL_COMP_STATE_READY;
  153              		.loc 1 357 0 discriminator 6
  154 00b2 0123     		movs	r3, #1
-ARM GAS  /tmp/cc4W5OMd.s 			page 11
+ARM GAS  /tmp/ccQmd3It.s 			page 11
 
 
  155 00b4 84F82930 		strb	r3, [r4, #41]
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  194              	.LVL9:
  195 0000 7047     		bx	lr
  196              		.cfi_endproc
-ARM GAS  /tmp/cc4W5OMd.s 			page 12
+ARM GAS  /tmp/ccQmd3It.s 			page 12
 
 
  197              	.LFE126:
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  377:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****     status = HAL_ERROR;
  244              		.loc 1 377 0
  245 0026 0120     		movs	r0, #1
-ARM GAS  /tmp/cc4W5OMd.s 			page 13
+ARM GAS  /tmp/ccQmd3It.s 			page 13
 
 
  246              	.LVL14:
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  457:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c **** {
  265              		.loc 1 457 0
  266              		.cfi_startproc
-ARM GAS  /tmp/cc4W5OMd.s 			page 14
+ARM GAS  /tmp/ccQmd3It.s 			page 14
 
 
  267              		@ args = 0, pretend = 0, frame = 0
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  304              	.L37:
  305 0034 4FF48002 		mov	r2, #4194304
  306              	.L20:
-ARM GAS  /tmp/cc4W5OMd.s 			page 15
+ARM GAS  /tmp/ccQmd3It.s 			page 15
 
 
  307              	.LVL19:
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  349 0072 2549     		ldr	r1, .L39+4
  350 0074 8868     		ldr	r0, [r1, #8]
  351              	.LVL26:
-ARM GAS  /tmp/cc4W5OMd.s 			page 16
+ARM GAS  /tmp/ccQmd3It.s 			page 16
 
 
  352 0076 20EA0200 		bic	r0, r0, r2
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  392              		.loc 1 500 0 is_stmt 1
  393 00ba 12F00101 		ands	r1, r2, #1
  394 00be 04D0     		beq	.L31
-ARM GAS  /tmp/cc4W5OMd.s 			page 17
+ARM GAS  /tmp/ccQmd3It.s 			page 17
 
 
  395              		.loc 1 500 0 is_stmt 0 discriminator 1
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  438              	.L35:
  439 00f6 0120     		movs	r0, #1
  440              	.LVL31:
-ARM GAS  /tmp/cc4W5OMd.s 			page 18
+ARM GAS  /tmp/ccQmd3It.s 			page 18
 
 
  441 00f8 00E0     		b	.L19
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  476 0004 49D0     		beq	.L50
  477              		.loc 1 530 0 is_stmt 0 discriminator 1
  478 0006 90F82920 		ldrb	r2, [r0, #41]	@ zero_extendqisi2
-ARM GAS  /tmp/cc4W5OMd.s 			page 19
+ARM GAS  /tmp/ccQmd3It.s 			page 19
 
 
  479 000a 12F0100F 		tst	r2, #16
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  521 0050 01E0     		b	.L45
  522              	.L55:
  523 0052 6FF48001 		mvn	r1, #4194304
-ARM GAS  /tmp/cc4W5OMd.s 			page 20
+ARM GAS  /tmp/ccQmd3It.s 			page 20
 
 
  524              	.L45:
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  571              	.LVL39:
  572 009c 7047     		bx	lr
  573              	.LVL40:
-ARM GAS  /tmp/cc4W5OMd.s 			page 21
+ARM GAS  /tmp/ccQmd3It.s 			page 21
 
 
  574              	.L51:
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  608 0000 0346     		mov	r3, r0
  609 0002 0028     		cmp	r0, #0
  610 0004 74D0     		beq	.L77
-ARM GAS  /tmp/cc4W5OMd.s 			page 22
+ARM GAS  /tmp/ccQmd3It.s 			page 22
 
 
  611              		.loc 1 569 0 is_stmt 0 discriminator 1
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  588:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****         {
  589:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****           COMP_EXTI_RISING_ENABLE(extiline);
  647              		.loc 1 589 0
-ARM GAS  /tmp/cc4W5OMd.s 			page 23
+ARM GAS  /tmp/ccQmd3It.s 			page 23
 
 
  648 0044 12F0010F 		tst	r2, #1
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  693              	.L70:
  694              		.loc 1 598 0 discriminator 2
  695 0092 1C49     		ldr	r1, .L83+4
-ARM GAS  /tmp/cc4W5OMd.s 			page 24
+ARM GAS  /tmp/ccQmd3It.s 			page 24
 
 
  696 0094 C868     		ldr	r0, [r1, #12]
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  739              	.L75:
  740              		.loc 1 609 0 discriminator 2
  741 00d4 0B49     		ldr	r1, .L83+4
-ARM GAS  /tmp/cc4W5OMd.s 			page 25
+ARM GAS  /tmp/ccQmd3It.s 			page 25
 
 
  742 00d6 0868     		ldr	r0, [r1]
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  779              	.LVL57:
  624:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****     }
  625:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****   }
-ARM GAS  /tmp/cc4W5OMd.s 			page 26
+ARM GAS  /tmp/ccQmd3It.s 			page 26
 
 
  626:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c **** 
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  821              	.L93:
  822 0014 0022     		movs	r2, #0
  823 0016 00E0     		b	.L86
-ARM GAS  /tmp/cc4W5OMd.s 			page 27
+ARM GAS  /tmp/ccQmd3It.s 			page 27
 
 
  824              	.L94:
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  876              		.loc 1 642 0 is_stmt 1
  877 006e FFF7FEFF 		bl	HAL_COMP_Stop
  878              	.LVL60:
-ARM GAS  /tmp/cc4W5OMd.s 			page 28
+ARM GAS  /tmp/ccQmd3It.s 			page 28
 
 
  643:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****   
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  904              		.cfi_endproc
  905              	.LFE132:
  907 0002 00BF     		.section	.text.HAL_COMP_IRQHandler,"ax",%progbits
-ARM GAS  /tmp/cc4W5OMd.s 			page 29
+ARM GAS  /tmp/ccQmd3It.s 			page 29
 
 
  908              		.align	2
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  956              	.L105:
  657:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****   if(COMP_EXTI_GET_FLAG(extiline) != RESET)
  957              		.loc 1 657 0 discriminator 2
-ARM GAS  /tmp/cc4W5OMd.s 			page 30
+ARM GAS  /tmp/ccQmd3It.s 			page 30
 
 
  958 0032 094A     		ldr	r2, .L112+4
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  684:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****   */
  685:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c **** 
  686:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c **** /** @defgroup COMP_Exported_Functions_Group3 Peripheral Control functions 
-ARM GAS  /tmp/cc4W5OMd.s 			page 31
+ARM GAS  /tmp/ccQmd3It.s 			page 31
 
 
  687:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****  *  @brief   Management functions.
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  1018 001a 0DD1     		bne	.L122
  722:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****     {
  723:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****     case HAL_COMP_STATE_BUSY:
-ARM GAS  /tmp/cc4W5OMd.s 			page 32
+ARM GAS  /tmp/ccQmd3It.s 			page 32
 
 
  724:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****       hcomp->State = HAL_COMP_STATE_BUSY_LOCKED;
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  738:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****     /* Set the lock bit corresponding to selected comparator */
  739:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****     __HAL_COMP_LOCK(hcomp);
  1056              		.loc 1 739 0
-ARM GAS  /tmp/cc4W5OMd.s 			page 33
+ARM GAS  /tmp/ccQmd3It.s 			page 33
 
 
  1057 003c 1B68     		ldr	r3, [r3]
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  771:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****   level = READ_BIT(hcomp->Instance->CSR, COMP_CSR_COMPxOUT);
  1082              		.loc 1 771 0
  1083 0000 0368     		ldr	r3, [r0]
-ARM GAS  /tmp/cc4W5OMd.s 			page 34
+ARM GAS  /tmp/ccQmd3It.s 			page 34
 
 
  1084 0002 1B68     		ldr	r3, [r3]
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  801:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****   * @retval HAL state
  802:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c ****   */
  803:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c **** HAL_COMP_StateTypeDef HAL_COMP_GetState(COMP_HandleTypeDef *hcomp)
-ARM GAS  /tmp/cc4W5OMd.s 			page 35
+ARM GAS  /tmp/ccQmd3It.s 			page 35
 
 
  804:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_comp.c **** {
@@ -2086,43 +2086,43 @@ ARM GAS  /tmp/cc4W5OMd.s 			page 1
  1140              		.file 6 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h"
  1141              		.file 7 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_comp.h"
  1142              		.file 8 "Drivers/CMSIS/Include/core_cm4.h"
-ARM GAS  /tmp/cc4W5OMd.s 			page 36
+ARM GAS  /tmp/ccQmd3It.s 			page 36
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f3xx_hal_comp.c
-     /tmp/cc4W5OMd.s:21     .text.HAL_COMP_MspInit:00000000 $t
-     /tmp/cc4W5OMd.s:26     .text.HAL_COMP_MspInit:00000000 HAL_COMP_MspInit
-     /tmp/cc4W5OMd.s:40     .text.HAL_COMP_Init:00000000 $t
-     /tmp/cc4W5OMd.s:45     .text.HAL_COMP_Init:00000000 HAL_COMP_Init
-     /tmp/cc4W5OMd.s:176    .text.HAL_COMP_Init:000000c4 $d
-     /tmp/cc4W5OMd.s:182    .text.HAL_COMP_MspDeInit:00000000 $t
-     /tmp/cc4W5OMd.s:187    .text.HAL_COMP_MspDeInit:00000000 HAL_COMP_MspDeInit
-     /tmp/cc4W5OMd.s:200    .text.HAL_COMP_DeInit:00000000 $t
-     /tmp/cc4W5OMd.s:205    .text.HAL_COMP_DeInit:00000000 HAL_COMP_DeInit
-     /tmp/cc4W5OMd.s:258    .text.HAL_COMP_Start:00000000 $t
-     /tmp/cc4W5OMd.s:263    .text.HAL_COMP_Start:00000000 HAL_COMP_Start
-     /tmp/cc4W5OMd.s:454    .text.HAL_COMP_Start:00000104 $d
-     /tmp/cc4W5OMd.s:460    .text.HAL_COMP_Stop:00000000 $t
-     /tmp/cc4W5OMd.s:465    .text.HAL_COMP_Stop:00000000 HAL_COMP_Stop
-     /tmp/cc4W5OMd.s:588    .text.HAL_COMP_Stop:000000a8 $d
-     /tmp/cc4W5OMd.s:594    .text.HAL_COMP_Start_IT:00000000 $t
-     /tmp/cc4W5OMd.s:599    .text.HAL_COMP_Start_IT:00000000 HAL_COMP_Start_IT
-     /tmp/cc4W5OMd.s:785    .text.HAL_COMP_Start_IT:00000100 $d
-     /tmp/cc4W5OMd.s:791    .text.HAL_COMP_Stop_IT:00000000 $t
-     /tmp/cc4W5OMd.s:796    .text.HAL_COMP_Stop_IT:00000000 HAL_COMP_Stop_IT
-     /tmp/cc4W5OMd.s:884    .text.HAL_COMP_Stop_IT:00000074 $d
-     /tmp/cc4W5OMd.s:890    .text.HAL_COMP_TriggerCallback:00000000 $t
-     /tmp/cc4W5OMd.s:895    .text.HAL_COMP_TriggerCallback:00000000 HAL_COMP_TriggerCallback
-     /tmp/cc4W5OMd.s:908    .text.HAL_COMP_IRQHandler:00000000 $t
-     /tmp/cc4W5OMd.s:913    .text.HAL_COMP_IRQHandler:00000000 HAL_COMP_IRQHandler
-     /tmp/cc4W5OMd.s:986    .text.HAL_COMP_IRQHandler:00000054 $d
-     /tmp/cc4W5OMd.s:992    .text.HAL_COMP_Lock:00000000 $t
-     /tmp/cc4W5OMd.s:997    .text.HAL_COMP_Lock:00000000 HAL_COMP_Lock
-     /tmp/cc4W5OMd.s:1069   .text.HAL_COMP_GetOutputLevel:00000000 $t
-     /tmp/cc4W5OMd.s:1074   .text.HAL_COMP_GetOutputLevel:00000000 HAL_COMP_GetOutputLevel
-     /tmp/cc4W5OMd.s:1104   .text.HAL_COMP_GetState:00000000 $t
-     /tmp/cc4W5OMd.s:1109   .text.HAL_COMP_GetState:00000000 HAL_COMP_GetState
+     /tmp/ccQmd3It.s:21     .text.HAL_COMP_MspInit:00000000 $t
+     /tmp/ccQmd3It.s:26     .text.HAL_COMP_MspInit:00000000 HAL_COMP_MspInit
+     /tmp/ccQmd3It.s:40     .text.HAL_COMP_Init:00000000 $t
+     /tmp/ccQmd3It.s:45     .text.HAL_COMP_Init:00000000 HAL_COMP_Init
+     /tmp/ccQmd3It.s:176    .text.HAL_COMP_Init:000000c4 $d
+     /tmp/ccQmd3It.s:182    .text.HAL_COMP_MspDeInit:00000000 $t
+     /tmp/ccQmd3It.s:187    .text.HAL_COMP_MspDeInit:00000000 HAL_COMP_MspDeInit
+     /tmp/ccQmd3It.s:200    .text.HAL_COMP_DeInit:00000000 $t
+     /tmp/ccQmd3It.s:205    .text.HAL_COMP_DeInit:00000000 HAL_COMP_DeInit
+     /tmp/ccQmd3It.s:258    .text.HAL_COMP_Start:00000000 $t
+     /tmp/ccQmd3It.s:263    .text.HAL_COMP_Start:00000000 HAL_COMP_Start
+     /tmp/ccQmd3It.s:454    .text.HAL_COMP_Start:00000104 $d
+     /tmp/ccQmd3It.s:460    .text.HAL_COMP_Stop:00000000 $t
+     /tmp/ccQmd3It.s:465    .text.HAL_COMP_Stop:00000000 HAL_COMP_Stop
+     /tmp/ccQmd3It.s:588    .text.HAL_COMP_Stop:000000a8 $d
+     /tmp/ccQmd3It.s:594    .text.HAL_COMP_Start_IT:00000000 $t
+     /tmp/ccQmd3It.s:599    .text.HAL_COMP_Start_IT:00000000 HAL_COMP_Start_IT
+     /tmp/ccQmd3It.s:785    .text.HAL_COMP_Start_IT:00000100 $d
+     /tmp/ccQmd3It.s:791    .text.HAL_COMP_Stop_IT:00000000 $t
+     /tmp/ccQmd3It.s:796    .text.HAL_COMP_Stop_IT:00000000 HAL_COMP_Stop_IT
+     /tmp/ccQmd3It.s:884    .text.HAL_COMP_Stop_IT:00000074 $d
+     /tmp/ccQmd3It.s:890    .text.HAL_COMP_TriggerCallback:00000000 $t
+     /tmp/ccQmd3It.s:895    .text.HAL_COMP_TriggerCallback:00000000 HAL_COMP_TriggerCallback
+     /tmp/ccQmd3It.s:908    .text.HAL_COMP_IRQHandler:00000000 $t
+     /tmp/ccQmd3It.s:913    .text.HAL_COMP_IRQHandler:00000000 HAL_COMP_IRQHandler
+     /tmp/ccQmd3It.s:986    .text.HAL_COMP_IRQHandler:00000054 $d
+     /tmp/ccQmd3It.s:992    .text.HAL_COMP_Lock:00000000 $t
+     /tmp/ccQmd3It.s:997    .text.HAL_COMP_Lock:00000000 HAL_COMP_Lock
+     /tmp/ccQmd3It.s:1069   .text.HAL_COMP_GetOutputLevel:00000000 $t
+     /tmp/ccQmd3It.s:1074   .text.HAL_COMP_GetOutputLevel:00000000 HAL_COMP_GetOutputLevel
+     /tmp/ccQmd3It.s:1104   .text.HAL_COMP_GetState:00000000 $t
+     /tmp/ccQmd3It.s:1109   .text.HAL_COMP_GetState:00000000 HAL_COMP_GetState
                      .debug_frame:00000010 $d
 
 NO UNDEFINED SYMBOLS

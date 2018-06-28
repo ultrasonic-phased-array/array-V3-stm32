@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccDeic3P.s 			page 1
+ARM GAS  /tmp/ccOO4eia.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
   29:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     (#) Break input to put the timer output signals in reset state or in a known state.
   30:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     (#) Supports incremental (quadrature) encoder and hall-sensor circuitry for 
   31:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****         positioning purposes                
-ARM GAS  /tmp/ccDeic3P.s 			page 2
+ARM GAS  /tmp/ccOO4eia.s 			page 2
 
 
   32:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
   86:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *
   87:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
   88:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-ARM GAS  /tmp/ccDeic3P.s 			page 3
+ARM GAS  /tmp/ccOO4eia.s 			page 3
 
 
   89:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  143:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****                               TIM_OC_InitTypeDef *OC_Config);
  144:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
  145:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** static void TIM_OC6_SetConfig(TIM_TypeDef *TIMx, 
-ARM GAS  /tmp/ccDeic3P.s 			page 4
+ARM GAS  /tmp/ccOO4eia.s 			page 4
 
 
  146:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****                               TIM_OC_InitTypeDef *OC_Config);
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  200:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_COUNTER_MODE(htim->Init.CounterMode));
  201:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_CLOCKDIVISION_DIV(htim->Init.ClockDivision));
  202:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_AUTORELOAD_PRELOAD(htim->Init.AutoReloadPreload));
-ARM GAS  /tmp/ccDeic3P.s 			page 5
+ARM GAS  /tmp/ccOO4eia.s 			page 5
 
 
  203:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_IC_POLARITY(sConfig->IC1Polarity));
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  257:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Initialize the TIM state*/
  258:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   htim->State= HAL_TIM_STATE_READY;
  259:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
-ARM GAS  /tmp/ccDeic3P.s 			page 6
+ARM GAS  /tmp/ccOO4eia.s 			page 6
 
 
  260:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   return HAL_OK;
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  314:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
  315:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* NOTE : This function Should not be modified, when the callback is needed,
  316:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****             the HAL_TIMEx_HallSensor_MspDeInit could be implemented in the user file
-ARM GAS  /tmp/ccDeic3P.s 			page 7
+ARM GAS  /tmp/ccOO4eia.s 			page 7
 
 
  317:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****    */
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  371:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
  372:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Enable the capture compare Interrupts 1 event */
  373:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   __HAL_TIM_ENABLE_IT(htim, TIM_IT_CC1);
-ARM GAS  /tmp/ccDeic3P.s 			page 8
+ARM GAS  /tmp/ccOO4eia.s 			page 8
 
 
  374:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  428:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     if(((uint32_t)pData == 0U ) && (Length > 0U)) 
  429:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     {
  430:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       return HAL_ERROR;                                    
-ARM GAS  /tmp/ccDeic3P.s 			page 9
+ARM GAS  /tmp/ccOO4eia.s 			page 9
 
 
  431:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     }
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  485:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * @}
  486:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   */
  487:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
-ARM GAS  /tmp/ccDeic3P.s 			page 10
+ARM GAS  /tmp/ccOO4eia.s 			page 10
 
 
  488:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** /** @defgroup TIMEx_Exported_Functions_Group2 Timer Complementary Output Compare functions
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  542:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * @param  Channel: TIM Channel to be disabled
  543:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *          This parameter can be one of the following values:
  544:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_CHANNEL_1: TIM Channel 1 selected
-ARM GAS  /tmp/ccDeic3P.s 			page 11
+ARM GAS  /tmp/ccOO4eia.s 			page 11
 
 
  545:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_CHANNEL_2: TIM Channel 2 selected
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  599:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     break;
  600:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     
  601:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     case TIM_CHANNEL_3:
-ARM GAS  /tmp/ccDeic3P.s 			page 12
+ARM GAS  /tmp/ccOO4eia.s 			page 12
 
 
  602:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     {
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  656:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     case TIM_CHANNEL_1:
  657:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     {       
  658:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       /* Disable the TIM Output Compare interrupt */
-ARM GAS  /tmp/ccDeic3P.s 			page 13
+ARM GAS  /tmp/ccOO4eia.s 			page 13
 
 
  659:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       __HAL_TIM_DISABLE_IT(htim, TIM_IT_CC1);
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  713:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *          This parameter can be one of the following values:
  714:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_CHANNEL_1: TIM Channel 1 selected
  715:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_CHANNEL_2: TIM Channel 2 selected
-ARM GAS  /tmp/ccDeic3P.s 			page 14
+ARM GAS  /tmp/ccOO4eia.s 			page 14
 
 
  716:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_CHANNEL_3: TIM Channel 3 selected
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  770:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       
  771:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       /* Enable the TIM Output Compare DMA request */
  772:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       __HAL_TIM_ENABLE_DMA(htim, TIM_DMA_CC2);
-ARM GAS  /tmp/ccDeic3P.s 			page 15
+ARM GAS  /tmp/ccOO4eia.s 			page 15
 
 
  773:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     }
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  827:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *         on the complementary output.
  828:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * @param  htim: TIM Output Compare handle
  829:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * @param  Channel: TIM Channel to be disabled
-ARM GAS  /tmp/ccDeic3P.s 			page 16
+ARM GAS  /tmp/ccOO4eia.s 			page 16
 
 
  830:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *          This parameter can be one of the following values:
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  884:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
  885:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Change the htim state */
  886:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   htim->State = HAL_TIM_STATE_READY;
-ARM GAS  /tmp/ccDeic3P.s 			page 17
+ARM GAS  /tmp/ccOO4eia.s 			page 17
 
 
  887:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  941:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
  942:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Enable the complementary PWM output  */
  943:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   TIM_CCxNChannelCmd(htim->Instance, Channel, TIM_CCxN_ENABLE);
-ARM GAS  /tmp/ccDeic3P.s 			page 18
+ARM GAS  /tmp/ccOO4eia.s 			page 18
 
 
  944:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  998:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Check the parameters */
  999:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_CCXN_INSTANCE(htim->Instance, Channel)); 
 1000:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
-ARM GAS  /tmp/ccDeic3P.s 			page 19
+ARM GAS  /tmp/ccOO4eia.s 			page 19
 
 
 1001:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   switch (Channel)
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 1055:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * @param  Channel: TIM Channel to be disabled
 1056:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *          This parameter can be one of the following values:
 1057:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_CHANNEL_1: TIM Channel 1 selected
-ARM GAS  /tmp/ccDeic3P.s 			page 20
+ARM GAS  /tmp/ccOO4eia.s 			page 20
 
 
 1058:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_CHANNEL_2: TIM Channel 2 selected
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 1112:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   }
 1113:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
 1114:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Disable the Main Ouput */
-ARM GAS  /tmp/ccDeic3P.s 			page 21
+ARM GAS  /tmp/ccOO4eia.s 			page 21
 
 
 1115:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   __HAL_TIM_MOE_DISABLE(htim);
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 1169:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       HAL_DMA_Start_IT(htim->hdma[TIM_DMA_ID_CC1], (uint32_t)pData, (uint32_t)&htim->Instance->CCR1
 1170:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       
 1171:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       /* Enable the TIM Capture/Compare 1 DMA request */
-ARM GAS  /tmp/ccDeic3P.s 			page 22
+ARM GAS  /tmp/ccOO4eia.s 			page 22
 
 
 1172:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       __HAL_TIM_ENABLE_DMA(htim, TIM_DMA_CC1);
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 1226:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   }
 1227:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
 1228:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Enable the complementary PWM output  */
-ARM GAS  /tmp/ccDeic3P.s 			page 23
+ARM GAS  /tmp/ccOO4eia.s 			page 23
 
 
 1229:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   TIM_CCxNChannelCmd(htim->Instance, Channel, TIM_CCxN_ENABLE);
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 1283:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       /* Disable the TIM Capture/Compare 4 DMA request */
 1284:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       __HAL_TIM_DISABLE_DMA(htim, TIM_DMA_CC4);
 1285:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     }
-ARM GAS  /tmp/ccDeic3P.s 			page 24
+ARM GAS  /tmp/ccOO4eia.s 			page 24
 
 
 1286:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     break;
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 1340:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** HAL_StatusTypeDef HAL_TIMEx_OnePulseN_Start(TIM_HandleTypeDef *htim, uint32_t OutputChannel)
 1341:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   {
 1342:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Check the parameters */
-ARM GAS  /tmp/ccDeic3P.s 			page 25
+ARM GAS  /tmp/ccOO4eia.s 			page 25
 
 
 1343:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_CCXN_INSTANCE(htim->Instance, OutputChannel)); 
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 1397:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_CCXN_INSTANCE(htim->Instance, OutputChannel)); 
 1398:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
 1399:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Enable the TIM Capture/Compare 1 interrupt */
-ARM GAS  /tmp/ccDeic3P.s 			page 26
+ARM GAS  /tmp/ccOO4eia.s 			page 26
 
 
 1400:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   __HAL_TIM_ENABLE_IT(htim, TIM_IT_CC1);
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 1454:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *
 1455:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** @verbatim   
 1456:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   ==============================================================================
-ARM GAS  /tmp/ccDeic3P.s 			page 27
+ARM GAS  /tmp/ccOO4eia.s 			page 27
 
 
 1457:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****                     ##### Peripheral Control functions #####
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 1511:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     htim->Instance->SMCR |= InputTrigger;
 1512:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   }
 1513:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     
-ARM GAS  /tmp/ccDeic3P.s 			page 28
+ARM GAS  /tmp/ccOO4eia.s 			page 28
 
 
 1514:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Select the Capture Compare preload feature */
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 1568:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     
 1569:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Enable the Commutation Interrupt Request */
 1570:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   __HAL_TIM_ENABLE_IT(htim, TIM_IT_COM);
-ARM GAS  /tmp/ccDeic3P.s 			page 29
+ARM GAS  /tmp/ccOO4eia.s 			page 29
 
 
 1571:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 1625:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Set the DMA error callback */
 1626:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   htim->hdma[TIM_DMA_ID_COMMUTATION]->XferErrorCallback = TIM_DMAError;
 1627:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
-ARM GAS  /tmp/ccDeic3P.s 			page 30
+ARM GAS  /tmp/ccOO4eia.s 			page 30
 
 
 1628:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Enable the Commutation DMA Request */
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 1682:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       assert_param(IS_TIM_CC2_INSTANCE(htim->Instance)); 
 1683:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       
 1684:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       /* Configure the TIM Channel 2 in Output Compare */
-ARM GAS  /tmp/ccDeic3P.s 			page 31
+ARM GAS  /tmp/ccOO4eia.s 			page 31
 
 
 1685:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       TIM_OC2_SetConfig(htim->Instance, sConfig);
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 1739:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
 1740:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** /**
 1741:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * @brief  Initializes the TIM PWM  channels according to the specified
-ARM GAS  /tmp/ccDeic3P.s 			page 32
+ARM GAS  /tmp/ccOO4eia.s 			page 32
 
 
 1742:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *         parameters in the TIM_OC_InitTypeDef.
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 1796:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       /* Configure the Channel 2 in PWM mode */
 1797:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       TIM_OC2_SetConfig(htim->Instance, sConfig);
 1798:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       
-ARM GAS  /tmp/ccDeic3P.s 			page 33
+ARM GAS  /tmp/ccOO4eia.s 			page 33
 
 
 1799:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       /* Set the Preload enable bit for channel2 */
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 1853:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****      /* Configure the Output Fast mode */
 1854:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       htim->Instance->CCMR3 &= ~TIM_CCMR3_OC5FE;
 1855:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       htim->Instance->CCMR3 |= sConfig->OCFastMode;  
-ARM GAS  /tmp/ccDeic3P.s 			page 34
+ARM GAS  /tmp/ccOO4eia.s 			page 34
 
 
 1856:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     }
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 1910:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****  /* Get the TIMx CR2 register value */
 1911:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   tmpcr2 = htim->Instance->CR2;
 1912:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
-ARM GAS  /tmp/ccDeic3P.s 			page 35
+ARM GAS  /tmp/ccOO4eia.s 			page 35
 
 
 1913:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Get the TIMx SMCR register value */
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 1967:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_MSM_STATE(sMasterConfig->MasterSlaveMode));
 1968:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
 1969:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   __HAL_LOCK(htim);
-ARM GAS  /tmp/ccDeic3P.s 			page 36
+ARM GAS  /tmp/ccOO4eia.s 			page 36
 
 
 1970:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 2024:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
 2025:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Set the Lock level, the Break enable Bit and the Polarity, the OSSR State,
 2026:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   the OSSI State, the dead time value and the Automatic Output Enable Bit */
-ARM GAS  /tmp/ccDeic3P.s 			page 37
+ARM GAS  /tmp/ccOO4eia.s 			page 37
 
 
 2027:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 2081:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_LOCK_LEVEL(sBreakDeadTimeConfig->LockLevel));
 2082:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_DEADTIME(sBreakDeadTimeConfig->DeadTime));
 2083:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_BREAK_STATE(sBreakDeadTimeConfig->BreakState));
-ARM GAS  /tmp/ccDeic3P.s 			page 38
+ARM GAS  /tmp/ccOO4eia.s 			page 38
 
 
 2084:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   assert_param(IS_TIM_BREAK_POLARITY(sBreakDeadTimeConfig->BreakPolarity));
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 2138:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_TIM20_ADC3_AWD1: TIM20_ETR is connected to ADC3 AWD1
 2139:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_TIM20_ADC3_AWD2: TIM20_ETR is connected to ADC3 AWD2
 2140:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_TIM20_ADC3_AWD3: TIM20_ETR is connected to ADC3 AWD3
-ARM GAS  /tmp/ccDeic3P.s 			page 39
+ARM GAS  /tmp/ccOO4eia.s 			page 39
 
 
 2141:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * @param  Remap2: specifies the  second TIMremapping source (if any).
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 2195:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_TIM1_ADC1_AWD1: TIM1_ETR is connected to ADC1 AWD1
 2196:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_TIM1_ADC1_AWD2: TIM1_ETR is connected to ADC1 AWD2 
 2197:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_TIM1_ADC1_AWD3: TIM1_ETR is connected to ADC1 AWD3 
-ARM GAS  /tmp/ccDeic3P.s 			page 40
+ARM GAS  /tmp/ccOO4eia.s 			page 40
 
 
 2198:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_TIM16_GPIO: TIM16 TI1 is connected to GPIO
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 2252:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_TIM16_RTC: TIM16 TI1 is connected to RTC_clock
 2253:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_TIM16_HSE: TIM16 TI1 is connected to HSE/32
 2254:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_TIM16_MCO: TIM16 TI1 is connected to MCO
-ARM GAS  /tmp/ccDeic3P.s 			page 41
+ARM GAS  /tmp/ccOO4eia.s 			page 41
 
 
 2255:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * @retval HAL status
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 2309:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * @param  Channels: specifies the reference signal(s) the OC5REF is combined with.
 2310:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *         This parameter can be any combination of the following values:
 2311:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *         TIM_GROUPCH5_NONE: No effect of OC5REF on OC1REFC, OC2REFC and OC3REFC
-ARM GAS  /tmp/ccDeic3P.s 			page 42
+ARM GAS  /tmp/ccOO4eia.s 			page 42
 
 
 2312:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *         TIM_GROUPCH5_OC1REFC: OC1REFC is the logical AND of OC1REFC and OC5REF
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 2366:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_CHANNEL_4: TIM Channel 4
 2367:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_Channel_5: TIM Channel 5
 2368:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *            @arg TIM_Channel_6: TIM Channel 6
-ARM GAS  /tmp/ccDeic3P.s 			page 43
+ARM GAS  /tmp/ccOO4eia.s 			page 43
 
 
 2369:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   * @note For STM32F302xC, STM32F302xE, STM32F303xC, STM32F303xE, STM32F358xx,
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 2423:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****                         sClearInputConfig->ClearInputFilter);
 2424:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       
 2425:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       /* Set the OCREF clear selection bit */
-ARM GAS  /tmp/ccDeic3P.s 			page 44
+ARM GAS  /tmp/ccOO4eia.s 			page 44
 
 
 2426:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       htim->Instance->SMCR |= TIM_SMCR_OCCS;
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 2480:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****         {
 2481:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****           /* Enable the Ocref clear feature for Channel 4U */
 2482:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****           htim->Instance->CCMR2 |= TIM_CCMR2_OC4CE;
-ARM GAS  /tmp/ccDeic3P.s 			page 45
+ARM GAS  /tmp/ccOO4eia.s 			page 45
 
 
 2483:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****         }
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 2537:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** /** @defgroup TIMEx_Exported_Functions_Group6 Extension Callbacks functions 
 2538:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****  *  @brief   Extension Callbacks functions 
 2539:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   *
-ARM GAS  /tmp/ccDeic3P.s 			page 46
+ARM GAS  /tmp/ccOO4eia.s 			page 46
 
 
 2540:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** @verbatim   
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 2594:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   [..]
 2595:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     This subsection permit to get in run-time the status of the peripheral 
 2596:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     and the data flow.
-ARM GAS  /tmp/ccDeic3P.s 			page 47
+ARM GAS  /tmp/ccOO4eia.s 			page 47
 
 
 2597:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** 
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
   28              		.loc 1 2650 0
   29              		.cfi_startproc
   30              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/ccDeic3P.s 			page 48
+ARM GAS  /tmp/ccOO4eia.s 			page 48
 
 
   31              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 2671:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   */
 2672:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** static void TIM_OC5_SetConfig(TIM_TypeDef *TIMx, 
 2673:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****                               TIM_OC_InitTypeDef *OC_Config)
-ARM GAS  /tmp/ccDeic3P.s 			page 49
+ARM GAS  /tmp/ccOO4eia.s 			page 49
 
 
 2674:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** {
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 2694:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Reset the Output Polarity level */
 2695:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   tmpccer &= ~TIM_CCER_CC5P;
  101              		.loc 1 2695 0
-ARM GAS  /tmp/ccDeic3P.s 			page 50
+ARM GAS  /tmp/ccOO4eia.s 			page 50
 
 
  102 001c 24F40035 		bic	r5, r4, #131072
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  138 0054 8365     		str	r3, [r0, #88]
  139              	.LVL18:
 2714:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   
-ARM GAS  /tmp/ccDeic3P.s 			page 51
+ARM GAS  /tmp/ccOO4eia.s 			page 51
 
 
 2715:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Write to TIMx CCER */
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 2735:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   /* Get the TIMx CCER register value */
 2736:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   tmpccer = TIMx->CCER;
  176              		.loc 1 2736 0
-ARM GAS  /tmp/ccDeic3P.s 			page 52
+ARM GAS  /tmp/ccOO4eia.s 			page 52
 
 
  177 000a 046A     		ldr	r4, [r0, #32]
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  215              	.L8:
 2753:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   {   
 2754:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     /* Reset the Output Compare IDLE State */
-ARM GAS  /tmp/ccDeic3P.s 			page 53
+ARM GAS  /tmp/ccOO4eia.s 			page 53
 
 
 2755:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     tmpcr2 &= ~TIM_CR2_OIS6;
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  254              		.loc 1 296 0
  255              		.cfi_startproc
  256              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/ccDeic3P.s 			page 54
+ARM GAS  /tmp/ccOO4eia.s 			page 54
 
 
  257              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  306 0022 84F83D30 		strb	r3, [r4, #61]
  220:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   TIM_Base_SetConfig(htim->Instance, &htim->Init);
  307              		.loc 1 220 0
-ARM GAS  /tmp/ccDeic3P.s 			page 55
+ARM GAS  /tmp/ccOO4eia.s 			page 55
 
 
  308 0026 2146     		mov	r1, r4
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  354 0080 42F00402 		orr	r2, r2, #4
  355 0084 9A60     		str	r2, [r3, #8]
  242:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   OC_Config.OCFastMode = TIM_OCFAST_DISABLE;
-ARM GAS  /tmp/ccDeic3P.s 			page 56
+ARM GAS  /tmp/ccOO4eia.s 			page 56
 
 
  356              		.loc 1 242 0
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  398              	.LVL42:
  399              	.L14:
  261:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** }
-ARM GAS  /tmp/ccDeic3P.s 			page 57
+ARM GAS  /tmp/ccOO4eia.s 			page 57
 
 
  400              		.loc 1 261 0
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  453 0014 08D1     		bne	.L19
  276:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   __HAL_TIM_DISABLE(htim);
  454              		.loc 1 276 0 is_stmt 0 discriminator 1
-ARM GAS  /tmp/ccDeic3P.s 			page 58
+ARM GAS  /tmp/ccOO4eia.s 			page 58
 
 
  455 0016 196A     		ldr	r1, [r3, #32]
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  504              		.loc 1 335 0
  505 000e 2368     		ldr	r3, [r4]
  506 0010 1A68     		ldr	r2, [r3]
-ARM GAS  /tmp/ccDeic3P.s 			page 59
+ARM GAS  /tmp/ccOO4eia.s 			page 59
 
 
  507 0012 42F00102 		orr	r2, r2, #1
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  557 002c 0020     		movs	r0, #0
  558 002e 10BD     		pop	{r4, pc}
  559              		.cfi_endproc
-ARM GAS  /tmp/ccDeic3P.s 			page 60
+ARM GAS  /tmp/ccOO4eia.s 			page 60
 
 
  560              	.LFE128:
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  612              		.loc 1 392 0
  613              		.cfi_startproc
  614              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/ccDeic3P.s 			page 61
+ARM GAS  /tmp/ccOO4eia.s 			page 61
 
 
  615              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  665              		.cfi_startproc
  666              		@ args = 0, pretend = 0, frame = 0
  667              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/ccDeic3P.s 			page 62
+ARM GAS  /tmp/ccOO4eia.s 			page 62
 
 
  668              	.LVL59:
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  714 003a 1A63     		str	r2, [r3, #48]
  447:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   HAL_DMA_Start_IT(htim->hdma[TIM_DMA_ID_CC1], (uint32_t)&htim->Instance->CCR1, (uint32_t)pData, Le
  715              		.loc 1 447 0
-ARM GAS  /tmp/ccDeic3P.s 			page 63
+ARM GAS  /tmp/ccOO4eia.s 			page 63
 
 
  716 003c 2168     		ldr	r1, [r4]
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  765              		.cfi_startproc
  766              		@ args = 0, pretend = 0, frame = 0
  767              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/ccDeic3P.s 			page 64
+ARM GAS  /tmp/ccOO4eia.s 			page 64
 
 
  768              	.LVL68:
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  818              		@ args = 0, pretend = 0, frame = 0
  819              		@ frame_needed = 0, uses_anonymous_args = 0
  820              	.LVL71:
-ARM GAS  /tmp/ccDeic3P.s 			page 65
+ARM GAS  /tmp/ccOO4eia.s 			page 65
 
 
  821 0000 10B5     		push	{r4, lr}
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  871 0006 0022     		movs	r2, #0
  872 0008 FFF7FEFF 		bl	TIM_CCxNChannelCmd
  873              	.LVL76:
-ARM GAS  /tmp/ccDeic3P.s 			page 66
+ARM GAS  /tmp/ccOO4eia.s 			page 66
 
 
  559:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     __HAL_TIM_MOE_DISABLE(htim);
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  924              	.LCFI14:
  925              		.cfi_def_cfa_offset 8
  926              		.cfi_offset 4, -8
-ARM GAS  /tmp/ccDeic3P.s 			page 67
+ARM GAS  /tmp/ccOO4eia.s 			page 67
 
 
  927              		.cfi_offset 14, -4
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  973              		.loc 1 611 0
  974 003e 0368     		ldr	r3, [r0]
  975 0040 DA68     		ldr	r2, [r3, #12]
-ARM GAS  /tmp/ccDeic3P.s 			page 68
+ARM GAS  /tmp/ccOO4eia.s 			page 68
 
 
  976 0042 42F01002 		orr	r2, r2, #16
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  654:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   switch (Channel)
  1026              		.loc 1 654 0
  1027 0004 0C29     		cmp	r1, #12
-ARM GAS  /tmp/ccDeic3P.s 			page 69
+ARM GAS  /tmp/ccOO4eia.s 			page 69
 
 
  1028 0006 1FD8     		bhi	.L48
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  1075              	.L48:
  689:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   TIM_CCxNChannelCmd(htim->Instance, Channel, TIM_CCxN_DISABLE);
  1076              		.loc 1 689 0
-ARM GAS  /tmp/ccDeic3P.s 			page 70
+ARM GAS  /tmp/ccOO4eia.s 			page 70
 
 
  1077 0048 2068     		ldr	r0, [r4]
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  1124 009e 1A60     		str	r2, [r3]
  1125              	.L56:
  706:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** } 
-ARM GAS  /tmp/ccDeic3P.s 			page 71
+ARM GAS  /tmp/ccOO4eia.s 			page 71
 
 
  1126              		.loc 1 706 0 is_stmt 1
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  742:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   switch (Channel)
  1176              		.loc 1 742 0
  1177 0026 0C2D     		cmp	r5, #12
-ARM GAS  /tmp/ccDeic3P.s 			page 72
+ARM GAS  /tmp/ccOO4eia.s 			page 72
 
 
  1178 0028 53D8     		bhi	.L61
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  1225              		.loc 1 766 0
  1226 0068 A16A     		ldr	r1, [r4, #40]
  1227 006a 2548     		ldr	r0, .L69+4
-ARM GAS  /tmp/ccDeic3P.s 			page 73
+ARM GAS  /tmp/ccOO4eia.s 			page 73
 
 
  1228 006c 0863     		str	r0, [r1, #48]
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  1273 00b0 1248     		ldr	r0, .L69
  1274 00b2 8862     		str	r0, [r1, #40]
  798:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       htim->hdma[TIM_DMA_ID_CC4]->XferErrorCallback = TIM_DMAError ;
-ARM GAS  /tmp/ccDeic3P.s 			page 74
+ARM GAS  /tmp/ccOO4eia.s 			page 74
 
 
  1275              		.loc 1 798 0
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  823:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** }
  1321              		.loc 1 823 0
  1322 00fa 70BD     		pop	{r4, r5, r6, pc}
-ARM GAS  /tmp/ccDeic3P.s 			page 75
+ARM GAS  /tmp/ccOO4eia.s 			page 75
 
 
  1323              	.LVL103:
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  849:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     break;
  1376              		.loc 1 849 0
  1377 0024 10E0     		b	.L72
-ARM GAS  /tmp/ccDeic3P.s 			page 76
+ARM GAS  /tmp/ccOO4eia.s 			page 76
 
 
  1378              	.L75:
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  1423 006e 2368     		ldr	r3, [r4]
  1424 0070 196A     		ldr	r1, [r3, #32]
  1425 0072 41F21112 		movw	r2, #4369
-ARM GAS  /tmp/ccDeic3P.s 			page 77
+ARM GAS  /tmp/ccOO4eia.s 			page 77
 
 
  1426 0076 1142     		tst	r1, r2
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  949:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   __HAL_TIM_ENABLE(htim);
  1476              		.loc 1 949 0
  1477 0016 2368     		ldr	r3, [r4]
-ARM GAS  /tmp/ccDeic3P.s 			page 78
+ARM GAS  /tmp/ccOO4eia.s 			page 78
 
 
  1478 0018 1A68     		ldr	r2, [r3]
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  1528 002a 2368     		ldr	r3, [r4]
  1529 002c 196A     		ldr	r1, [r3, #32]
  1530 002e 41F21112 		movw	r2, #4369
-ARM GAS  /tmp/ccDeic3P.s 			page 79
+ARM GAS  /tmp/ccOO4eia.s 			page 79
 
 
  1531 0032 1142     		tst	r1, r2
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  1583 0017 1E       		.byte	(.L85-.L87)/2
  1584 0018 19       		.byte	(.L90-.L87)/2
  1585 0019 00       		.p2align 1
-ARM GAS  /tmp/ccDeic3P.s 			page 80
+ARM GAS  /tmp/ccOO4eia.s 			page 80
 
 
  1586              	.L86:
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  1630 005c 5A6C     		ldr	r2, [r3, #68]
  1631 005e 42F40042 		orr	r2, r2, #32768
  1632 0062 5A64     		str	r2, [r3, #68]
-ARM GAS  /tmp/ccDeic3P.s 			page 81
+ARM GAS  /tmp/ccOO4eia.s 			page 81
 
 
 1045:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   __HAL_TIM_ENABLE(htim);
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  1684              		.loc 1 1075 0
  1685 001a 0368     		ldr	r3, [r0]
  1686 001c DA68     		ldr	r2, [r3, #12]
-ARM GAS  /tmp/ccDeic3P.s 			page 82
+ARM GAS  /tmp/ccOO4eia.s 			page 82
 
 
  1687 001e 22F00202 		bic	r2, r2, #2
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  1731 0062 DA60     		str	r2, [r3, #12]
  1732              	.L98:
 1115:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   __HAL_TIM_MOE_DISABLE(htim);
-ARM GAS  /tmp/ccDeic3P.s 			page 83
+ARM GAS  /tmp/ccOO4eia.s 			page 83
 
 
  1733              		.loc 1 1115 0
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  1784              	.LCFI22:
  1785              		.cfi_def_cfa_offset 16
  1786              		.cfi_offset 4, -16
-ARM GAS  /tmp/ccDeic3P.s 			page 84
+ARM GAS  /tmp/ccOO4eia.s 			page 84
 
 
  1787              		.cfi_offset 5, -12
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  1834              		.loc 1 1163 0
  1835 003c 616A     		ldr	r1, [r4, #36]
  1836 003e 2F48     		ldr	r0, .L113
-ARM GAS  /tmp/ccDeic3P.s 			page 85
+ARM GAS  /tmp/ccOO4eia.s 			page 85
 
 
  1837 0040 8862     		str	r0, [r1, #40]
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  1882              	.LVL130:
  1883              	.L109:
 1195:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       htim->hdma[TIM_DMA_ID_CC3]->XferCpltCallback = TIM_DMADelayPulseCplt;
-ARM GAS  /tmp/ccDeic3P.s 			page 86
+ARM GAS  /tmp/ccOO4eia.s 			page 86
 
 
  1884              		.loc 1 1195 0
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  1930              	.L105:
 1229:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   TIM_CCxNChannelCmd(htim->Instance, Channel, TIM_CCxN_ENABLE);
  1931              		.loc 1 1229 0
-ARM GAS  /tmp/ccDeic3P.s 			page 87
+ARM GAS  /tmp/ccOO4eia.s 			page 87
 
 
  1932 00d2 2068     		ldr	r0, [r4]
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  1981              		@ frame_needed = 0, uses_anonymous_args = 0
  1982              	.LVL140:
  1983 0000 10B5     		push	{r4, lr}
-ARM GAS  /tmp/ccDeic3P.s 			page 88
+ARM GAS  /tmp/ccOO4eia.s 			page 88
 
 
  1984              	.LCFI23:
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  2031 003c 04E0     		b	.L116
  2032              	.L121:
 1284:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       __HAL_TIM_DISABLE_DMA(htim, TIM_DMA_CC4);
-ARM GAS  /tmp/ccDeic3P.s 			page 89
+ARM GAS  /tmp/ccOO4eia.s 			page 89
 
 
  2033              		.loc 1 1284 0
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  2080 0094 10BD     		pop	{r4, pc}
  2081              		.cfi_endproc
  2082              	.LFE144:
-ARM GAS  /tmp/ccDeic3P.s 			page 90
+ARM GAS  /tmp/ccOO4eia.s 			page 90
 
 
  2084 0096 00BF     		.section	.text.HAL_TIMEx_OnePulseN_Start,"ax",%progbits
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  2136              		.cfi_offset 4, -8
  2137              		.cfi_offset 14, -4
  2138 0002 0446     		mov	r4, r0
-ARM GAS  /tmp/ccDeic3P.s 			page 91
+ARM GAS  /tmp/ccOO4eia.s 			page 91
 
 
 1372:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   TIM_CCxNChannelCmd(htim->Instance, OutputChannel, TIM_CCxN_DISABLE);
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 1395:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** {
  2189              		.loc 1 1395 0
  2190              		.cfi_startproc
-ARM GAS  /tmp/ccDeic3P.s 			page 92
+ARM GAS  /tmp/ccOO4eia.s 			page 92
 
 
  2191              		@ args = 0, pretend = 0, frame = 0
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  2241              	.LCFI27:
  2242              		.cfi_def_cfa_offset 8
  2243              		.cfi_offset 4, -8
-ARM GAS  /tmp/ccDeic3P.s 			page 93
+ARM GAS  /tmp/ccOO4eia.s 			page 93
 
 
  2244              		.cfi_offset 14, -4
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  2291              	.L131:
 1447:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** }
  2292              		.loc 1 1447 0 is_stmt 1
-ARM GAS  /tmp/ccDeic3P.s 			page 94
+ARM GAS  /tmp/ccOO4eia.s 			page 94
 
 
  2293 005c 0020     		movs	r0, #0
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  2341 002a 9C68     		ldr	r4, [r3, #8]
  2342 002c 2143     		orrs	r1, r1, r4
  2343              	.LVL156:
-ARM GAS  /tmp/ccDeic3P.s 			page 95
+ARM GAS  /tmp/ccOO4eia.s 			page 95
 
 
  2344 002e 9960     		str	r1, [r3, #8]
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  2392              		@ frame_needed = 0, uses_anonymous_args = 0
  2393              		@ link register save eliminated.
  2394              	.LVL161:
-ARM GAS  /tmp/ccDeic3P.s 			page 96
+ARM GAS  /tmp/ccOO4eia.s 			page 96
 
 
  2395 0000 10B4     		push	{r4}
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  2439              		.loc 1 1567 0
  2440 0044 0368     		ldr	r3, [r0]
  2441 0046 5968     		ldr	r1, [r3, #4]
-ARM GAS  /tmp/ccDeic3P.s 			page 97
+ARM GAS  /tmp/ccOO4eia.s 			page 97
 
 
  2442 0048 0A43     		orrs	r2, r2, r1
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 1606:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   __HAL_LOCK(htim);
  2491              		.loc 1 1606 0 is_stmt 0 discriminator 2
  2492 000a 0123     		movs	r3, #1
-ARM GAS  /tmp/ccDeic3P.s 			page 98
+ARM GAS  /tmp/ccOO4eia.s 			page 98
 
 
  2493 000c 80F83C30 		strb	r3, [r0, #60]
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  2537              		.loc 1 1626 0
  2538 0052 436B     		ldr	r3, [r0, #52]
  2539 0054 084A     		ldr	r2, .L147+4
-ARM GAS  /tmp/ccDeic3P.s 			page 99
+ARM GAS  /tmp/ccOO4eia.s 			page 99
 
 
  2540 0056 1A63     		str	r2, [r3, #48]
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  2589              		.loc 1 1663 0
  2590 0004 90F83C30 		ldrb	r3, [r0, #60]	@ zero_extendqisi2
  2591 0008 012B     		cmp	r3, #1
-ARM GAS  /tmp/ccDeic3P.s 			page 100
+ARM GAS  /tmp/ccOO4eia.s 			page 100
 
 
  2592 000a 32D0     		beq	.L159
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  2640              	.LVL178:
 1687:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****     break;
  2641              		.loc 1 1687 0
-ARM GAS  /tmp/ccDeic3P.s 			page 101
+ARM GAS  /tmp/ccOO4eia.s 			page 101
 
 
  2642 0044 0EE0     		b	.L151
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  2686              	.LVL191:
  2687              	.L159:
 1663:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   __HAL_LOCK(htim); 
-ARM GAS  /tmp/ccDeic3P.s 			page 102
+ARM GAS  /tmp/ccOO4eia.s 			page 102
 
 
  2688              		.loc 1 1663 0
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  2738 002b 7F       		.byte	(.L162-.L164)/2
  2739 002c 7F       		.byte	(.L162-.L164)/2
  2740 002d 7F       		.byte	(.L162-.L164)/2
-ARM GAS  /tmp/ccDeic3P.s 			page 103
+ARM GAS  /tmp/ccOO4eia.s 			page 103
 
 
  2741 002e 32       		.byte	(.L166-.L164)/2
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  2788 006a 9A69     		ldr	r2, [r3, #24]
  2789 006c 42F40062 		orr	r2, r2, #2048
  2790 0070 9A61     		str	r2, [r3, #24]
-ARM GAS  /tmp/ccDeic3P.s 			page 104
+ARM GAS  /tmp/ccOO4eia.s 			page 104
 
 
 1803:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       htim->Instance->CCMR1 &= ~TIM_CCMR1_OC2FE;
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 1834:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       htim->Instance->CCMR2 |= TIM_CCMR2_OC4PE;
  2836              		.loc 1 1834 0
  2837 00b6 2368     		ldr	r3, [r4]
-ARM GAS  /tmp/ccDeic3P.s 			page 105
+ARM GAS  /tmp/ccOO4eia.s 			page 105
 
 
  2838 00b8 DA69     		ldr	r2, [r3, #28]
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  2883              	.LVL209:
  2884 0100 FFF7FEFF 		bl	TIM_OC6_SetConfig
  2885              	.LVL210:
-ARM GAS  /tmp/ccDeic3P.s 			page 106
+ARM GAS  /tmp/ccOO4eia.s 			page 106
 
 
 1868:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****       htim->Instance->CCMR3 |= TIM_CCMR3_OC6PE;
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  2933              		@ link register save eliminated.
  2934              	.LVL213:
  2935 0000 30B4     		push	{r4, r5}
-ARM GAS  /tmp/ccDeic3P.s 			page 107
+ARM GAS  /tmp/ccOO4eia.s 			page 107
 
 
  2936              	.LCFI33:
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  2979 0032 1143     		orrs	r1, r1, r2
  2980              	.LVL222:
 1939:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   htim->Instance->CR2 = tmpcr2;
-ARM GAS  /tmp/ccDeic3P.s 			page 108
+ARM GAS  /tmp/ccOO4eia.s 			page 108
 
 
  2981              		.loc 1 1939 0
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  3030 0006 012B     		cmp	r3, #1
  3031 0008 37D0     		beq	.L180
 2023:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   __HAL_LOCK(htim);
-ARM GAS  /tmp/ccDeic3P.s 			page 109
+ARM GAS  /tmp/ccOO4eia.s 			page 109
 
 
  3032              		.loc 1 2023 0 is_stmt 0 discriminator 2
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  3078              	.LVL244:
 2037:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****   MODIFY_REG(tmpbdtr, TIM_BDTR_BKF, (sBreakDeadTimeConfig->BreakFilter << BDTR_BKF_SHIFT));
  3079              		.loc 1 2037 0 discriminator 2
-ARM GAS  /tmp/ccDeic3P.s 			page 110
+ARM GAS  /tmp/ccOO4eia.s 			page 110
 
 
  3080 0042 22F47022 		bic	r2, r2, #983040
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  3126              	.L178:
 2057:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** }
  3127              		.loc 1 2057 0
-ARM GAS  /tmp/ccDeic3P.s 			page 111
+ARM GAS  /tmp/ccOO4eia.s 			page 111
 
 
  3128 007c 5DF8044B 		ldr	r4, [sp], #4
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  3176 0020 7047     		bx	lr
  3177              		.cfi_endproc
  3178              	.LFE156:
-ARM GAS  /tmp/ccDeic3P.s 			page 112
+ARM GAS  /tmp/ccOO4eia.s 			page 112
 
 
  3180 0022 00BF     		.section	.text.HAL_TIMEx_GroupChannel5,"ax",%progbits
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  3226              	.LVL266:
  3227 0034 00E0     		b	.L187
  3228              	.LVL267:
-ARM GAS  /tmp/ccDeic3P.s 			page 113
+ARM GAS  /tmp/ccOO4eia.s 			page 113
 
 
  3229              	.L188:
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  3278 0024 13B1     		cbz	r3, .L193
  3279 0026 022B     		cmp	r3, #2
  3280 0028 08D0     		beq	.L194
-ARM GAS  /tmp/ccDeic3P.s 			page 114
+ARM GAS  /tmp/ccOO4eia.s 			page 114
 
 
  3281 002a 18E0     		b	.L191
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  3326              		.loc 1 2433 0
  3327 005e 142E     		cmp	r6, #20
  3328 0060 5FD8     		bhi	.L195
-ARM GAS  /tmp/ccDeic3P.s 			page 115
+ARM GAS  /tmp/ccOO4eia.s 			page 115
 
 
  3329 0062 DFE806F0 		tbb	[pc, r6]
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  3378 00a4 9A61     		str	r2, [r3, #24]
  3379 00a6 3CE0     		b	.L195
  3380              	.L204:
-ARM GAS  /tmp/ccDeic3P.s 			page 116
+ARM GAS  /tmp/ccOO4eia.s 			page 116
 
 
 2459:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c ****           htim->Instance->CCMR1 &= ~TIM_CCMR1_OC2CE;      
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  3426 00f0 2368     		ldr	r3, [r4]
  3427 00f2 5A6D     		ldr	r2, [r3, #84]
  3428 00f4 42F08002 		orr	r2, r2, #128
-ARM GAS  /tmp/ccDeic3P.s 			page 117
+ARM GAS  /tmp/ccOO4eia.s 			page 117
 
 
  3429 00f8 5A65     		str	r2, [r3, #84]
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  3475              		.weak	HAL_TIMEx_CommutationCallback
  3476              		.thumb
  3477              		.thumb_func
-ARM GAS  /tmp/ccDeic3P.s 			page 118
+ARM GAS  /tmp/ccOO4eia.s 			page 118
 
 
  3479              	HAL_TIMEx_CommutationCallback:
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
 2574:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c **** {
  3531              		.loc 1 2574 0
  3532              		.cfi_startproc
-ARM GAS  /tmp/ccDeic3P.s 			page 119
+ARM GAS  /tmp/ccOO4eia.s 			page 119
 
 
  3533              		@ args = 0, pretend = 0, frame = 0
@@ -7122,145 +7122,145 @@ ARM GAS  /tmp/ccDeic3P.s 			page 1
  3571              		.file 8 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h"
  3572              		.file 9 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h"
  3573              		.file 10 "Drivers/CMSIS/Include/core_cm4.h"
-ARM GAS  /tmp/ccDeic3P.s 			page 120
+ARM GAS  /tmp/ccOO4eia.s 			page 120
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f3xx_hal_tim_ex.c
-     /tmp/ccDeic3P.s:21     .text.TIM_CCxNChannelCmd:00000000 $t
-     /tmp/ccDeic3P.s:25     .text.TIM_CCxNChannelCmd:00000000 TIM_CCxNChannelCmd
-     /tmp/ccDeic3P.s:61     .text.TIM_OC5_SetConfig:00000000 $t
-     /tmp/ccDeic3P.s:65     .text.TIM_OC5_SetConfig:00000000 TIM_OC5_SetConfig
-     /tmp/ccDeic3P.s:149    .text.TIM_OC5_SetConfig:0000005c $d
-     /tmp/ccDeic3P.s:154    .text.TIM_OC6_SetConfig:00000000 $t
-     /tmp/ccDeic3P.s:158    .text.TIM_OC6_SetConfig:00000000 TIM_OC6_SetConfig
-     /tmp/ccDeic3P.s:242    .text.TIM_OC6_SetConfig:00000060 $d
-     /tmp/ccDeic3P.s:247    .text.HAL_TIMEx_HallSensor_MspInit:00000000 $t
-     /tmp/ccDeic3P.s:252    .text.HAL_TIMEx_HallSensor_MspInit:00000000 HAL_TIMEx_HallSensor_MspInit
-     /tmp/ccDeic3P.s:265    .text.HAL_TIMEx_HallSensor_Init:00000000 $t
-     /tmp/ccDeic3P.s:270    .text.HAL_TIMEx_HallSensor_Init:00000000 HAL_TIMEx_HallSensor_Init
-     /tmp/ccDeic3P.s:408    .text.HAL_TIMEx_HallSensor_MspDeInit:00000000 $t
-     /tmp/ccDeic3P.s:413    .text.HAL_TIMEx_HallSensor_MspDeInit:00000000 HAL_TIMEx_HallSensor_MspDeInit
-     /tmp/ccDeic3P.s:426    .text.HAL_TIMEx_HallSensor_DeInit:00000000 $t
-     /tmp/ccDeic3P.s:431    .text.HAL_TIMEx_HallSensor_DeInit:00000000 HAL_TIMEx_HallSensor_DeInit
-     /tmp/ccDeic3P.s:479    .text.HAL_TIMEx_HallSensor_Start:00000000 $t
-     /tmp/ccDeic3P.s:484    .text.HAL_TIMEx_HallSensor_Start:00000000 HAL_TIMEx_HallSensor_Start
-     /tmp/ccDeic3P.s:516    .text.HAL_TIMEx_HallSensor_Stop:00000000 $t
-     /tmp/ccDeic3P.s:521    .text.HAL_TIMEx_HallSensor_Stop:00000000 HAL_TIMEx_HallSensor_Stop
-     /tmp/ccDeic3P.s:563    .text.HAL_TIMEx_HallSensor_Start_IT:00000000 $t
-     /tmp/ccDeic3P.s:568    .text.HAL_TIMEx_HallSensor_Start_IT:00000000 HAL_TIMEx_HallSensor_Start_IT
-     /tmp/ccDeic3P.s:605    .text.HAL_TIMEx_HallSensor_Stop_IT:00000000 $t
-     /tmp/ccDeic3P.s:610    .text.HAL_TIMEx_HallSensor_Stop_IT:00000000 HAL_TIMEx_HallSensor_Stop_IT
-     /tmp/ccDeic3P.s:657    .text.HAL_TIMEx_HallSensor_Start_DMA:00000000 $t
-     /tmp/ccDeic3P.s:662    .text.HAL_TIMEx_HallSensor_Start_DMA:00000000 HAL_TIMEx_HallSensor_Start_DMA
-     /tmp/ccDeic3P.s:751    .text.HAL_TIMEx_HallSensor_Start_DMA:0000006c $d
-     /tmp/ccDeic3P.s:757    .text.HAL_TIMEx_HallSensor_Stop_DMA:00000000 $t
-     /tmp/ccDeic3P.s:762    .text.HAL_TIMEx_HallSensor_Stop_DMA:00000000 HAL_TIMEx_HallSensor_Stop_DMA
-     /tmp/ccDeic3P.s:809    .text.HAL_TIMEx_OCN_Start:00000000 $t
-     /tmp/ccDeic3P.s:814    .text.HAL_TIMEx_OCN_Start:00000000 HAL_TIMEx_OCN_Start
-     /tmp/ccDeic3P.s:850    .text.HAL_TIMEx_OCN_Stop:00000000 $t
-     /tmp/ccDeic3P.s:855    .text.HAL_TIMEx_OCN_Stop:00000000 HAL_TIMEx_OCN_Stop
-     /tmp/ccDeic3P.s:911    .text.HAL_TIMEx_OCN_Start_IT:00000000 $t
-     /tmp/ccDeic3P.s:916    .text.HAL_TIMEx_OCN_Start_IT:00000000 HAL_TIMEx_OCN_Start_IT
-     /tmp/ccDeic3P.s:934    .text.HAL_TIMEx_OCN_Start_IT:0000000c $d
-     /tmp/ccDeic3P.s:1007   .text.HAL_TIMEx_OCN_Stop_IT:00000000 $t
-     /tmp/ccDeic3P.s:1012   .text.HAL_TIMEx_OCN_Stop_IT:00000000 HAL_TIMEx_OCN_Stop_IT
-     /tmp/ccDeic3P.s:1031   .text.HAL_TIMEx_OCN_Stop_IT:0000000c $d
-     /tmp/ccDeic3P.s:1133   .text.HAL_TIMEx_OCN_Start_DMA:00000000 $t
-     /tmp/ccDeic3P.s:1138   .text.HAL_TIMEx_OCN_Start_DMA:00000000 HAL_TIMEx_OCN_Start_DMA
-     /tmp/ccDeic3P.s:1181   .text.HAL_TIMEx_OCN_Start_DMA:0000002e $d
-     /tmp/ccDeic3P.s:1327   .text.HAL_TIMEx_OCN_Start_DMA:000000fc $d
-     /tmp/ccDeic3P.s:1333   .text.HAL_TIMEx_OCN_Stop_DMA:00000000 $t
-     /tmp/ccDeic3P.s:1338   .text.HAL_TIMEx_OCN_Stop_DMA:00000000 HAL_TIMEx_OCN_Stop_DMA
-     /tmp/ccDeic3P.s:1356   .text.HAL_TIMEx_OCN_Stop_DMA:0000000c $d
-     /tmp/ccDeic3P.s:1447   .text.HAL_TIMEx_PWMN_Start:00000000 $t
-     /tmp/ccDeic3P.s:1452   .text.HAL_TIMEx_PWMN_Start:00000000 HAL_TIMEx_PWMN_Start
-     /tmp/ccDeic3P.s:1488   .text.HAL_TIMEx_PWMN_Stop:00000000 $t
-     /tmp/ccDeic3P.s:1493   .text.HAL_TIMEx_PWMN_Stop:00000000 HAL_TIMEx_PWMN_Stop
-     /tmp/ccDeic3P.s:1549   .text.HAL_TIMEx_PWMN_Start_IT:00000000 $t
-     /tmp/ccDeic3P.s:1554   .text.HAL_TIMEx_PWMN_Start_IT:00000000 HAL_TIMEx_PWMN_Start_IT
-     /tmp/ccDeic3P.s:1572   .text.HAL_TIMEx_PWMN_Start_IT:0000000c $d
-     /tmp/ccDeic3P.s:1645   .text.HAL_TIMEx_PWMN_Stop_IT:00000000 $t
-     /tmp/ccDeic3P.s:1650   .text.HAL_TIMEx_PWMN_Stop_IT:00000000 HAL_TIMEx_PWMN_Stop_IT
-ARM GAS  /tmp/ccDeic3P.s 			page 121
+     /tmp/ccOO4eia.s:21     .text.TIM_CCxNChannelCmd:00000000 $t
+     /tmp/ccOO4eia.s:25     .text.TIM_CCxNChannelCmd:00000000 TIM_CCxNChannelCmd
+     /tmp/ccOO4eia.s:61     .text.TIM_OC5_SetConfig:00000000 $t
+     /tmp/ccOO4eia.s:65     .text.TIM_OC5_SetConfig:00000000 TIM_OC5_SetConfig
+     /tmp/ccOO4eia.s:149    .text.TIM_OC5_SetConfig:0000005c $d
+     /tmp/ccOO4eia.s:154    .text.TIM_OC6_SetConfig:00000000 $t
+     /tmp/ccOO4eia.s:158    .text.TIM_OC6_SetConfig:00000000 TIM_OC6_SetConfig
+     /tmp/ccOO4eia.s:242    .text.TIM_OC6_SetConfig:00000060 $d
+     /tmp/ccOO4eia.s:247    .text.HAL_TIMEx_HallSensor_MspInit:00000000 $t
+     /tmp/ccOO4eia.s:252    .text.HAL_TIMEx_HallSensor_MspInit:00000000 HAL_TIMEx_HallSensor_MspInit
+     /tmp/ccOO4eia.s:265    .text.HAL_TIMEx_HallSensor_Init:00000000 $t
+     /tmp/ccOO4eia.s:270    .text.HAL_TIMEx_HallSensor_Init:00000000 HAL_TIMEx_HallSensor_Init
+     /tmp/ccOO4eia.s:408    .text.HAL_TIMEx_HallSensor_MspDeInit:00000000 $t
+     /tmp/ccOO4eia.s:413    .text.HAL_TIMEx_HallSensor_MspDeInit:00000000 HAL_TIMEx_HallSensor_MspDeInit
+     /tmp/ccOO4eia.s:426    .text.HAL_TIMEx_HallSensor_DeInit:00000000 $t
+     /tmp/ccOO4eia.s:431    .text.HAL_TIMEx_HallSensor_DeInit:00000000 HAL_TIMEx_HallSensor_DeInit
+     /tmp/ccOO4eia.s:479    .text.HAL_TIMEx_HallSensor_Start:00000000 $t
+     /tmp/ccOO4eia.s:484    .text.HAL_TIMEx_HallSensor_Start:00000000 HAL_TIMEx_HallSensor_Start
+     /tmp/ccOO4eia.s:516    .text.HAL_TIMEx_HallSensor_Stop:00000000 $t
+     /tmp/ccOO4eia.s:521    .text.HAL_TIMEx_HallSensor_Stop:00000000 HAL_TIMEx_HallSensor_Stop
+     /tmp/ccOO4eia.s:563    .text.HAL_TIMEx_HallSensor_Start_IT:00000000 $t
+     /tmp/ccOO4eia.s:568    .text.HAL_TIMEx_HallSensor_Start_IT:00000000 HAL_TIMEx_HallSensor_Start_IT
+     /tmp/ccOO4eia.s:605    .text.HAL_TIMEx_HallSensor_Stop_IT:00000000 $t
+     /tmp/ccOO4eia.s:610    .text.HAL_TIMEx_HallSensor_Stop_IT:00000000 HAL_TIMEx_HallSensor_Stop_IT
+     /tmp/ccOO4eia.s:657    .text.HAL_TIMEx_HallSensor_Start_DMA:00000000 $t
+     /tmp/ccOO4eia.s:662    .text.HAL_TIMEx_HallSensor_Start_DMA:00000000 HAL_TIMEx_HallSensor_Start_DMA
+     /tmp/ccOO4eia.s:751    .text.HAL_TIMEx_HallSensor_Start_DMA:0000006c $d
+     /tmp/ccOO4eia.s:757    .text.HAL_TIMEx_HallSensor_Stop_DMA:00000000 $t
+     /tmp/ccOO4eia.s:762    .text.HAL_TIMEx_HallSensor_Stop_DMA:00000000 HAL_TIMEx_HallSensor_Stop_DMA
+     /tmp/ccOO4eia.s:809    .text.HAL_TIMEx_OCN_Start:00000000 $t
+     /tmp/ccOO4eia.s:814    .text.HAL_TIMEx_OCN_Start:00000000 HAL_TIMEx_OCN_Start
+     /tmp/ccOO4eia.s:850    .text.HAL_TIMEx_OCN_Stop:00000000 $t
+     /tmp/ccOO4eia.s:855    .text.HAL_TIMEx_OCN_Stop:00000000 HAL_TIMEx_OCN_Stop
+     /tmp/ccOO4eia.s:911    .text.HAL_TIMEx_OCN_Start_IT:00000000 $t
+     /tmp/ccOO4eia.s:916    .text.HAL_TIMEx_OCN_Start_IT:00000000 HAL_TIMEx_OCN_Start_IT
+     /tmp/ccOO4eia.s:934    .text.HAL_TIMEx_OCN_Start_IT:0000000c $d
+     /tmp/ccOO4eia.s:1007   .text.HAL_TIMEx_OCN_Stop_IT:00000000 $t
+     /tmp/ccOO4eia.s:1012   .text.HAL_TIMEx_OCN_Stop_IT:00000000 HAL_TIMEx_OCN_Stop_IT
+     /tmp/ccOO4eia.s:1031   .text.HAL_TIMEx_OCN_Stop_IT:0000000c $d
+     /tmp/ccOO4eia.s:1133   .text.HAL_TIMEx_OCN_Start_DMA:00000000 $t
+     /tmp/ccOO4eia.s:1138   .text.HAL_TIMEx_OCN_Start_DMA:00000000 HAL_TIMEx_OCN_Start_DMA
+     /tmp/ccOO4eia.s:1181   .text.HAL_TIMEx_OCN_Start_DMA:0000002e $d
+     /tmp/ccOO4eia.s:1327   .text.HAL_TIMEx_OCN_Start_DMA:000000fc $d
+     /tmp/ccOO4eia.s:1333   .text.HAL_TIMEx_OCN_Stop_DMA:00000000 $t
+     /tmp/ccOO4eia.s:1338   .text.HAL_TIMEx_OCN_Stop_DMA:00000000 HAL_TIMEx_OCN_Stop_DMA
+     /tmp/ccOO4eia.s:1356   .text.HAL_TIMEx_OCN_Stop_DMA:0000000c $d
+     /tmp/ccOO4eia.s:1447   .text.HAL_TIMEx_PWMN_Start:00000000 $t
+     /tmp/ccOO4eia.s:1452   .text.HAL_TIMEx_PWMN_Start:00000000 HAL_TIMEx_PWMN_Start
+     /tmp/ccOO4eia.s:1488   .text.HAL_TIMEx_PWMN_Stop:00000000 $t
+     /tmp/ccOO4eia.s:1493   .text.HAL_TIMEx_PWMN_Stop:00000000 HAL_TIMEx_PWMN_Stop
+     /tmp/ccOO4eia.s:1549   .text.HAL_TIMEx_PWMN_Start_IT:00000000 $t
+     /tmp/ccOO4eia.s:1554   .text.HAL_TIMEx_PWMN_Start_IT:00000000 HAL_TIMEx_PWMN_Start_IT
+     /tmp/ccOO4eia.s:1572   .text.HAL_TIMEx_PWMN_Start_IT:0000000c $d
+     /tmp/ccOO4eia.s:1645   .text.HAL_TIMEx_PWMN_Stop_IT:00000000 $t
+     /tmp/ccOO4eia.s:1650   .text.HAL_TIMEx_PWMN_Stop_IT:00000000 HAL_TIMEx_PWMN_Stop_IT
+ARM GAS  /tmp/ccOO4eia.s 			page 121
 
 
-     /tmp/ccDeic3P.s:1669   .text.HAL_TIMEx_PWMN_Stop_IT:0000000c $d
-     /tmp/ccDeic3P.s:1771   .text.HAL_TIMEx_PWMN_Start_DMA:00000000 $t
-     /tmp/ccDeic3P.s:1776   .text.HAL_TIMEx_PWMN_Start_DMA:00000000 HAL_TIMEx_PWMN_Start_DMA
-     /tmp/ccDeic3P.s:1819   .text.HAL_TIMEx_PWMN_Start_DMA:0000002e $d
-     /tmp/ccDeic3P.s:1965   .text.HAL_TIMEx_PWMN_Start_DMA:000000fc $d
-     /tmp/ccDeic3P.s:1971   .text.HAL_TIMEx_PWMN_Stop_DMA:00000000 $t
-     /tmp/ccDeic3P.s:1976   .text.HAL_TIMEx_PWMN_Stop_DMA:00000000 HAL_TIMEx_PWMN_Stop_DMA
-     /tmp/ccDeic3P.s:1994   .text.HAL_TIMEx_PWMN_Stop_DMA:0000000c $d
-     /tmp/ccDeic3P.s:2085   .text.HAL_TIMEx_OnePulseN_Start:00000000 $t
-     /tmp/ccDeic3P.s:2090   .text.HAL_TIMEx_OnePulseN_Start:00000000 HAL_TIMEx_OnePulseN_Start
-     /tmp/ccDeic3P.s:2121   .text.HAL_TIMEx_OnePulseN_Stop:00000000 $t
-     /tmp/ccDeic3P.s:2126   .text.HAL_TIMEx_OnePulseN_Stop:00000000 HAL_TIMEx_OnePulseN_Stop
-     /tmp/ccDeic3P.s:2182   .text.HAL_TIMEx_OnePulseN_Start_IT:00000000 $t
-     /tmp/ccDeic3P.s:2187   .text.HAL_TIMEx_OnePulseN_Start_IT:00000000 HAL_TIMEx_OnePulseN_Start_IT
-     /tmp/ccDeic3P.s:2228   .text.HAL_TIMEx_OnePulseN_Stop_IT:00000000 $t
-     /tmp/ccDeic3P.s:2233   .text.HAL_TIMEx_OnePulseN_Stop_IT:00000000 HAL_TIMEx_OnePulseN_Stop_IT
-     /tmp/ccDeic3P.s:2299   .text.HAL_TIMEx_ConfigCommutationEvent:00000000 $t
-     /tmp/ccDeic3P.s:2304   .text.HAL_TIMEx_ConfigCommutationEvent:00000000 HAL_TIMEx_ConfigCommutationEvent
-     /tmp/ccDeic3P.s:2382   .text.HAL_TIMEx_ConfigCommutationEvent_IT:00000000 $t
-     /tmp/ccDeic3P.s:2387   .text.HAL_TIMEx_ConfigCommutationEvent_IT:00000000 HAL_TIMEx_ConfigCommutationEvent_IT
-     /tmp/ccDeic3P.s:2470   .text.HAL_TIMEx_ConfigCommutationEvent_DMA:00000000 $t
-     /tmp/ccDeic3P.s:2475   .text.HAL_TIMEx_ConfigCommutationEvent_DMA:00000000 HAL_TIMEx_ConfigCommutationEvent_DMA
-     /tmp/ccDeic3P.s:2565   .text.HAL_TIMEx_ConfigCommutationEvent_DMA:00000074 $d
-     /tmp/ccDeic3P.s:3497   .text.TIMEx_DMACommutationCplt:00000000 TIMEx_DMACommutationCplt
-     /tmp/ccDeic3P.s:2571   .text.HAL_TIM_OC_ConfigChannel:00000000 $t
-     /tmp/ccDeic3P.s:2576   .text.HAL_TIM_OC_ConfigChannel:00000000 HAL_TIM_OC_ConfigChannel
-     /tmp/ccDeic3P.s:2604   .text.HAL_TIM_OC_ConfigChannel:00000020 $d
-     /tmp/ccDeic3P.s:2697   .text.HAL_TIM_PWM_ConfigChannel:00000000 $t
-     /tmp/ccDeic3P.s:2702   .text.HAL_TIM_PWM_ConfigChannel:00000000 HAL_TIM_PWM_ConfigChannel
-     /tmp/ccDeic3P.s:2733   .text.HAL_TIM_PWM_ConfigChannel:00000026 $d
-     /tmp/ccDeic3P.s:2922   .text.HAL_TIMEx_MasterConfigSynchronization:00000000 $t
-     /tmp/ccDeic3P.s:2927   .text.HAL_TIMEx_MasterConfigSynchronization:00000000 HAL_TIMEx_MasterConfigSynchronization
-     /tmp/ccDeic3P.s:3005   .text.HAL_TIMEx_MasterConfigSynchronization:0000004c $d
-     /tmp/ccDeic3P.s:3010   .text.HAL_TIMEx_ConfigBreakDeadTime:00000000 $t
-     /tmp/ccDeic3P.s:3015   .text.HAL_TIMEx_ConfigBreakDeadTime:00000000 HAL_TIMEx_ConfigBreakDeadTime
-     /tmp/ccDeic3P.s:3133   .text.HAL_TIMEx_ConfigBreakDeadTime:00000084 $d
-     /tmp/ccDeic3P.s:3138   .text.HAL_TIMEx_RemapConfig:00000000 $t
-     /tmp/ccDeic3P.s:3143   .text.HAL_TIMEx_RemapConfig:00000000 HAL_TIMEx_RemapConfig
-     /tmp/ccDeic3P.s:3181   .text.HAL_TIMEx_GroupChannel5:00000000 $t
-     /tmp/ccDeic3P.s:3186   .text.HAL_TIMEx_GroupChannel5:00000000 HAL_TIMEx_GroupChannel5
-     /tmp/ccDeic3P.s:3241   .text.HAL_TIM_ConfigOCrefClear:00000000 $t
-     /tmp/ccDeic3P.s:3246   .text.HAL_TIM_ConfigOCrefClear:00000000 HAL_TIM_ConfigOCrefClear
-     /tmp/ccDeic3P.s:3331   .text.HAL_TIM_ConfigOCrefClear:00000066 $d
-     /tmp/ccDeic3P.s:3474   .text.HAL_TIMEx_CommutationCallback:00000000 $t
-     /tmp/ccDeic3P.s:3479   .text.HAL_TIMEx_CommutationCallback:00000000 HAL_TIMEx_CommutationCallback
-     /tmp/ccDeic3P.s:3492   .text.TIMEx_DMACommutationCplt:00000000 $t
-     /tmp/ccDeic3P.s:3524   .text.HAL_TIMEx_BreakCallback:00000000 $t
-     /tmp/ccDeic3P.s:3529   .text.HAL_TIMEx_BreakCallback:00000000 HAL_TIMEx_BreakCallback
-     /tmp/ccDeic3P.s:3542   .text.HAL_TIMEx_HallSensor_GetState:00000000 $t
-     /tmp/ccDeic3P.s:3547   .text.HAL_TIMEx_HallSensor_GetState:00000000 HAL_TIMEx_HallSensor_GetState
+     /tmp/ccOO4eia.s:1669   .text.HAL_TIMEx_PWMN_Stop_IT:0000000c $d
+     /tmp/ccOO4eia.s:1771   .text.HAL_TIMEx_PWMN_Start_DMA:00000000 $t
+     /tmp/ccOO4eia.s:1776   .text.HAL_TIMEx_PWMN_Start_DMA:00000000 HAL_TIMEx_PWMN_Start_DMA
+     /tmp/ccOO4eia.s:1819   .text.HAL_TIMEx_PWMN_Start_DMA:0000002e $d
+     /tmp/ccOO4eia.s:1965   .text.HAL_TIMEx_PWMN_Start_DMA:000000fc $d
+     /tmp/ccOO4eia.s:1971   .text.HAL_TIMEx_PWMN_Stop_DMA:00000000 $t
+     /tmp/ccOO4eia.s:1976   .text.HAL_TIMEx_PWMN_Stop_DMA:00000000 HAL_TIMEx_PWMN_Stop_DMA
+     /tmp/ccOO4eia.s:1994   .text.HAL_TIMEx_PWMN_Stop_DMA:0000000c $d
+     /tmp/ccOO4eia.s:2085   .text.HAL_TIMEx_OnePulseN_Start:00000000 $t
+     /tmp/ccOO4eia.s:2090   .text.HAL_TIMEx_OnePulseN_Start:00000000 HAL_TIMEx_OnePulseN_Start
+     /tmp/ccOO4eia.s:2121   .text.HAL_TIMEx_OnePulseN_Stop:00000000 $t
+     /tmp/ccOO4eia.s:2126   .text.HAL_TIMEx_OnePulseN_Stop:00000000 HAL_TIMEx_OnePulseN_Stop
+     /tmp/ccOO4eia.s:2182   .text.HAL_TIMEx_OnePulseN_Start_IT:00000000 $t
+     /tmp/ccOO4eia.s:2187   .text.HAL_TIMEx_OnePulseN_Start_IT:00000000 HAL_TIMEx_OnePulseN_Start_IT
+     /tmp/ccOO4eia.s:2228   .text.HAL_TIMEx_OnePulseN_Stop_IT:00000000 $t
+     /tmp/ccOO4eia.s:2233   .text.HAL_TIMEx_OnePulseN_Stop_IT:00000000 HAL_TIMEx_OnePulseN_Stop_IT
+     /tmp/ccOO4eia.s:2299   .text.HAL_TIMEx_ConfigCommutationEvent:00000000 $t
+     /tmp/ccOO4eia.s:2304   .text.HAL_TIMEx_ConfigCommutationEvent:00000000 HAL_TIMEx_ConfigCommutationEvent
+     /tmp/ccOO4eia.s:2382   .text.HAL_TIMEx_ConfigCommutationEvent_IT:00000000 $t
+     /tmp/ccOO4eia.s:2387   .text.HAL_TIMEx_ConfigCommutationEvent_IT:00000000 HAL_TIMEx_ConfigCommutationEvent_IT
+     /tmp/ccOO4eia.s:2470   .text.HAL_TIMEx_ConfigCommutationEvent_DMA:00000000 $t
+     /tmp/ccOO4eia.s:2475   .text.HAL_TIMEx_ConfigCommutationEvent_DMA:00000000 HAL_TIMEx_ConfigCommutationEvent_DMA
+     /tmp/ccOO4eia.s:2565   .text.HAL_TIMEx_ConfigCommutationEvent_DMA:00000074 $d
+     /tmp/ccOO4eia.s:3497   .text.TIMEx_DMACommutationCplt:00000000 TIMEx_DMACommutationCplt
+     /tmp/ccOO4eia.s:2571   .text.HAL_TIM_OC_ConfigChannel:00000000 $t
+     /tmp/ccOO4eia.s:2576   .text.HAL_TIM_OC_ConfigChannel:00000000 HAL_TIM_OC_ConfigChannel
+     /tmp/ccOO4eia.s:2604   .text.HAL_TIM_OC_ConfigChannel:00000020 $d
+     /tmp/ccOO4eia.s:2697   .text.HAL_TIM_PWM_ConfigChannel:00000000 $t
+     /tmp/ccOO4eia.s:2702   .text.HAL_TIM_PWM_ConfigChannel:00000000 HAL_TIM_PWM_ConfigChannel
+     /tmp/ccOO4eia.s:2733   .text.HAL_TIM_PWM_ConfigChannel:00000026 $d
+     /tmp/ccOO4eia.s:2922   .text.HAL_TIMEx_MasterConfigSynchronization:00000000 $t
+     /tmp/ccOO4eia.s:2927   .text.HAL_TIMEx_MasterConfigSynchronization:00000000 HAL_TIMEx_MasterConfigSynchronization
+     /tmp/ccOO4eia.s:3005   .text.HAL_TIMEx_MasterConfigSynchronization:0000004c $d
+     /tmp/ccOO4eia.s:3010   .text.HAL_TIMEx_ConfigBreakDeadTime:00000000 $t
+     /tmp/ccOO4eia.s:3015   .text.HAL_TIMEx_ConfigBreakDeadTime:00000000 HAL_TIMEx_ConfigBreakDeadTime
+     /tmp/ccOO4eia.s:3133   .text.HAL_TIMEx_ConfigBreakDeadTime:00000084 $d
+     /tmp/ccOO4eia.s:3138   .text.HAL_TIMEx_RemapConfig:00000000 $t
+     /tmp/ccOO4eia.s:3143   .text.HAL_TIMEx_RemapConfig:00000000 HAL_TIMEx_RemapConfig
+     /tmp/ccOO4eia.s:3181   .text.HAL_TIMEx_GroupChannel5:00000000 $t
+     /tmp/ccOO4eia.s:3186   .text.HAL_TIMEx_GroupChannel5:00000000 HAL_TIMEx_GroupChannel5
+     /tmp/ccOO4eia.s:3241   .text.HAL_TIM_ConfigOCrefClear:00000000 $t
+     /tmp/ccOO4eia.s:3246   .text.HAL_TIM_ConfigOCrefClear:00000000 HAL_TIM_ConfigOCrefClear
+     /tmp/ccOO4eia.s:3331   .text.HAL_TIM_ConfigOCrefClear:00000066 $d
+     /tmp/ccOO4eia.s:3474   .text.HAL_TIMEx_CommutationCallback:00000000 $t
+     /tmp/ccOO4eia.s:3479   .text.HAL_TIMEx_CommutationCallback:00000000 HAL_TIMEx_CommutationCallback
+     /tmp/ccOO4eia.s:3492   .text.TIMEx_DMACommutationCplt:00000000 $t
+     /tmp/ccOO4eia.s:3524   .text.HAL_TIMEx_BreakCallback:00000000 $t
+     /tmp/ccOO4eia.s:3529   .text.HAL_TIMEx_BreakCallback:00000000 HAL_TIMEx_BreakCallback
+     /tmp/ccOO4eia.s:3542   .text.HAL_TIMEx_HallSensor_GetState:00000000 $t
+     /tmp/ccOO4eia.s:3547   .text.HAL_TIMEx_HallSensor_GetState:00000000 HAL_TIMEx_HallSensor_GetState
                      .debug_frame:00000010 $d
-     /tmp/ccDeic3P.s:947    .text.HAL_TIMEx_OCN_Start_IT:00000019 $d
-     /tmp/ccDeic3P.s:947    .text.HAL_TIMEx_OCN_Start_IT:0000001a $t
-     /tmp/ccDeic3P.s:1044   .text.HAL_TIMEx_OCN_Stop_IT:00000019 $d
-     /tmp/ccDeic3P.s:1044   .text.HAL_TIMEx_OCN_Stop_IT:0000001a $t
-     /tmp/ccDeic3P.s:1194   .text.HAL_TIMEx_OCN_Start_DMA:0000003b $d
-     /tmp/ccDeic3P.s:1194   .text.HAL_TIMEx_OCN_Start_DMA:0000003c $t
-ARM GAS  /tmp/ccDeic3P.s 			page 122
+     /tmp/ccOO4eia.s:947    .text.HAL_TIMEx_OCN_Start_IT:00000019 $d
+     /tmp/ccOO4eia.s:947    .text.HAL_TIMEx_OCN_Start_IT:0000001a $t
+     /tmp/ccOO4eia.s:1044   .text.HAL_TIMEx_OCN_Stop_IT:00000019 $d
+     /tmp/ccOO4eia.s:1044   .text.HAL_TIMEx_OCN_Stop_IT:0000001a $t
+     /tmp/ccOO4eia.s:1194   .text.HAL_TIMEx_OCN_Start_DMA:0000003b $d
+     /tmp/ccOO4eia.s:1194   .text.HAL_TIMEx_OCN_Start_DMA:0000003c $t
+ARM GAS  /tmp/ccOO4eia.s 			page 122
 
 
-     /tmp/ccDeic3P.s:1369   .text.HAL_TIMEx_OCN_Stop_DMA:00000019 $d
-     /tmp/ccDeic3P.s:1369   .text.HAL_TIMEx_OCN_Stop_DMA:0000001a $t
-     /tmp/ccDeic3P.s:1585   .text.HAL_TIMEx_PWMN_Start_IT:00000019 $d
-     /tmp/ccDeic3P.s:1585   .text.HAL_TIMEx_PWMN_Start_IT:0000001a $t
-     /tmp/ccDeic3P.s:1682   .text.HAL_TIMEx_PWMN_Stop_IT:00000019 $d
-     /tmp/ccDeic3P.s:1682   .text.HAL_TIMEx_PWMN_Stop_IT:0000001a $t
-     /tmp/ccDeic3P.s:1832   .text.HAL_TIMEx_PWMN_Start_DMA:0000003b $d
-     /tmp/ccDeic3P.s:1832   .text.HAL_TIMEx_PWMN_Start_DMA:0000003c $t
-     /tmp/ccDeic3P.s:2007   .text.HAL_TIMEx_PWMN_Stop_DMA:00000019 $d
-     /tmp/ccDeic3P.s:2007   .text.HAL_TIMEx_PWMN_Stop_DMA:0000001a $t
-     /tmp/ccDeic3P.s:2625   .text.HAL_TIM_OC_ConfigChannel:00000035 $d
-     /tmp/ccDeic3P.s:2625   .text.HAL_TIM_OC_ConfigChannel:00000036 $t
-     /tmp/ccDeic3P.s:2754   .text.HAL_TIM_PWM_ConfigChannel:0000003b $d
-     /tmp/ccDeic3P.s:2754   .text.HAL_TIM_PWM_ConfigChannel:0000003c $t
-     /tmp/ccDeic3P.s:3352   .text.HAL_TIM_ConfigOCrefClear:0000007b $d
-     /tmp/ccDeic3P.s:3352   .text.HAL_TIM_ConfigOCrefClear:0000007c $t
+     /tmp/ccOO4eia.s:1369   .text.HAL_TIMEx_OCN_Stop_DMA:00000019 $d
+     /tmp/ccOO4eia.s:1369   .text.HAL_TIMEx_OCN_Stop_DMA:0000001a $t
+     /tmp/ccOO4eia.s:1585   .text.HAL_TIMEx_PWMN_Start_IT:00000019 $d
+     /tmp/ccOO4eia.s:1585   .text.HAL_TIMEx_PWMN_Start_IT:0000001a $t
+     /tmp/ccOO4eia.s:1682   .text.HAL_TIMEx_PWMN_Stop_IT:00000019 $d
+     /tmp/ccOO4eia.s:1682   .text.HAL_TIMEx_PWMN_Stop_IT:0000001a $t
+     /tmp/ccOO4eia.s:1832   .text.HAL_TIMEx_PWMN_Start_DMA:0000003b $d
+     /tmp/ccOO4eia.s:1832   .text.HAL_TIMEx_PWMN_Start_DMA:0000003c $t
+     /tmp/ccOO4eia.s:2007   .text.HAL_TIMEx_PWMN_Stop_DMA:00000019 $d
+     /tmp/ccOO4eia.s:2007   .text.HAL_TIMEx_PWMN_Stop_DMA:0000001a $t
+     /tmp/ccOO4eia.s:2625   .text.HAL_TIM_OC_ConfigChannel:00000035 $d
+     /tmp/ccOO4eia.s:2625   .text.HAL_TIM_OC_ConfigChannel:00000036 $t
+     /tmp/ccOO4eia.s:2754   .text.HAL_TIM_PWM_ConfigChannel:0000003b $d
+     /tmp/ccOO4eia.s:2754   .text.HAL_TIM_PWM_ConfigChannel:0000003c $t
+     /tmp/ccOO4eia.s:3352   .text.HAL_TIM_ConfigOCrefClear:0000007b $d
+     /tmp/ccOO4eia.s:3352   .text.HAL_TIM_ConfigOCrefClear:0000007c $t
 
 UNDEFINED SYMBOLS
 TIM_Base_SetConfig

@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc9MB8sg.s 			page 1
+ARM GAS  /tmp/ccRWhstK.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc9MB8sg.s 			page 1
   28:Src/system_stm32f3xx.c ****   *=============================================================================
   29:Src/system_stm32f3xx.c ****   *                         Supported STM32F3xx device
   30:Src/system_stm32f3xx.c ****   *-----------------------------------------------------------------------------
-ARM GAS  /tmp/cc9MB8sg.s 			page 2
+ARM GAS  /tmp/ccRWhstK.s 			page 2
 
 
   31:Src/system_stm32f3xx.c ****   *        System Clock source                    | HSI
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc9MB8sg.s 			page 1
   85:Src/system_stm32f3xx.c ****   * @{
   86:Src/system_stm32f3xx.c ****   */
   87:Src/system_stm32f3xx.c **** 
-ARM GAS  /tmp/cc9MB8sg.s 			page 3
+ARM GAS  /tmp/ccRWhstK.s 			page 3
 
 
   88:Src/system_stm32f3xx.c **** #include "stm32f3xx.h"
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc9MB8sg.s 			page 1
  142:Src/system_stm32f3xx.c ****   */
  143:Src/system_stm32f3xx.c **** uint32_t SystemCoreClock = 8000000;
  144:Src/system_stm32f3xx.c **** 
-ARM GAS  /tmp/cc9MB8sg.s 			page 4
+ARM GAS  /tmp/ccRWhstK.s 			page 4
 
 
  145:Src/system_stm32f3xx.c **** const uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc9MB8sg.s 			page 1
   45 0018 5868     		ldr	r0, [r3, #4]
   46 001a 1149     		ldr	r1, .L2+8
   47 001c 0140     		ands	r1, r1, r0
-ARM GAS  /tmp/cc9MB8sg.s 			page 5
+ARM GAS  /tmp/ccRWhstK.s 			page 5
 
 
   48 001e 5960     		str	r1, [r3, #4]
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc9MB8sg.s 			page 1
   79              		.align	2
   80              	.L2:
   81 0058 00ED00E0 		.word	-536810240
-ARM GAS  /tmp/cc9MB8sg.s 			page 6
+ARM GAS  /tmp/ccRWhstK.s 			page 6
 
 
   82 005c 00100240 		.word	1073876992
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc9MB8sg.s 			page 1
   97              		.cfi_startproc
   98              		@ args = 0, pretend = 0, frame = 0
   99              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/cc9MB8sg.s 			page 7
+ARM GAS  /tmp/ccRWhstK.s 			page 7
 
 
  100              		@ link register save eliminated.
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc9MB8sg.s 			page 1
  137 0026 5A68     		ldr	r2, [r3, #4]
  138              	.LVL8:
  264:Src/system_stm32f3xx.c ****       pllmull = ( pllmull >> 18) + 2;
-ARM GAS  /tmp/cc9MB8sg.s 			page 8
+ARM GAS  /tmp/ccRWhstK.s 			page 8
 
 
  139              		.loc 1 264 0
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc9MB8sg.s 			page 1
  169 0054 0A4A     		ldr	r2, .L12+8
  170 0056 1360     		str	r3, [r2]
  171 0058 02E0     		b	.L9
-ARM GAS  /tmp/cc9MB8sg.s 			page 9
+ARM GAS  /tmp/ccRWhstK.s 			page 9
 
 
  172              	.LVL17:
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc9MB8sg.s 			page 1
  217 0003 00       		.byte	0
  218 0004 00       		.byte	0
  219 0005 00       		.byte	0
-ARM GAS  /tmp/cc9MB8sg.s 			page 10
+ARM GAS  /tmp/ccRWhstK.s 			page 10
 
 
  220 0006 00       		.byte	0
@@ -573,23 +573,23 @@ ARM GAS  /tmp/cc9MB8sg.s 			page 1
  253              		.file 3 "/home/niklas/Downloads/gcc-arm-none-eabi-4_8-2014q3/arm-none-eabi/include/stdint.h"
  254              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
  255              		.file 5 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f334x8.h"
-ARM GAS  /tmp/cc9MB8sg.s 			page 11
+ARM GAS  /tmp/ccRWhstK.s 			page 11
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 system_stm32f3xx.c
-     /tmp/cc9MB8sg.s:21     .text.SystemInit:00000000 $t
-     /tmp/cc9MB8sg.s:26     .text.SystemInit:00000000 SystemInit
-     /tmp/cc9MB8sg.s:81     .text.SystemInit:00000058 $d
-     /tmp/cc9MB8sg.s:89     .text.SystemCoreClockUpdate:00000000 $t
-     /tmp/cc9MB8sg.s:94     .text.SystemCoreClockUpdate:00000000 SystemCoreClockUpdate
-     /tmp/cc9MB8sg.s:197    .text.SystemCoreClockUpdate:00000078 $d
-     /tmp/cc9MB8sg.s:234    .rodata.APBPrescTable:00000000 APBPrescTable
-     /tmp/cc9MB8sg.s:213    .rodata.AHBPrescTable:00000000 AHBPrescTable
-     /tmp/cc9MB8sg.s:248    .data.SystemCoreClock:00000000 SystemCoreClock
-     /tmp/cc9MB8sg.s:209    .rodata.AHBPrescTable:00000000 $d
-     /tmp/cc9MB8sg.s:231    .rodata.APBPrescTable:00000000 $d
-     /tmp/cc9MB8sg.s:244    .data.SystemCoreClock:00000000 $d
+     /tmp/ccRWhstK.s:21     .text.SystemInit:00000000 $t
+     /tmp/ccRWhstK.s:26     .text.SystemInit:00000000 SystemInit
+     /tmp/ccRWhstK.s:81     .text.SystemInit:00000058 $d
+     /tmp/ccRWhstK.s:89     .text.SystemCoreClockUpdate:00000000 $t
+     /tmp/ccRWhstK.s:94     .text.SystemCoreClockUpdate:00000000 SystemCoreClockUpdate
+     /tmp/ccRWhstK.s:197    .text.SystemCoreClockUpdate:00000078 $d
+     /tmp/ccRWhstK.s:234    .rodata.APBPrescTable:00000000 APBPrescTable
+     /tmp/ccRWhstK.s:213    .rodata.AHBPrescTable:00000000 AHBPrescTable
+     /tmp/ccRWhstK.s:248    .data.SystemCoreClock:00000000 SystemCoreClock
+     /tmp/ccRWhstK.s:209    .rodata.AHBPrescTable:00000000 $d
+     /tmp/ccRWhstK.s:231    .rodata.APBPrescTable:00000000 $d
+     /tmp/ccRWhstK.s:244    .data.SystemCoreClock:00000000 $d
                      .debug_frame:00000010 $d
 
 NO UNDEFINED SYMBOLS

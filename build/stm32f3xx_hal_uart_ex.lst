@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccLPRYi7.s 			page 1
+ARM GAS  /tmp/ccOvF4gr.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccLPRYi7.s 			page 1
   28:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   *
   29:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   * <h2><center>&copy; COPYRIGHT(c) 2016 STMicroelectronics</center></h2>
   30:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   *
-ARM GAS  /tmp/ccLPRYi7.s 			page 2
+ARM GAS  /tmp/ccOvF4gr.s 			page 2
 
 
   31:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   * Redistribution and use in source and binary forms, with or without modification,
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccLPRYi7.s 			page 1
   85:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c **** ===============================================================================
   86:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****             ##### Initialization and Configuration functions #####
   87:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****  ==============================================================================
-ARM GAS  /tmp/ccLPRYi7.s 			page 3
+ARM GAS  /tmp/ccOvF4gr.s 			page 3
 
 
   88:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****     [..]
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccLPRYi7.s 			page 1
  142:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****       |    0    |    1    |     0     |    | SB |    9 bit data   | STB |     |
  143:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****       |---------|---------|-----------|---------------------------------------|
  144:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****       |    0    |    1    |     1     |    | SB | 8 bit data | PB | STB |     |
-ARM GAS  /tmp/ccLPRYi7.s 			page 4
+ARM GAS  /tmp/ccOvF4gr.s 			page 4
 
 
  145:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****       |---------|---------|-----------|---------------------------------------|
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccLPRYi7.s 			page 1
   50 000c 3AD0     		beq	.L5
  178:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   {
  179:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****     return HAL_ERROR;
-ARM GAS  /tmp/ccLPRYi7.s 			page 5
+ARM GAS  /tmp/ccOvF4gr.s 			page 5
 
 
  180:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   }
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccLPRYi7.s 			page 1
   76 003a 24D0     		beq	.L2
  209:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   {
  210:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****     return HAL_ERROR;
-ARM GAS  /tmp/ccLPRYi7.s 			page 6
+ARM GAS  /tmp/ccOvF4gr.s 			page 6
 
 
  211:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   }
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccLPRYi7.s 			page 1
  111 0072 2368     		ldr	r3, [r4]
  112 0074 1A68     		ldr	r2, [r3]
  113 0076 42F00102 		orr	r2, r2, #1
-ARM GAS  /tmp/ccLPRYi7.s 			page 7
+ARM GAS  /tmp/ccOvF4gr.s 			page 7
 
 
  114 007a 1A60     		str	r2, [r3]
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccLPRYi7.s 			page 1
  261:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   * @brief  UART wakeup from Stop mode callback.
  262:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   * @param  huart: UART handle.
  263:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   * @retval None
-ARM GAS  /tmp/ccLPRYi7.s 			page 8
+ARM GAS  /tmp/ccOvF4gr.s 			page 8
 
 
  264:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   */
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccLPRYi7.s 			page 1
  302:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   * @param WakeUpSelection: address match, Start Bit detection or RXNE bit status.
  303:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   * This parameter can be one of the following values:
  304:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   *      @arg @ref UART_WAKEUP_ON_ADDRESS
-ARM GAS  /tmp/ccLPRYi7.s 			page 9
+ARM GAS  /tmp/ccOvF4gr.s 			page 9
 
 
  305:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   *      @arg @ref UART_WAKEUP_ON_STARTBIT
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccLPRYi7.s 			page 1
  326:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c **** 
  327:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   /* Set the wake-up selection scheme */
  328:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   MODIFY_REG(huart->Instance->CR3, USART_CR3_WUS, WakeUpSelection.WakeUpEvent);
-ARM GAS  /tmp/ccLPRYi7.s 			page 10
+ARM GAS  /tmp/ccOvF4gr.s 			page 10
 
 
  190              		.loc 1 328 0 discriminator 2
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccLPRYi7.s 			page 1
  348:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****     /* Initialize the UART State */
  349:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****     huart->gState = HAL_UART_STATE_READY;
  225              		.loc 1 349 0
-ARM GAS  /tmp/ccLPRYi7.s 			page 11
+ARM GAS  /tmp/ccOvF4gr.s 			page 11
 
 
  226 0068 2023     		movs	r3, #32
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccLPRYi7.s 			page 1
  263              		@ frame_needed = 0, uses_anonymous_args = 0
  264              		@ link register save eliminated.
  265              	.LVL24:
-ARM GAS  /tmp/ccLPRYi7.s 			page 12
+ARM GAS  /tmp/ccOvF4gr.s 			page 12
 
 
  367:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   /* Check parameter */
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccLPRYi7.s 			page 1
  302              		.align	2
  303              		.global	HAL_UARTEx_DisableStopMode
  304              		.thumb
-ARM GAS  /tmp/ccLPRYi7.s 			page 13
+ARM GAS  /tmp/ccOvF4gr.s 			page 13
 
 
  305              		.thumb_func
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccLPRYi7.s 			page 1
  409:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   return HAL_OK;
  336              		.loc 1 409 0 discriminator 2
  337 002a 1846     		mov	r0, r3
-ARM GAS  /tmp/ccLPRYi7.s 			page 14
+ARM GAS  /tmp/ccOvF4gr.s 			page 14
 
 
  338              	.LVL29:
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccLPRYi7.s 			page 1
  432:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c **** 
  433:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   /* Check the address length parameter */
  434:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c ****   assert_param(IS_UART_ADDRESSLENGTH_DETECT(AddressLength));
-ARM GAS  /tmp/ccLPRYi7.s 			page 15
+ARM GAS  /tmp/ccOvF4gr.s 			page 15
 
 
  435:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c **** 
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccLPRYi7.s 			page 1
  410              		.file 3 "/home/niklas/Downloads/gcc-arm-none-eabi-4_8-2014q3/arm-none-eabi/include/stdint.h"
  411              		.file 4 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f334x8.h"
  412              		.file 5 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h"
-ARM GAS  /tmp/ccLPRYi7.s 			page 16
+ARM GAS  /tmp/ccOvF4gr.s 			page 16
 
 
  413              		.file 6 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h"
@@ -906,23 +906,23 @@ ARM GAS  /tmp/ccLPRYi7.s 			page 1
  415              		.file 8 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h"
  416              		.file 9 "Drivers/CMSIS/Include/core_cm4.h"
  417              		.file 10 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
-ARM GAS  /tmp/ccLPRYi7.s 			page 17
+ARM GAS  /tmp/ccOvF4gr.s 			page 17
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f3xx_hal_uart_ex.c
-     /tmp/ccLPRYi7.s:21     .text.HAL_RS485Ex_Init:00000000 $t
-     /tmp/ccLPRYi7.s:26     .text.HAL_RS485Ex_Init:00000000 HAL_RS485Ex_Init
-     /tmp/ccLPRYi7.s:132    .text.HAL_UARTEx_WakeupCallback:00000000 $t
-     /tmp/ccLPRYi7.s:137    .text.HAL_UARTEx_WakeupCallback:00000000 HAL_UARTEx_WakeupCallback
-     /tmp/ccLPRYi7.s:150    .text.HAL_UARTEx_StopModeWakeUpSourceConfig:00000000 $t
-     /tmp/ccLPRYi7.s:155    .text.HAL_UARTEx_StopModeWakeUpSourceConfig:00000000 HAL_UARTEx_StopModeWakeUpSourceConfig
-     /tmp/ccLPRYi7.s:253    .text.HAL_UARTEx_EnableStopMode:00000000 $t
-     /tmp/ccLPRYi7.s:258    .text.HAL_UARTEx_EnableStopMode:00000000 HAL_UARTEx_EnableStopMode
-     /tmp/ccLPRYi7.s:302    .text.HAL_UARTEx_DisableStopMode:00000000 $t
-     /tmp/ccLPRYi7.s:307    .text.HAL_UARTEx_DisableStopMode:00000000 HAL_UARTEx_DisableStopMode
-     /tmp/ccLPRYi7.s:351    .text.HAL_MultiProcessorEx_AddressLength_Set:00000000 $t
-     /tmp/ccLPRYi7.s:356    .text.HAL_MultiProcessorEx_AddressLength_Set:00000000 HAL_MultiProcessorEx_AddressLength_Set
+     /tmp/ccOvF4gr.s:21     .text.HAL_RS485Ex_Init:00000000 $t
+     /tmp/ccOvF4gr.s:26     .text.HAL_RS485Ex_Init:00000000 HAL_RS485Ex_Init
+     /tmp/ccOvF4gr.s:132    .text.HAL_UARTEx_WakeupCallback:00000000 $t
+     /tmp/ccOvF4gr.s:137    .text.HAL_UARTEx_WakeupCallback:00000000 HAL_UARTEx_WakeupCallback
+     /tmp/ccOvF4gr.s:150    .text.HAL_UARTEx_StopModeWakeUpSourceConfig:00000000 $t
+     /tmp/ccOvF4gr.s:155    .text.HAL_UARTEx_StopModeWakeUpSourceConfig:00000000 HAL_UARTEx_StopModeWakeUpSourceConfig
+     /tmp/ccOvF4gr.s:253    .text.HAL_UARTEx_EnableStopMode:00000000 $t
+     /tmp/ccOvF4gr.s:258    .text.HAL_UARTEx_EnableStopMode:00000000 HAL_UARTEx_EnableStopMode
+     /tmp/ccOvF4gr.s:302    .text.HAL_UARTEx_DisableStopMode:00000000 $t
+     /tmp/ccOvF4gr.s:307    .text.HAL_UARTEx_DisableStopMode:00000000 HAL_UARTEx_DisableStopMode
+     /tmp/ccOvF4gr.s:351    .text.HAL_MultiProcessorEx_AddressLength_Set:00000000 $t
+     /tmp/ccOvF4gr.s:356    .text.HAL_MultiProcessorEx_AddressLength_Set:00000000 HAL_MultiProcessorEx_AddressLength_Set
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

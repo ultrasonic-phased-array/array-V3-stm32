@@ -1,48 +1,26 @@
-/**
-  ******************************************************************************
-  * File Name          : main.c
-  * Description        : Main program body
-  ******************************************************************************
-  ** This notice applies to any and all portions of this file
-  * that are not between comment pairs USER CODE BEGIN and
-  * USER CODE END. Other portions of this file, whether
-  * inserted by the user or by software development tools
-  * are owned by their respective copyright owners.
-  *
-  * COPYRIGHT(c) 2018 STMicroelectronics
-  *
-  * Redistribution and use in source and binary forms, with or without modification,
-  * are permitted provided that the following conditions are met:
-  *   1. Redistributions of source code must retain the above copyright notice,
-  *      this list of conditions and the following disclaimer.
-  *   2. Redistributions in binary form must reproduce the above copyright notice,
-  *      this list of conditions and the following disclaimer in the documentation
-  *      and/or other materials provided with the distribution.
-  *   3. Neither the name of STMicroelectronics nor the names of its contributors
-  *      may be used to endorse or promote products derived from this software
-  *      without specific prior written permission.
-  *
-  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-  * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-  * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-  * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-  * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-  * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-  * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-  * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-  * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-  *
-  ******************************************************************************
-  */
+/*
+* This file is part of the phased-array project.
+*
+* Copyright (C) 2018 Niklas Fauth <niklas.fauth@kit.fail>
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "defines.h"
 #include "stm32f3xx_hal.h"
-
-/* USER CODE BEGIN Includes */
-
-/* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
 ADC_HandleTypeDef hadc1;
@@ -68,15 +46,15 @@ DMA_HandleTypeDef hdma_usart1_rx;
 DMA_HandleTypeDef hdma_usart1_tx;
 
 
-
-/* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
 float Vin;
 float Vout;
 float Temp1;
 float Temp2;
 float Iout;
-/* USER CODE END PV */
+
+float duty;
+float esum;
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
@@ -105,41 +83,20 @@ void HAL_HRTIM_MspPostInit(HRTIM_HandleTypeDef *hhrtim1);
 void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
 
 
-/* USER CODE BEGIN PFP */
-/* Private function prototypes -----------------------------------------------*/
-
-/* USER CODE END PFP */
-
-/* USER CODE BEGIN 0 */
-
 void DCDC_Reg() {
   HAL_GPIO_TogglePin(LED_ACT_GPIO_Port, LED_ACT_Pin);
 }
 
-/* USER CODE END 0 */
-
 int main(void)
 {
-
-  /* USER CODE BEGIN 1 */
-
-  /* USER CODE END 1 */
 
   /* MCU Configuration----------------------------------------------------------*/
 
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
   HAL_Init();
 
-  /* USER CODE BEGIN Init */
-
-  /* USER CODE END Init */
-
   /* Configure the system clock */
   SystemClock_Config();
-
-  /* USER CODE BEGIN SysInit */
-
-  /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
@@ -156,55 +113,50 @@ int main(void)
   MX_USART1_UART_Init();
   MX_USART3_UART_Init();
 
-
   ADC1_Config();
   ADC2_Config();
-
-
 
   HRTIM_Config();
   //MX_DAC2_Init();
 
-  /* USER CODE BEGIN 2 */
-
-
-
-  /* USER CODE END 2 */
-
   /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
+
   while (1)
   {
-  /* USER CODE END WHILE */
-
-  /* USER CODE BEGIN 3 */
-
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < 2000; i++) {
       Vin = (HAL_ADCEx_InjectedGetValue(&hadc1, ADC_INJECTED_RANK_2) * ADC_VREF * VOUT_DIV)/ARES;
       Vout = (HAL_ADCEx_InjectedGetValue(&hadc1, ADC_INJECTED_RANK_1) * ADC_VREF * VOUT_DIV)/ARES;
       int16_t USpp = (HAL_ADCEx_InjectedGetValue(&hadc1, ADC_INJECTED_RANK_3) * ADC_VREF)/ARES;
 
-      Iout = (HAL_ADCEx_InjectedGetValue(&hadc2, ADC_INJECTED_RANK_1) * ADC_VREF)/ARES;
+      Iout = (HAL_ADCEx_InjectedGetValue(&hadc2, ADC_INJECTED_RANK_1) * ADC_VREF * IOUT_DIV)/ARES;
 
       Temp1 = r2temp(NTC_R((HAL_ADCEx_InjectedGetValue(&hadc2, ADC_INJECTED_RANK_2) * ADC_VREF)/ARES));
       Temp2 = r2temp(NTC_R((HAL_ADCEx_InjectedGetValue(&hadc2, ADC_INJECTED_RANK_3) * ADC_VREF)/ARES));
 
-      HRTIM1->sTimerxRegs[HRTIM_TIMERINDEX_TIMER_A].CMP1xR = BUCK_PWM_PERIOD - (BUCK_PWM_PERIOD * (1.0f - (Vin / VTARGET)));
-      HAL_Delay(1);
+      float error = VTARGET - Vout;
+      esum += error;
+      esum = CLAMP(esum, -2000, 2000);
+
+
+      duty = 1.0f - (Vin / (VTARGET + DC_RES * Iout + (esum * 0.01f)));
+      duty = MIN(duty, 0.76f); // limit dutycicle (max 50V at 12V in)
+
+      uint16_t TIMERSET = BUCK_PWM_PERIOD - (BUCK_PWM_PERIOD * duty);
+
+      HRTIM1->sTimerxRegs[HRTIM_TIMERINDEX_TIMER_A].CMP1xR = TIMERSET; //set new compare value
+      //HAL_Delay(1);
     }
 
     HAL_GPIO_TogglePin(LED_READY_GPIO_Port, LED_READY_Pin);
 
 
-    printf("%c[2J", 27);
-    printf("%c[H", 27);
+    printf("%c[2J", 27); // clear terminal
+    printf("%c[H", 27);  // home cursor
 
     printf("NTC1: %.2f°C  NTC2: %.2f°C\n\r", Temp1, Temp2);
     printf("Vin:  %.3fV  Vout: %.3fV\n\r", Vin, Vout);
-    printf("Iout: %.2fA\n\r", Iout);
+    printf("Iout: %.2fA    Pout: %.2fW  e: %.2f\n\r", Iout, Iout*Vout, esum);
   }
-  /* USER CODE END 3 */
-
 }
 
 /** System Clock Configuration
@@ -870,10 +822,6 @@ static void MX_GPIO_Init(void)
 
 }
 
-/* USER CODE BEGIN 4 */
-
-/* USER CODE END 4 */
-
 /**
   * @brief  This function is executed in case of error occurrence.
   * @param  None
@@ -900,21 +848,7 @@ void _Error_Handler(char * file, int line)
    */
 void assert_failed(uint8_t* file, uint32_t line)
 {
-  /* USER CODE BEGIN 6 */
-  /* User can add his own implementation to report the file name and line number,
-    ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
-  /* USER CODE END 6 */
 
 }
 
 #endif
-
-/**
-  * @}
-  */
-
-/**
-  * @}
-*/
-
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

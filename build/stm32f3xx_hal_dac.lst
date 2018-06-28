@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cclocwmZ.s 			page 1
+ARM GAS  /tmp/ccUZW80p.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cclocwmZ.s 			page 1
   28:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****           (for STM32F3 devices having 2 channels on DAC1)
   29:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****       (#) DAC2 channel1 with DAC2_OUT1 (PA6) as output 
   30:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****           (for STM32F3 devices having 2 DAC)
-ARM GAS  /tmp/cclocwmZ.s 			page 2
+ARM GAS  /tmp/ccUZW80p.s 			page 2
 
 
   31:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c **** 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cclocwmZ.s 			page 1
   85:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****       
   86:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****        Wave generation is NOT available in DAC2.
   87:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c **** 
-ARM GAS  /tmp/cclocwmZ.s 			page 3
+ARM GAS  /tmp/ccUZW80p.s 			page 3
 
 
   88:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****        *** DAC data format ***
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cclocwmZ.s 			page 1
  142:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****       (+) DAC APB clock must be enabled to get write access to DAC
  143:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****           registers using HAL_DAC_Init()
  144:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****       (+) Configure DAC_OUTx (DAC_OUT1: PA4, DAC_OUT2: PA5) in analog mode.
-ARM GAS  /tmp/cclocwmZ.s 			page 4
+ARM GAS  /tmp/ccUZW80p.s 			page 4
 
 
  145:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****       (+) Configure the DAC channel using HAL_DAC_ConfigChannel() function.
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cclocwmZ.s 			page 1
  199:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****   *      this list of conditions and the following disclaimer in the documentation
  200:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****   *      and/or other materials provided with the distribution.
  201:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****   *   3. Neither the name of STMicroelectronics nor the names of its contributors
-ARM GAS  /tmp/cclocwmZ.s 			page 5
+ARM GAS  /tmp/ccUZW80p.s 			page 5
 
 
  202:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****   *      may be used to endorse or promote products derived from this software
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cclocwmZ.s 			page 1
  256:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****   * @{
  257:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****   */
  258:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c **** 
-ARM GAS  /tmp/cclocwmZ.s 			page 6
+ARM GAS  /tmp/ccUZW80p.s 			page 6
 
 
  259:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c **** /** @defgroup DAC_Exported_Functions_Group1 Initialization and de-initialization functions 
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cclocwmZ.s 			page 1
  313:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c **** /**
  314:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****   * @brief  Deinitialize the DAC peripheral registers to their default reset values.
  315:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****   * @param  hdac: pointer to a DAC_HandleTypeDef structure that contains
-ARM GAS  /tmp/cclocwmZ.s 			page 7
+ARM GAS  /tmp/ccUZW80p.s 			page 7
 
 
  316:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****   *         the configuration information for the specified DAC.
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cclocwmZ.s 			page 1
   43              		.thumb_func
   45              	HAL_DAC_Init:
   46              	.LFB123:
-ARM GAS  /tmp/cclocwmZ.s 			page 8
+ARM GAS  /tmp/ccUZW80p.s 			page 8
 
 
  282:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c **** { 
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cclocwmZ.s 			page 1
   89 0026 10BD     		pop	{r4, pc}
   90              		.cfi_endproc
   91              	.LFE123:
-ARM GAS  /tmp/cclocwmZ.s 			page 9
+ARM GAS  /tmp/ccUZW80p.s 			page 9
 
 
   93              		.section	.text.HAL_DAC_MspDeInit,"ax",%progbits
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cclocwmZ.s 			page 1
  131 0002 0446     		mov	r4, r0
  132 0004 40B1     		cbz	r0, .L9
  331:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****   hdac->State = HAL_DAC_STATE_BUSY;
-ARM GAS  /tmp/cclocwmZ.s 			page 10
+ARM GAS  /tmp/ccUZW80p.s 			page 10
 
 
  133              		.loc 1 331 0
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cclocwmZ.s 			page 1
  389:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****   ==============================================================================
  390:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****              ##### IO operation functions #####
  391:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****   ==============================================================================  
-ARM GAS  /tmp/cclocwmZ.s 			page 11
+ARM GAS  /tmp/ccUZW80p.s 			page 11
 
 
  392:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****     [..]  This section provides functions allowing to:
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cclocwmZ.s 			page 1
  427:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c **** 
  428:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c **** /**
  429:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****   * @brief  Disables DAC and stop conversion of channel.
-ARM GAS  /tmp/cclocwmZ.s 			page 12
+ARM GAS  /tmp/ccUZW80p.s 			page 12
 
 
  430:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****   * @param  hdac: pointer to a DAC_HandleTypeDef structure that contains
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cclocwmZ.s 			page 1
  219              		.thumb_func
  221              	HAL_DAC_Stop_DMA:
  222              	.LFB129:
-ARM GAS  /tmp/cclocwmZ.s 			page 13
+ARM GAS  /tmp/ccUZW80p.s 			page 13
 
 
  453:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c **** 
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cclocwmZ.s 			page 1
  480:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****   if (Channel == DAC_CHANNEL_1)
  250              		.loc 1 480 0
  251 0022 41B9     		cbnz	r1, .L13
-ARM GAS  /tmp/cclocwmZ.s 			page 14
+ARM GAS  /tmp/ccUZW80p.s 			page 14
 
 
  481:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****   {
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cclocwmZ.s 			page 1
  277              		.loc 1 509 0
  278 0048 0423     		movs	r3, #4
  279 004a 2371     		strb	r3, [r4, #4]
-ARM GAS  /tmp/cclocwmZ.s 			page 15
+ARM GAS  /tmp/ccUZW80p.s 			page 15
 
 
  280 004c 10BD     		pop	{r4, pc}
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cclocwmZ.s 			page 1
  541:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****   /* Return function status */
  542:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****   return HAL_OK;
  543:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c **** }
-ARM GAS  /tmp/cclocwmZ.s 			page 16
+ARM GAS  /tmp/ccUZW80p.s 			page 16
 
 
  305              		.loc 1 543 0
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cclocwmZ.s 			page 1
  566:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****   
  567:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c **** /** @defgroup DAC_Exported_Functions_Group3 Peripheral Control functions
  568:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****  *  @brief    Peripheral Control functions 
-ARM GAS  /tmp/cclocwmZ.s 			page 17
+ARM GAS  /tmp/ccUZW80p.s 			page 17
 
 
  569:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****  *
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cclocwmZ.s 			page 1
  357              		.thumb
  358              		.thumb_func
  360              	HAL_DAC_SetValue:
-ARM GAS  /tmp/cclocwmZ.s 			page 18
+ARM GAS  /tmp/ccUZW80p.s 			page 18
 
 
  361              	.LFB133:
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cclocwmZ.s 			page 1
  636:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****   return HAL_ERROR;
  637:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c **** }
  389              		.loc 1 637 0
-ARM GAS  /tmp/cclocwmZ.s 			page 19
+ARM GAS  /tmp/ccUZW80p.s 			page 19
 
 
  390 0000 0120     		movs	r0, #1
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cclocwmZ.s 			page 1
  413              		.loc 1 670 0
  414 0002 7047     		bx	lr
  415              		.cfi_endproc
-ARM GAS  /tmp/cclocwmZ.s 			page 20
+ARM GAS  /tmp/ccUZW80p.s 			page 20
 
 
  416              	.LFE135:
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cclocwmZ.s 			page 1
  697:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c **** __weak void HAL_DAC_ConvCpltCallbackCh1(DAC_HandleTypeDef* hdac)
  698:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c **** {
  448              		.loc 1 698 0
-ARM GAS  /tmp/cclocwmZ.s 			page 21
+ARM GAS  /tmp/ccUZW80p.s 			page 21
 
 
  449              		.cfi_startproc
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cclocwmZ.s 			page 1
  722:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c **** 
  723:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c **** /**
  724:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****   * @brief  Error DAC callback for Channel1.
-ARM GAS  /tmp/cclocwmZ.s 			page 22
+ARM GAS  /tmp/ccUZW80p.s 			page 22
 
 
  725:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac.c ****   * @param  hdac: pointer to a DAC_HandleTypeDef structure that contains
@@ -1318,50 +1318,50 @@ ARM GAS  /tmp/cclocwmZ.s 			page 1
  518              		.file 6 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h"
  519              		.file 7 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dac.h"
  520              		.file 8 "Drivers/CMSIS/Include/core_cm4.h"
-ARM GAS  /tmp/cclocwmZ.s 			page 23
+ARM GAS  /tmp/ccUZW80p.s 			page 23
 
 
-ARM GAS  /tmp/cclocwmZ.s 			page 24
+ARM GAS  /tmp/ccUZW80p.s 			page 24
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f3xx_hal_dac.c
-     /tmp/cclocwmZ.s:21     .text.HAL_DAC_MspInit:00000000 $t
-     /tmp/cclocwmZ.s:26     .text.HAL_DAC_MspInit:00000000 HAL_DAC_MspInit
-     /tmp/cclocwmZ.s:40     .text.HAL_DAC_Init:00000000 $t
-     /tmp/cclocwmZ.s:45     .text.HAL_DAC_Init:00000000 HAL_DAC_Init
-     /tmp/cclocwmZ.s:94     .text.HAL_DAC_MspDeInit:00000000 $t
-     /tmp/cclocwmZ.s:99     .text.HAL_DAC_MspDeInit:00000000 HAL_DAC_MspDeInit
-     /tmp/cclocwmZ.s:112    .text.HAL_DAC_DeInit:00000000 $t
-     /tmp/cclocwmZ.s:117    .text.HAL_DAC_DeInit:00000000 HAL_DAC_DeInit
-     /tmp/cclocwmZ.s:159    .text.HAL_DAC_Start:00000000 $t
-     /tmp/cclocwmZ.s:164    .text.HAL_DAC_Start:00000000 HAL_DAC_Start
-     /tmp/cclocwmZ.s:180    .text.HAL_DAC_Stop:00000000 $t
-     /tmp/cclocwmZ.s:185    .text.HAL_DAC_Stop:00000000 HAL_DAC_Stop
-     /tmp/cclocwmZ.s:216    .text.HAL_DAC_Stop_DMA:00000000 $t
-     /tmp/cclocwmZ.s:221    .text.HAL_DAC_Stop_DMA:00000000 HAL_DAC_Stop_DMA
-     /tmp/cclocwmZ.s:292    .text.HAL_DAC_GetValue:00000000 $t
-     /tmp/cclocwmZ.s:297    .text.HAL_DAC_GetValue:00000000 HAL_DAC_GetValue
-     /tmp/cclocwmZ.s:313    .text.HAL_DACEx_DualGetValue:00000000 $t
-     /tmp/cclocwmZ.s:318    .text.HAL_DACEx_DualGetValue:00000000 HAL_DACEx_DualGetValue
-     /tmp/cclocwmZ.s:334    .text.HAL_DAC_ConfigChannel:00000000 $t
-     /tmp/cclocwmZ.s:339    .text.HAL_DAC_ConfigChannel:00000000 HAL_DAC_ConfigChannel
-     /tmp/cclocwmZ.s:355    .text.HAL_DAC_SetValue:00000000 $t
-     /tmp/cclocwmZ.s:360    .text.HAL_DAC_SetValue:00000000 HAL_DAC_SetValue
-     /tmp/cclocwmZ.s:376    .text.HAL_DACEx_DualSetValue:00000000 $t
-     /tmp/cclocwmZ.s:381    .text.HAL_DACEx_DualSetValue:00000000 HAL_DACEx_DualSetValue
-     /tmp/cclocwmZ.s:397    .text.HAL_DAC_GetState:00000000 $t
-     /tmp/cclocwmZ.s:402    .text.HAL_DAC_GetState:00000000 HAL_DAC_GetState
-     /tmp/cclocwmZ.s:419    .text.HAL_DAC_GetError:00000000 $t
-     /tmp/cclocwmZ.s:424    .text.HAL_DAC_GetError:00000000 HAL_DAC_GetError
-     /tmp/cclocwmZ.s:441    .text.HAL_DAC_ConvCpltCallbackCh1:00000000 $t
-     /tmp/cclocwmZ.s:446    .text.HAL_DAC_ConvCpltCallbackCh1:00000000 HAL_DAC_ConvCpltCallbackCh1
-     /tmp/cclocwmZ.s:459    .text.HAL_DAC_ConvHalfCpltCallbackCh1:00000000 $t
-     /tmp/cclocwmZ.s:464    .text.HAL_DAC_ConvHalfCpltCallbackCh1:00000000 HAL_DAC_ConvHalfCpltCallbackCh1
-     /tmp/cclocwmZ.s:477    .text.HAL_DAC_ErrorCallbackCh1:00000000 $t
-     /tmp/cclocwmZ.s:482    .text.HAL_DAC_ErrorCallbackCh1:00000000 HAL_DAC_ErrorCallbackCh1
-     /tmp/cclocwmZ.s:495    .text.HAL_DAC_DMAUnderrunCallbackCh1:00000000 $t
-     /tmp/cclocwmZ.s:500    .text.HAL_DAC_DMAUnderrunCallbackCh1:00000000 HAL_DAC_DMAUnderrunCallbackCh1
+     /tmp/ccUZW80p.s:21     .text.HAL_DAC_MspInit:00000000 $t
+     /tmp/ccUZW80p.s:26     .text.HAL_DAC_MspInit:00000000 HAL_DAC_MspInit
+     /tmp/ccUZW80p.s:40     .text.HAL_DAC_Init:00000000 $t
+     /tmp/ccUZW80p.s:45     .text.HAL_DAC_Init:00000000 HAL_DAC_Init
+     /tmp/ccUZW80p.s:94     .text.HAL_DAC_MspDeInit:00000000 $t
+     /tmp/ccUZW80p.s:99     .text.HAL_DAC_MspDeInit:00000000 HAL_DAC_MspDeInit
+     /tmp/ccUZW80p.s:112    .text.HAL_DAC_DeInit:00000000 $t
+     /tmp/ccUZW80p.s:117    .text.HAL_DAC_DeInit:00000000 HAL_DAC_DeInit
+     /tmp/ccUZW80p.s:159    .text.HAL_DAC_Start:00000000 $t
+     /tmp/ccUZW80p.s:164    .text.HAL_DAC_Start:00000000 HAL_DAC_Start
+     /tmp/ccUZW80p.s:180    .text.HAL_DAC_Stop:00000000 $t
+     /tmp/ccUZW80p.s:185    .text.HAL_DAC_Stop:00000000 HAL_DAC_Stop
+     /tmp/ccUZW80p.s:216    .text.HAL_DAC_Stop_DMA:00000000 $t
+     /tmp/ccUZW80p.s:221    .text.HAL_DAC_Stop_DMA:00000000 HAL_DAC_Stop_DMA
+     /tmp/ccUZW80p.s:292    .text.HAL_DAC_GetValue:00000000 $t
+     /tmp/ccUZW80p.s:297    .text.HAL_DAC_GetValue:00000000 HAL_DAC_GetValue
+     /tmp/ccUZW80p.s:313    .text.HAL_DACEx_DualGetValue:00000000 $t
+     /tmp/ccUZW80p.s:318    .text.HAL_DACEx_DualGetValue:00000000 HAL_DACEx_DualGetValue
+     /tmp/ccUZW80p.s:334    .text.HAL_DAC_ConfigChannel:00000000 $t
+     /tmp/ccUZW80p.s:339    .text.HAL_DAC_ConfigChannel:00000000 HAL_DAC_ConfigChannel
+     /tmp/ccUZW80p.s:355    .text.HAL_DAC_SetValue:00000000 $t
+     /tmp/ccUZW80p.s:360    .text.HAL_DAC_SetValue:00000000 HAL_DAC_SetValue
+     /tmp/ccUZW80p.s:376    .text.HAL_DACEx_DualSetValue:00000000 $t
+     /tmp/ccUZW80p.s:381    .text.HAL_DACEx_DualSetValue:00000000 HAL_DACEx_DualSetValue
+     /tmp/ccUZW80p.s:397    .text.HAL_DAC_GetState:00000000 $t
+     /tmp/ccUZW80p.s:402    .text.HAL_DAC_GetState:00000000 HAL_DAC_GetState
+     /tmp/ccUZW80p.s:419    .text.HAL_DAC_GetError:00000000 $t
+     /tmp/ccUZW80p.s:424    .text.HAL_DAC_GetError:00000000 HAL_DAC_GetError
+     /tmp/ccUZW80p.s:441    .text.HAL_DAC_ConvCpltCallbackCh1:00000000 $t
+     /tmp/ccUZW80p.s:446    .text.HAL_DAC_ConvCpltCallbackCh1:00000000 HAL_DAC_ConvCpltCallbackCh1
+     /tmp/ccUZW80p.s:459    .text.HAL_DAC_ConvHalfCpltCallbackCh1:00000000 $t
+     /tmp/ccUZW80p.s:464    .text.HAL_DAC_ConvHalfCpltCallbackCh1:00000000 HAL_DAC_ConvHalfCpltCallbackCh1
+     /tmp/ccUZW80p.s:477    .text.HAL_DAC_ErrorCallbackCh1:00000000 $t
+     /tmp/ccUZW80p.s:482    .text.HAL_DAC_ErrorCallbackCh1:00000000 HAL_DAC_ErrorCallbackCh1
+     /tmp/ccUZW80p.s:495    .text.HAL_DAC_DMAUnderrunCallbackCh1:00000000 $t
+     /tmp/ccUZW80p.s:500    .text.HAL_DAC_DMAUnderrunCallbackCh1:00000000 HAL_DAC_DMAUnderrunCallbackCh1
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

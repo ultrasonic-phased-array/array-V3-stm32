@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cccouwDm.s 			page 1
+ARM GAS  /tmp/cckiGtEU.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
   29:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   * <h2><center>&copy; COPYRIGHT(c) 2016 STMicroelectronics</center></h2>
   30:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *
   31:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   * Redistribution and use in source and binary forms, with or without modification,
-ARM GAS  /tmp/cccouwDm.s 			page 2
+ARM GAS  /tmp/cckiGtEU.s 			page 2
 
 
   32:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   * are permitted provided that the following conditions are met:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
   86:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Unit: ms                                                                 */
   87:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   #define ADC_CALIBRATION_TIMEOUT         ( 10U)
   88:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   #define ADC_ENABLE_TIMEOUT              (  2U)
-ARM GAS  /tmp/cccouwDm.s 			page 3
+ARM GAS  /tmp/cckiGtEU.s 			page 3
 
 
   89:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   #define ADC_DISABLE_TIMEOUT             (  2U)
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  143:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** 
  144:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Delay for temperature sensor stabilization time.                         */
  145:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Maximum delay is 10us (refer to device datasheet, parameter tSTART).     */
-ARM GAS  /tmp/cccouwDm.s 			page 4
+ARM GAS  /tmp/cckiGtEU.s 			page 4
 
 
  146:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Unit: us                                                                 */
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  200:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   * @{
  201:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   */
  202:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** 
-ARM GAS  /tmp/cccouwDm.s 			page 5
+ARM GAS  /tmp/cckiGtEU.s 			page 5
 
 
  203:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** /** @defgroup ADCEx_Exported_Functions_Group1 ADCEx Initialization and de-initialization functions
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  257:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   uint32_t tmpCFGR = 0U;
  258:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   __IO uint32_t wait_loop_index = 0U;
  259:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   
-ARM GAS  /tmp/cccouwDm.s 			page 6
+ARM GAS  /tmp/cckiGtEU.s 			page 6
 
 
  260:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Check ADC handle */
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  314:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       HAL_ADC_MspInit(hadc);
  315:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       
  316:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* Enable voltage regulator (if disabled at this step) */
-ARM GAS  /tmp/cccouwDm.s 			page 7
+ARM GAS  /tmp/cckiGtEU.s 			page 7
 
 
  317:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       if (HAL_IS_BIT_CLR(hadc->Instance->CR, ADC_CR_ADVREGEN_0))
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  371:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     }
  372:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   }
  373:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** 
-ARM GAS  /tmp/cccouwDm.s 			page 8
+ARM GAS  /tmp/cckiGtEU.s 			page 8
 
 
  374:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  428:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /*  - external trigger to start conversion                                */
  429:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /*  - external trigger polarity                                           */
  430:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /*  - continuous conversion mode                                          */
-ARM GAS  /tmp/cccouwDm.s 			page 9
+ARM GAS  /tmp/cckiGtEU.s 			page 9
 
 
  431:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /*  - overrun                                                             */
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  485:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       SET_BIT(tmpCFGR, ADC_CFGR_AUTOWAIT(hadc->Init.LowPowerAutoWait)       |
  486:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                        ADC_CFGR_DMACONTREQ(hadc->Init.DMAContinuousRequests) );
  487:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     }
-ARM GAS  /tmp/cccouwDm.s 			page 10
+ARM GAS  /tmp/cckiGtEU.s 			page 10
 
 
  488:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  542:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   return tmp_hal_status;
  543:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** }
  544:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** #endif /* STM32F302xE || STM32F303xE || STM32F398xx || */
-ARM GAS  /tmp/cccouwDm.s 			page 11
+ARM GAS  /tmp/cckiGtEU.s 			page 11
 
 
  545:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****        /* STM32F302xC || STM32F303xC || STM32F358xx || */
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  599:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       assert_param(IS_ADC_REGULAR_DISCONT_NUMBER(hadc->Init.NbrOfDiscConversion));
  600:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     }
  601:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   }
-ARM GAS  /tmp/cccouwDm.s 			page 12
+ARM GAS  /tmp/cckiGtEU.s 			page 12
 
 
  602:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  656:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* Configuration of ADC:                                                  */
  657:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /*  - scan mode                                                           */
  658:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /*  - discontinuous mode disable/enable                                   */
-ARM GAS  /tmp/cccouwDm.s 			page 13
+ARM GAS  /tmp/cckiGtEU.s 			page 13
 
 
  659:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /*  - discontinuous mode number of conversions                            */
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  713:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     {
  714:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       tmp_sqr1 = ADC_SQR1_L_SHIFT(hadc->Init.NbrOfConversion);
  715:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     }
-ARM GAS  /tmp/cccouwDm.s 			page 14
+ARM GAS  /tmp/cckiGtEU.s 			page 14
 
 
  716:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  770:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     defined(STM32F303x8) || defined(STM32F334x8) || defined(STM32F328xx) || \
  771:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     defined(STM32F301x8) || defined(STM32F302x8) || defined(STM32F318xx)
  772:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** /**
-ARM GAS  /tmp/cccouwDm.s 			page 15
+ARM GAS  /tmp/cckiGtEU.s 			page 15
 
 
  773:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   * @brief  Deinitialize the ADC peripheral registers to their default reset
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  827:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       hadc->State = HAL_ADC_STATE_READY;
  828:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     }
  829:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     else
-ARM GAS  /tmp/cccouwDm.s 			page 16
+ARM GAS  /tmp/cckiGtEU.s 			page 16
 
 
  830:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     {      
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  884:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     CLEAR_BIT(hadc->Instance->SMPR2, ADC_SMPR2_SMP18 | ADC_SMPR2_SMP17 | ADC_SMPR2_SMP16 | 
  885:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                                      ADC_SMPR2_SMP15 | ADC_SMPR2_SMP14 | ADC_SMPR2_SMP13 | 
  886:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                                      ADC_SMPR2_SMP12 | ADC_SMPR2_SMP11 | ADC_SMPR2_SMP10  );
-ARM GAS  /tmp/cccouwDm.s 			page 17
+ARM GAS  /tmp/cckiGtEU.s 			page 17
 
 
  887:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  941:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     
  942:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     
  943:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     
-ARM GAS  /tmp/cccouwDm.s 			page 18
+ARM GAS  /tmp/cckiGtEU.s 			page 18
 
 
  944:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* ========== Reset common ADC registers ========== */
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  998:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Process unlocked */
  999:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   __HAL_UNLOCK(hadc);
 1000:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** 
-ARM GAS  /tmp/cccouwDm.s 			page 19
+ARM GAS  /tmp/cckiGtEU.s 			page 19
 
 
 1001:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 1055:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                                     ADC_CR2_JEXTSEL | ADC_CR2_ALIGN   | ADC_CR2_DMA      |        
 1056:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                                     ADC_CR2_RSTCAL  | ADC_CR2_CAL     | ADC_CR2_CONT     |         
 1057:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                                     ADC_CR2_ADON                                          ));
-ARM GAS  /tmp/cccouwDm.s 			page 20
+ARM GAS  /tmp/cckiGtEU.s 			page 20
 
 
 1058:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 1112:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* Reset register DR */
 1113:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* bits in access mode read only, no direct reset applicable*/
 1114:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     
-ARM GAS  /tmp/cccouwDm.s 			page 21
+ARM GAS  /tmp/cckiGtEU.s 			page 21
 
 
 1115:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* Reset registers JDR1, JDR2, JDR3, JDR4 */
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 1169:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       (+) Stop conversion of regular group and disable interruptions.
 1170:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       (+) Handle ADC interrupt request
 1171:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       (+) Start conversion of regular group and enable DMA transfer.
-ARM GAS  /tmp/cccouwDm.s 			page 22
+ARM GAS  /tmp/cckiGtEU.s 			page 22
 
 
 1172:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       (+) Stop conversion of regular group and disable ADC DMA transfer.
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 1226:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* - Clear state bitfield related to regular group conversion results   */
 1227:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* - Set state bitfield related to regular operation                    */
 1228:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       ADC_STATE_CLR_SET(hadc->State,
-ARM GAS  /tmp/cccouwDm.s 			page 23
+ARM GAS  /tmp/cckiGtEU.s 			page 23
 
 
 1229:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                         HAL_ADC_STATE_READY | HAL_ADC_STATE_REG_EOC | HAL_ADC_STATE_REG_OVR | HAL_A
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 1283:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* If software start has been selected, conversion starts immediately.  */
 1284:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* If external trigger has been selected, conversion will start at next */
 1285:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* trigger event.                                                       */
-ARM GAS  /tmp/cccouwDm.s 			page 24
+ARM GAS  /tmp/cckiGtEU.s 			page 24
 
 
 1286:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* Case of multimode enabled (for devices with several ADCs):           */
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 1340:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                       HAL_ADC_STATE_READY | HAL_ADC_STATE_REG_EOC,
 1341:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                       HAL_ADC_STATE_REG_BUSY);
 1342:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     
-ARM GAS  /tmp/cccouwDm.s 			page 25
+ARM GAS  /tmp/cckiGtEU.s 			page 25
 
 
 1343:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* Set group injected state (from auto-injection) */
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 1397:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     defined(STM32F303x8) || defined(STM32F334x8) || defined(STM32F328xx) || \
 1398:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     defined(STM32F301x8) || defined(STM32F302x8) || defined(STM32F318xx)
 1399:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** /**
-ARM GAS  /tmp/cccouwDm.s 			page 26
+ARM GAS  /tmp/cckiGtEU.s 			page 26
 
 
 1400:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   * @brief  Stop ADC conversion of both groups regular and injected,
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 1454:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   * @brief  Stop ADC conversion of regular group (and injected channels in 
 1455:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *         case of auto_injection mode), disable ADC peripheral.
 1456:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   * @note   ADC peripheral disable is forcing interruption of potential 
-ARM GAS  /tmp/cccouwDm.s 			page 27
+ARM GAS  /tmp/cckiGtEU.s 			page 27
 
 
 1457:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *         conversion on injected group. If injected group is under use, it
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 1511:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   * @param  hadc: ADC handle
 1512:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   * @param  Timeout: Timeout value in millisecond.
 1513:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   * @note   Depending on init parameter "EOCSelection", flags EOS or EOC is 
-ARM GAS  /tmp/cccouwDm.s 			page 28
+ARM GAS  /tmp/cckiGtEU.s 			page 28
 
 
 1514:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *         checked and cleared depending on autodelay status (bit AUTDLY).     
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 1568:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         
 1569:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         /* Process unlocked */
 1570:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         __HAL_UNLOCK(hadc);
-ARM GAS  /tmp/cccouwDm.s 			page 29
+ARM GAS  /tmp/cckiGtEU.s 			page 29
 
 
 1571:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 1625:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* Allowed to modify bits ADC_IT_EOC/ADC_IT_EOS only if bit             */
 1626:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* ADSTART==0 (no conversion on going)                                  */
 1627:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       if (ADC_IS_CONVERSION_ONGOING_REGULAR(hadc) == RESET)
-ARM GAS  /tmp/cccouwDm.s 			page 30
+ARM GAS  /tmp/cckiGtEU.s 			page 30
 
 
 1628:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       {        
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 1682:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** {
 1683:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   uint32_t tickstart;
 1684:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   
-ARM GAS  /tmp/cccouwDm.s 			page 31
+ARM GAS  /tmp/cckiGtEU.s 			page 31
 
 
 1685:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Variables for polling in case of scan mode enabled */
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 1739:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****           
 1740:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****           return HAL_TIMEOUT;
 1741:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         }
-ARM GAS  /tmp/cccouwDm.s 			page 32
+ARM GAS  /tmp/cckiGtEU.s 			page 32
 
 
 1742:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       }
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 1796:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   }
 1797:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   
 1798:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Return ADC state */
-ARM GAS  /tmp/cccouwDm.s 			page 33
+ARM GAS  /tmp/cckiGtEU.s 			page 33
 
 
 1799:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   return HAL_OK;
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 1853:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Analog watchdog (level out of window) event */
 1854:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Note: In case of several analog watchdog enabled, if needed to know      */
 1855:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* which one triggered and on which ADCx, test ADC state of analog watchdog */
-ARM GAS  /tmp/cccouwDm.s 			page 34
+ARM GAS  /tmp/cckiGtEU.s 			page 34
 
 
 1856:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* flags HAL_ADC_STATE_AWD1/2U/3 using function "HAL_ADC_GetState()".        */
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 1910:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         
 1911:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* Set ADC error code to overrun */
 1912:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       SET_BIT(hadc->ErrorCode, HAL_ADC_ERROR_OVR);
-ARM GAS  /tmp/cccouwDm.s 			page 35
+ARM GAS  /tmp/cckiGtEU.s 			page 35
 
 
 1913:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     }
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 1967:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Analog watchdog (level out of window) event */
 1968:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* Set ADC state */
 1969:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     SET_BIT(hadc->State, HAL_ADC_STATE_AWD1);
-ARM GAS  /tmp/cccouwDm.s 			page 36
+ARM GAS  /tmp/cckiGtEU.s 			page 36
 
 
 1970:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 2024:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* Set group injected state (from auto-injection) and multimode state   */
 2025:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* for all cases of multimode: independent mode, multimode ADC master   */
 2026:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* or multimode ADC slave (for devices with several ADCs):              */
-ARM GAS  /tmp/cccouwDm.s 			page 37
+ARM GAS  /tmp/cckiGtEU.s 			page 37
 
 
 2027:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       if (ADC_NONMULTIMODE_OR_MULTIMODEMASTER(hadc))
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 2081:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****           break;
 2082:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         /* case ADC_EOC_SINGLE_CONV */
 2083:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         default:
-ARM GAS  /tmp/cccouwDm.s 			page 38
+ARM GAS  /tmp/cckiGtEU.s 			page 38
 
 
 2084:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****           __HAL_ADC_ENABLE_IT(hadc, (ADC_IT_EOC | ADC_IT_EOS));
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 2138:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** HAL_StatusTypeDef HAL_ADC_Start_IT(ADC_HandleTypeDef* hadc)
 2139:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** {
 2140:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   HAL_StatusTypeDef tmp_hal_status = HAL_OK;
-ARM GAS  /tmp/cccouwDm.s 			page 39
+ARM GAS  /tmp/cckiGtEU.s 			page 39
 
 
 2141:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 2195:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* If external trigger has been selected, conversion will start at next   */
 2196:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* trigger event.                                                         */
 2197:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     if (ADC_IS_SOFTWARE_START_REGULAR(hadc))
-ARM GAS  /tmp/cccouwDm.s 			page 40
+ARM GAS  /tmp/cckiGtEU.s 			page 40
 
 
 2198:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     {
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 2252:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* Disable ADC overrun interrupt */
 2253:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     __HAL_ADC_DISABLE_IT(hadc, (ADC_IT_EOC | ADC_IT_EOS | ADC_IT_OVR));
 2254:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     
-ARM GAS  /tmp/cccouwDm.s 			page 41
+ARM GAS  /tmp/cckiGtEU.s 			page 41
 
 
 2255:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* 2. Disable the ADC peripheral */
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 2309:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                       HAL_ADC_STATE_REG_BUSY | HAL_ADC_STATE_INJ_BUSY,
 2310:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                       HAL_ADC_STATE_READY);
 2311:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   }
-ARM GAS  /tmp/cccouwDm.s 			page 42
+ARM GAS  /tmp/cckiGtEU.s 			page 42
 
 
 2312:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 2366:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         /* - Clear state bitfield related to regular group conversion results */
 2367:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         /* - Set state bitfield related to regular operation                  */
 2368:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         ADC_STATE_CLR_SET(hadc->State,
-ARM GAS  /tmp/cccouwDm.s 			page 43
+ARM GAS  /tmp/cckiGtEU.s 			page 43
 
 
 2369:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                           HAL_ADC_STATE_READY | HAL_ADC_STATE_REG_EOC | HAL_ADC_STATE_REG_OVR | HAL
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 2423:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         
 2424:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         /* Set the DMA error callback */
 2425:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         hadc->DMA_Handle->XferErrorCallback = ADC_DMAError;
-ARM GAS  /tmp/cccouwDm.s 			page 44
+ARM GAS  /tmp/cckiGtEU.s 			page 44
 
 
 2426:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** 
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 2480:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** /**
 2481:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   * @brief  Enables ADC, starts conversion of regular group and transfers result
 2482:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *         through DMA.
-ARM GAS  /tmp/cccouwDm.s 			page 45
+ARM GAS  /tmp/cckiGtEU.s 			page 45
 
 
 2483:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *         Interruptions enabled in this function:
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 2537:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* Process unlocked */
 2538:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* Unlock before starting ADC conversions: in case of potential           */
 2539:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* interruption, to let the process to ADC IRQ Handler.                   */
-ARM GAS  /tmp/cccouwDm.s 			page 46
+ARM GAS  /tmp/cckiGtEU.s 			page 46
 
 
 2540:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     __HAL_UNLOCK(hadc);
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 2594:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *         disable ADC DMA transfer, disable ADC peripheral.
 2595:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *         Interruptions disabled in this function:
 2596:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *          - DMA transfer complete
-ARM GAS  /tmp/cccouwDm.s 			page 47
+ARM GAS  /tmp/cckiGtEU.s 			page 47
 
 
 2597:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *          - DMA half transfer
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 2651:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     }
 2652:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     else
 2653:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     {
-ARM GAS  /tmp/cccouwDm.s 			page 48
+ARM GAS  /tmp/cckiGtEU.s 			page 48
 
 
 2654:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       ADC_Disable(hadc);
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 2708:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   {
 2709:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* Disable ADC DMA mode */
 2710:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     hadc->Instance->CR2 &= ~ADC_CR2_DMA;
-ARM GAS  /tmp/cccouwDm.s 			page 49
+ARM GAS  /tmp/cckiGtEU.s 			page 49
 
 
 2711:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** 
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 2765:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   assert_param(IS_ADC_ALL_INSTANCE(hadc->Instance));
 2766:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** 
 2767:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Note: ADC flag EOC is not cleared here by software because               */
-ARM GAS  /tmp/cccouwDm.s 			page 50
+ARM GAS  /tmp/cckiGtEU.s 			page 50
 
 
 2768:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /*       automatically cleared by hardware when reading register DR.        */
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 2822:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   uint32_t overrun_error = 0U; /* flag set if overrun occurrence has to be considered as an error *
 2823:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   ADC_Common_TypeDef *tmpADC_Common;
 2824:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   uint32_t tmp_cfgr     = 0x0U;
-ARM GAS  /tmp/cccouwDm.s 			page 51
+ARM GAS  /tmp/cckiGtEU.s 			page 51
 
 
 2825:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   uint32_t tmp_cfgr_jqm = 0x0U;
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 2879:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****             SET_BIT(hadc->State, HAL_ADC_STATE_READY);
 2880:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****           }
 2881:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         }
-ARM GAS  /tmp/cccouwDm.s 			page 52
+ARM GAS  /tmp/cckiGtEU.s 			page 52
 
 
 2882:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         else
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 2936:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         (ADC_IS_SOFTWARE_START_REGULAR(hadc)          &&
 2937:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         (READ_BIT (tmp_cfgr, ADC_CFGR_CONT) == RESET)   )   )   )
 2938:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     {
-ARM GAS  /tmp/cccouwDm.s 			page 53
+ARM GAS  /tmp/cckiGtEU.s 			page 53
 
 
 2939:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* If End of Sequence is reached, disable interrupts */
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 2993:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /*        " if( __HAL_ADC_GET_FLAG(&hadc, ADC_FLAG_JEOS)) "               */
 2994:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     HAL_ADCEx_InjectedConvCpltCallback(hadc);
 2995:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     
-ARM GAS  /tmp/cccouwDm.s 			page 54
+ARM GAS  /tmp/cckiGtEU.s 			page 54
 
 
 2996:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* Clear injected group conversion flag */
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 3050:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     {
 3051:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* Pointer to the common control register to which is belonging hadc    */
 3052:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* (Depending on STM32F3 product, there may be up to 4 ADC and 2 common */
-ARM GAS  /tmp/cccouwDm.s 			page 55
+ARM GAS  /tmp/cckiGtEU.s 			page 55
 
 
 3053:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* control registers)                                                   */
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 3107:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   
 3108:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** }
 3109:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** #endif /* STM32F302xE || STM32F303xE || STM32F398xx || */
-ARM GAS  /tmp/cccouwDm.s 			page 56
+ARM GAS  /tmp/cckiGtEU.s 			page 56
 
 
 3110:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****        /* STM32F302xC || STM32F303xC || STM32F358xx || */
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 3164:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       __HAL_ADC_CLEAR_FLAG(hadc, ADC_FLAG_STRT | ADC_FLAG_EOC);
 3165:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     }
 3166:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   }
-ARM GAS  /tmp/cccouwDm.s 			page 57
+ARM GAS  /tmp/cckiGtEU.s 			page 57
 
 
 3167:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 3221:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       HAL_ADC_LevelOutOfWindowCallback(hadc);
 3222:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       
 3223:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* Clear the ADC analog watchdog flag */
-ARM GAS  /tmp/cccouwDm.s 			page 58
+ARM GAS  /tmp/cckiGtEU.s 			page 58
 
 
 3224:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       __HAL_ADC_CLEAR_FLAG(hadc, ADC_FLAG_AWD);
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 3278:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     hadc->Instance->CR |= ADC_CR_ADCAL;
 3279:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** 
 3280:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     tickstart = HAL_GetTick();  
-ARM GAS  /tmp/cccouwDm.s 			page 59
+ARM GAS  /tmp/cckiGtEU.s 			page 59
 
 
 3281:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** 
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 3335:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   __IO uint32_t wait_loop_index = 0U;
 3336:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   
 3337:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Check the parameters */
-ARM GAS  /tmp/cccouwDm.s 			page 60
+ARM GAS  /tmp/cckiGtEU.s 			page 60
 
 
 3338:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   assert_param(IS_ADC_ALL_INSTANCE(hadc->Instance));
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 3392:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     SET_BIT(hadc->Instance->CR2, ADC_CR2_CAL);
 3393:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** 
 3394:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     tickstart = HAL_GetTick();  
-ARM GAS  /tmp/cccouwDm.s 			page 61
+ARM GAS  /tmp/cckiGtEU.s 			page 61
 
 
 3395:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** 
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 3449:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   {
 3450:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     return ADC_CALFACT_DIFF_GET(hadc->Instance->CALFACT);
 3451:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   }
-ARM GAS  /tmp/cccouwDm.s 			page 62
+ARM GAS  /tmp/cckiGtEU.s 			page 62
 
 
 3452:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   else
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 3506:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   }
 3507:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   else
 3508:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   {
-ARM GAS  /tmp/cccouwDm.s 			page 63
+ARM GAS  /tmp/cckiGtEU.s 			page 63
 
 
 3509:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* Update ADC state machine to error */
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 3563:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       ADC_STATE_CLR_SET(hadc->State,
 3564:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                         HAL_ADC_STATE_READY | HAL_ADC_STATE_INJ_EOC,
 3565:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                         HAL_ADC_STATE_INJ_BUSY);
-ARM GAS  /tmp/cccouwDm.s 			page 64
+ARM GAS  /tmp/cckiGtEU.s 			page 64
 
 
 3566:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 3620:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     tmp_hal_status = HAL_BUSY;
 3621:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   }
 3622:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   
-ARM GAS  /tmp/cccouwDm.s 			page 65
+ARM GAS  /tmp/cckiGtEU.s 			page 65
 
 
 3623:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Return function status */
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 3677:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* (To ensure of no unknown state from potential previous ADC operations) */
 3678:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     __HAL_ADC_CLEAR_FLAG(hadc, ADC_FLAG_JEOC);
 3679:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     
-ARM GAS  /tmp/cccouwDm.s 			page 66
+ARM GAS  /tmp/cckiGtEU.s 			page 66
 
 
 3680:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* Enable conversion of injected group.                                   */
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 3734:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   assert_param(IS_ADC_ALL_INSTANCE(hadc->Instance));
 3735:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   
 3736:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Process locked */
-ARM GAS  /tmp/cccouwDm.s 			page 67
+ARM GAS  /tmp/cckiGtEU.s 			page 67
 
 
 3737:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   __HAL_LOCK(hadc);
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 3791:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   
 3792:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Process unlocked */
 3793:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   __HAL_UNLOCK(hadc);
-ARM GAS  /tmp/cccouwDm.s 			page 68
+ARM GAS  /tmp/cckiGtEU.s 			page 68
 
 
 3794:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 3848:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* Update ADC state machine to error */
 3849:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     SET_BIT(hadc->State, HAL_ADC_STATE_ERROR_CONFIG);
 3850:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       
-ARM GAS  /tmp/cccouwDm.s 			page 69
+ARM GAS  /tmp/cckiGtEU.s 			page 69
 
 
 3851:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     tmp_hal_status = HAL_ERROR;
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 3905:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   tickstart = HAL_GetTick();  
 3906:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****      
 3907:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Wait until End of Conversion flag is raised */
-ARM GAS  /tmp/cccouwDm.s 			page 70
+ARM GAS  /tmp/cckiGtEU.s 			page 70
 
 
 3908:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   while(HAL_IS_BIT_CLR(hadc->Instance->ISR, tmp_Flag_EOC))
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 3962:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****        /* STM32F301x8 || STM32F302x8 || STM32F318xx    */
 3963:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** 
 3964:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** #if defined(STM32F373xC) || defined(STM32F378xx)
-ARM GAS  /tmp/cccouwDm.s 			page 71
+ARM GAS  /tmp/cckiGtEU.s 			page 71
 
 
 3965:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** /**
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 4019:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       }
 4020:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     }
 4021:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   }
-ARM GAS  /tmp/cccouwDm.s 			page 72
+ARM GAS  /tmp/cckiGtEU.s 			page 72
 
 
 4022:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   else
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 4076:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Return ADC state */
 4077:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   return HAL_OK;
 4078:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** }
-ARM GAS  /tmp/cccouwDm.s 			page 73
+ARM GAS  /tmp/cckiGtEU.s 			page 73
 
 
 4079:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** #endif /* STM32F373xC || STM32F378xx */
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 4133:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       {
 4134:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         SET_BIT(hadc->State, HAL_ADC_STATE_MULTIMODE_SLAVE);
 4135:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       }
-ARM GAS  /tmp/cccouwDm.s 			page 74
+ARM GAS  /tmp/cckiGtEU.s 			page 74
 
 
 4136:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 4190:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     }
 4191:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     else
 4192:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     {
-ARM GAS  /tmp/cccouwDm.s 			page 75
+ARM GAS  /tmp/cckiGtEU.s 			page 75
 
 
 4193:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* Process unlocked */
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 4247:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     {
 4248:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* Reset ADC all error code fields */
 4249:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       ADC_CLEAR_ERRORCODE(hadc);
-ARM GAS  /tmp/cccouwDm.s 			page 76
+ARM GAS  /tmp/cckiGtEU.s 			page 76
 
 
 4250:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     }
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 4304:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   * @note   To stop ADC conversion of both groups regular and injected and to
 4305:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *         to disable ADC peripheral, instead of using 2 functions
 4306:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *         @ref HAL_ADCEx_RegularStop() and @ref HAL_ADCEx_InjectedStop(),
-ARM GAS  /tmp/cccouwDm.s 			page 77
+ARM GAS  /tmp/cckiGtEU.s 			page 77
 
 
 4307:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *         use function @ref HAL_ADC_Stop().
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 4361:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         {
 4362:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****           /* Set ADC state */
 4363:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****           ADC_STATE_CLR_SET(hadc->State,
-ARM GAS  /tmp/cccouwDm.s 			page 78
+ARM GAS  /tmp/cckiGtEU.s 			page 78
 
 
 4364:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                             HAL_ADC_STATE_REG_BUSY | HAL_ADC_STATE_INJ_BUSY,
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 4418:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Conditioned to:                                                          */
 4419:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* - No conversion on the other group (regular group) is intended to        */
 4420:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /*   continue (injected and regular groups stop conversion and ADC disable  */
-ARM GAS  /tmp/cccouwDm.s 			page 79
+ARM GAS  /tmp/cckiGtEU.s 			page 79
 
 
 4421:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /*   are common)                                                            */
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 4475:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   * @param  pData: The destination Buffer address.
 4476:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   * @param  Length: The length of data to be transferred from ADC peripheral to memory.
 4477:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   * @retval None
-ARM GAS  /tmp/cccouwDm.s 			page 80
+ARM GAS  /tmp/cckiGtEU.s 			page 80
 
 
 4478:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   */
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 4532:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* If conversions on group regular are also triggering group injected,  */
 4533:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* update ADC state.                                                    */
 4534:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       if (READ_BIT(hadc->Instance->CFGR, ADC_CFGR_JAUTO) != RESET)
-ARM GAS  /tmp/cccouwDm.s 			page 81
+ARM GAS  /tmp/cckiGtEU.s 			page 81
 
 
 4535:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       {
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 4589:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   else
 4590:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   {
 4591:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     tmp_hal_status = HAL_BUSY;
-ARM GAS  /tmp/cccouwDm.s 			page 82
+ARM GAS  /tmp/cckiGtEU.s 			page 82
 
 
 4592:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   }
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 4646:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       
 4647:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* Process unlocked */
 4648:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       __HAL_UNLOCK(hadc);
-ARM GAS  /tmp/cccouwDm.s 			page 83
+ARM GAS  /tmp/cckiGtEU.s 			page 83
 
 
 4649:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 4703:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         tmp_hal_status = HAL_OK;
 4704:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         
 4705:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         /* Change ADC state (ADC master) */
-ARM GAS  /tmp/cccouwDm.s 			page 84
+ARM GAS  /tmp/cckiGtEU.s 			page 84
 
 
 4706:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         ADC_STATE_CLR_SET(hadc->State,
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 4760:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     defined(STM32F303x8) || defined(STM32F334x8) || defined(STM32F328xx) || \
 4761:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     defined(STM32F301x8) || defined(STM32F302x8) || defined(STM32F318xx)
 4762:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** /**
-ARM GAS  /tmp/cccouwDm.s 			page 85
+ARM GAS  /tmp/cckiGtEU.s 			page 85
 
 
 4763:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   * @brief  Get ADC injected group conversion result.
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 4817:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   }
 4818:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   
 4819:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Return ADC converted value */ 
-ARM GAS  /tmp/cccouwDm.s 			page 86
+ARM GAS  /tmp/cckiGtEU.s 			page 86
 
 
 4820:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   return tmp_jdr;
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 4874:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       tmp_jdr = hadc->Instance->JDR2;
 4875:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       break;
 4876:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     case ADC_INJECTED_RANK_1:
-ARM GAS  /tmp/cccouwDm.s 			page 87
+ARM GAS  /tmp/cckiGtEU.s 			page 87
 
 
 4877:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     default:
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 4931:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   if((ADC_IS_CONVERSION_ONGOING_INJECTED(hadc) == RESET) &&
 4932:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****      ((hadc->State & HAL_ADC_STATE_INJ_BUSY) == RESET)     )
 4933:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   {
-ARM GAS  /tmp/cccouwDm.s 			page 88
+ARM GAS  /tmp/cckiGtEU.s 			page 88
 
 
 4934:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* 2. Disable the ADC peripheral */
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 4988:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Stop potential ADC conversion on going and disable ADC peripheral        */
 4989:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* conditioned to:                                                          */
 4990:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* - For ADC regular group conversion stop:                                 */
-ARM GAS  /tmp/cccouwDm.s 			page 89
+ARM GAS  /tmp/cckiGtEU.s 			page 89
 
 
 4991:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /*   On this STM32 family, conversion on the other group                    */
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 5045:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *          - DMA transfer complete
 5046:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *          - DMA half transfer
 5047:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *          - overrun
-ARM GAS  /tmp/cccouwDm.s 			page 90
+ARM GAS  /tmp/cckiGtEU.s 			page 90
 
 
 5048:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   * @note   To stop ADC conversion of both groups regular and injected and to
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 5102:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* Disable ADC overrun interrupt */
 5103:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     __HAL_ADC_DISABLE_IT(hadc, ADC_IT_OVR);
 5104:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     
-ARM GAS  /tmp/cccouwDm.s 			page 91
+ARM GAS  /tmp/cckiGtEU.s 			page 91
 
 
 5105:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* 2. Disable the ADC peripheral */
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 5159:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   * @note   In case of auto-injection mode, this function also stop conversion
 5160:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *         on ADC group injected.
 5161:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   * @note   Multimode is kept enabled after this function. To disable multimode
-ARM GAS  /tmp/cccouwDm.s 			page 92
+ARM GAS  /tmp/cckiGtEU.s 			page 92
 
 
 5162:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *         (set with HAL_ADCEx_MultiModeConfigChannel() ), ADC must be 
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 5216:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     
 5217:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* Procedure to disable the ADC peripheral: wait for conversions          */
 5218:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* effectively stopped (ADC master and ADC slave), then disable ADC       */
-ARM GAS  /tmp/cccouwDm.s 			page 93
+ARM GAS  /tmp/cckiGtEU.s 			page 93
 
 
 5219:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 5273:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       }
 5274:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     }
 5275:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     else
-ARM GAS  /tmp/cccouwDm.s 			page 94
+ARM GAS  /tmp/cckiGtEU.s 			page 94
 
 
 5276:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     {
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 5330:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   * @brief  Injected context queue overflow flag callback. 
 5331:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   * @note   This callback is called if injected context queue is enabled
 5332:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****             (parameter "QueueInjectedContext" in injected channel configuration)
-ARM GAS  /tmp/cccouwDm.s 			page 95
+ARM GAS  /tmp/cckiGtEU.s 			page 95
 
 
 5333:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****             and if a new injected context is set when queue is full (maximum 2
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 5387:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** /** @defgroup ADCEx_Exported_Functions_Group3 ADCEx Peripheral Control functions
 5388:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   * @brief    ADC Extended Peripheral Control functions
 5389:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *
-ARM GAS  /tmp/cccouwDm.s 			page 96
+ARM GAS  /tmp/cckiGtEU.s 			page 96
 
 
 5390:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** @verbatim   
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 5444:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   assert_param(IS_ADC_SINGLE_DIFFERENTIAL(sConfig->SingleDiff));
 5445:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   assert_param(IS_ADC_OFFSET_NUMBER(sConfig->OffsetNumber));
 5446:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   assert_param(IS_ADC_RANGE(ADC_GET_RESOLUTION(hadc), sConfig->Offset));
-ARM GAS  /tmp/cccouwDm.s 			page 97
+ARM GAS  /tmp/cckiGtEU.s 			page 97
 
 
 5447:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 5501:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     
 5502:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     
 5503:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Parameters update conditioned to ADC state:                              */
-ARM GAS  /tmp/cccouwDm.s 			page 98
+ARM GAS  /tmp/cckiGtEU.s 			page 98
 
 
 5504:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Parameters that can be updated when ADC is disabled or enabled without   */
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 5558:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         
 5559:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     case ADC_OFFSET_3:
 5560:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* Configure offset register 3U */
-ARM GAS  /tmp/cccouwDm.s 			page 99
+ARM GAS  /tmp/cckiGtEU.s 			page 99
 
 
 5561:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       MODIFY_REG(hadc->Instance->OFR3               ,
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 5615:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* Configuration of differential mode */
 5616:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     if (sConfig->SingleDiff != ADC_DIFFERENTIAL_ENDED)
 5617:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     {
-ARM GAS  /tmp/cccouwDm.s 			page 100
+ARM GAS  /tmp/cckiGtEU.s 			page 100
 
 
 5618:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* Disable differential mode (default mode: single-ended) */
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 5672:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       if ((ADC_IS_ENABLE(hadc) == RESET)                                    &&
 5673:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****           ( (tmphadcSharingSameCommonRegister.Instance == NULL)         ||
 5674:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****             (ADC_IS_ENABLE(&tmphadcSharingSameCommonRegister) == RESET)   )   )
-ARM GAS  /tmp/cccouwDm.s 			page 101
+ARM GAS  /tmp/cckiGtEU.s 			page 101
 
 
 5675:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       {
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 5729:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   }
 5730:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   
 5731:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Process unlocked */
-ARM GAS  /tmp/cccouwDm.s 			page 102
+ARM GAS  /tmp/cckiGtEU.s 			page 102
 
 
 5732:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   __HAL_UNLOCK(hadc);
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 5786:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                ADC_SQR3_RK(ADC_SQR3_SQ1, sConfig->Rank)    ,
 5787:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                ADC_SQR3_RK(sConfig->Channel, sConfig->Rank) );
 5788:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   }
-ARM GAS  /tmp/cccouwDm.s 			page 103
+ARM GAS  /tmp/cckiGtEU.s 			page 103
 
 
 5789:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* For Rank 7 to 12U */
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 5843:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** 
 5844:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****    
 5845:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Process unlocked */
-ARM GAS  /tmp/cccouwDm.s 			page 104
+ARM GAS  /tmp/cckiGtEU.s 			page 104
 
 
 5846:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   __HAL_UNLOCK(hadc);
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 5900:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   HAL_StatusTypeDef tmp_hal_status = HAL_OK;
 5901:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   ADC_Common_TypeDef *tmpADC_Common;
 5902:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   ADC_HandleTypeDef tmphadcSharingSameCommonRegister;
-ARM GAS  /tmp/cccouwDm.s 			page 105
+ARM GAS  /tmp/cckiGtEU.s 			page 105
 
 
 5903:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   uint32_t tmpOffsetShifted;
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 5957:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /*    * Injected context register JSQR setting more complex: register is    */
 5958:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /*      fully defined over successive calls of this function, for each      */
 5959:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /*      injected channel rank. It is entered into queue only when all       */
-ARM GAS  /tmp/cccouwDm.s 			page 106
+ARM GAS  /tmp/cckiGtEU.s 			page 106
 
 
 5960:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /*      injected ranks have been set.                                       */
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 6014:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     }
 6015:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   
 6016:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   }
-ARM GAS  /tmp/cccouwDm.s 			page 107
+ARM GAS  /tmp/cckiGtEU.s 			page 107
 
 
 6017:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   else
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 6071:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       {
 6072:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         /* Update ADC register JSQR */
 6073:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         MODIFY_REG(hadc->Instance->JSQR              ,
-ARM GAS  /tmp/cccouwDm.s 			page 108
+ARM GAS  /tmp/cckiGtEU.s 			page 108
 
 
 6074:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                    ADC_JSQR_JSQ4    |
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 6128:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Parameters update conditioned to ADC state:                              */
 6129:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Parameters that can be updated when ADC is disabled or enabled without   */
 6130:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* conversion on going on regular and injected groups:                      */
-ARM GAS  /tmp/cccouwDm.s 			page 109
+ARM GAS  /tmp/cckiGtEU.s 			page 109
 
 
 6131:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /*  - Automatic injected conversion: can be enabled if injected group       */
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 6185:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* - Enable offset                                                        */
 6186:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* - Set channel number                                                   */
 6187:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* - Set offset value                                                     */
-ARM GAS  /tmp/cccouwDm.s 			page 110
+ARM GAS  /tmp/cckiGtEU.s 			page 110
 
 
 6188:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     switch (sConfigInjected->InjectedOffsetNumber)
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 6242:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         CLEAR_BIT(hadc->Instance->OFR2, ADC_OFR2_OFFSET2_EN); 
 6243:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       }
 6244:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       if (((hadc->Instance->OFR3) & ADC_OFR3_OFFSET3_CH) == ADC_OFR_CHANNEL(sConfigInjected->Inject
-ARM GAS  /tmp/cccouwDm.s 			page 111
+ARM GAS  /tmp/cckiGtEU.s 			page 111
 
 
 6245:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       {
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 6299:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* HAL_ADC_deInit().                                                      */
 6300:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****        
 6301:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* Configuration of common ADC parameters                                 */
-ARM GAS  /tmp/cccouwDm.s 			page 112
+ARM GAS  /tmp/cckiGtEU.s 			page 112
 
 
 6302:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* Pointer to the common control register to which is belonging hadc      */
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 6356:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* If the requested internal measurement path has already been enabled  */
 6357:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* and other ADC of the common group are enabled, internal              */
 6358:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* measurement paths cannot be enabled.                                 */
-ARM GAS  /tmp/cccouwDm.s 			page 113
+ARM GAS  /tmp/cckiGtEU.s 			page 113
 
 
 6359:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       else  
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 6413:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   assert_param(IS_FUNCTIONAL_STATE(sConfigInjected->AutoInjectedConv));
 6414:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   assert_param(IS_ADC_EXTTRIGINJEC(sConfigInjected->ExternalTrigInjecConv));
 6415:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   assert_param(IS_ADC_RANGE(sConfigInjected->InjectedOffset));
-ARM GAS  /tmp/cccouwDm.s 			page 114
+ARM GAS  /tmp/cckiGtEU.s 			page 114
 
 
 6416:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 6470:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       MODIFY_REG(hadc->Instance->JSQR                                         ,
 6471:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                  
 6472:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                  ADC_JSQR_JL                                                 |
-ARM GAS  /tmp/cccouwDm.s 			page 115
+ARM GAS  /tmp/cckiGtEU.s 			page 115
 
 
 6473:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                  ADC_JSQR_RK_JL(ADC_JSQR_JSQ1,                         
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 6527:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         /* Update ADC state machine to error */
 6528:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         SET_BIT(hadc->State, HAL_ADC_STATE_ERROR_CONFIG);
 6529:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         
-ARM GAS  /tmp/cccouwDm.s 			page 116
+ARM GAS  /tmp/cckiGtEU.s 			page 116
 
 
 6530:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         tmp_hal_status = HAL_ERROR;
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 6584:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* Set injected channel 3 offset */
 6585:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       MODIFY_REG(hadc->Instance->JOFR3,
 6586:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                  ADC_JOFR3_JOFFSET3,
-ARM GAS  /tmp/cccouwDm.s 			page 117
+ARM GAS  /tmp/cckiGtEU.s 			page 117
 
 
 6587:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                  sConfigInjected->InjectedOffset);
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 6641:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *         of structure "ADC_AnalogWDGConfTypeDef" on the fly, without reseting 
 6642:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *         the ADC.
 6643:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *         The setting of these parameters is conditioned to ADC state.
-ARM GAS  /tmp/cccouwDm.s 			page 118
+ARM GAS  /tmp/cckiGtEU.s 			page 118
 
 
 6644:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *         For parameters constraints, see comments of structure 
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 6698:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                  ADC_CFGR_JAWD1EN |
 6699:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                  ADC_CFGR_AWD1EN  |
 6700:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                  ADC_CFGR_AWD1CH                                  ,
-ARM GAS  /tmp/cccouwDm.s 			page 119
+ARM GAS  /tmp/cckiGtEU.s 			page 119
 
 
 6701:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                  AnalogWDGConfig->WatchdogMode                   |
@@ -7138,7 +7138,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 6755:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                      ADC_TRX_HIGHTHRESHOLD(tmpAWDHighThresholdShifted) |
 6756:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****                      tmpAWDLowThresholdShifted                           );
 6757:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****           
-ARM GAS  /tmp/cccouwDm.s 			page 120
+ARM GAS  /tmp/cckiGtEU.s 			page 120
 
 
 6758:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****           SET_BIT(hadc->Instance->AWD2CR, ADC_CFGR_AWD23CR(AnalogWDGConfig->Channel));
@@ -7198,7 +7198,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 6812:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       {
 6813:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         __HAL_ADC_DISABLE_IT(hadc, tmpADCITAWD2orAWD3);
 6814:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       }
-ARM GAS  /tmp/cccouwDm.s 			page 121
+ARM GAS  /tmp/cckiGtEU.s 			page 121
 
 
 6815:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     }
@@ -7258,7 +7258,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 6869:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   }
 6870:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   
 6871:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   /* Process locked */
-ARM GAS  /tmp/cccouwDm.s 			page 122
+ARM GAS  /tmp/cckiGtEU.s 			page 122
 
 
 6872:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   __HAL_LOCK(hadc);
@@ -7318,7 +7318,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 6926:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *         The setting of these parameters is conditioned to ADC state.
 6927:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *         For parameters constraints, see comments of structure 
 6928:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   *         "ADC_MultiModeTypeDef".
-ARM GAS  /tmp/cccouwDm.s 			page 123
+ARM GAS  /tmp/cckiGtEU.s 			page 123
 
 
 6929:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   * @note   To change back configuration from multimode to single mode, ADC must
@@ -7378,7 +7378,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 6983:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       
 6984:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* Parameters that can be updated only when ADC is disabled:              */
 6985:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /*  - Multimode mode selection                                            */
-ARM GAS  /tmp/cccouwDm.s 			page 124
+ARM GAS  /tmp/cckiGtEU.s 			page 124
 
 
 6986:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /*  - Set delay between two sampling phases                               */
@@ -7438,7 +7438,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 7040:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** } 
 7041:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** #endif /* STM32F302xE || STM32F303xE || STM32F398xx || */
 7042:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****        /* STM32F302xC || STM32F303xC || STM32F358xx || */
-ARM GAS  /tmp/cccouwDm.s 			page 125
+ARM GAS  /tmp/cckiGtEU.s 			page 125
 
 
 7043:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****        /* STM32F303x8 || STM32F328xx || STM32F334x8    */
@@ -7498,7 +7498,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 7097:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** }
 7098:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** 
 7099:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** /**
-ARM GAS  /tmp/cccouwDm.s 			page 126
+ARM GAS  /tmp/cckiGtEU.s 			page 126
 
 
 7100:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   * @brief  DMA half transfer complete callback. 
@@ -7558,7 +7558,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 7154:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     /* Check if conditions to enable the ADC are fulfilled */
 7155:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     if (ADC_ENABLING_CONDITIONS(hadc) == RESET)
 7156:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     {
-ARM GAS  /tmp/cccouwDm.s 			page 127
+ARM GAS  /tmp/cckiGtEU.s 			page 127
 
 
 7157:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       /* Update ADC state machine to error */
@@ -7618,7 +7618,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
   39              		.cfi_offset 14, -4
   40 0002 0446     		mov	r4, r0
   41              	.LVL1:
-ARM GAS  /tmp/cccouwDm.s 			page 128
+ARM GAS  /tmp/cckiGtEU.s 			page 128
 
 
 7200:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   uint32_t tickstart = 0U;
@@ -7678,7 +7678,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 7220:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       
 7221:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       return HAL_ERROR;
 7222:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     }
-ARM GAS  /tmp/cccouwDm.s 			page 129
+ARM GAS  /tmp/cckiGtEU.s 			page 129
 
 
 7223:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****      
@@ -7738,7 +7738,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 7237:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         return HAL_ERROR;
  113              		.loc 1 7237 0
  114 0074 0120     		movs	r0, #1
-ARM GAS  /tmp/cccouwDm.s 			page 130
+ARM GAS  /tmp/cckiGtEU.s 			page 130
 
 
  115 0076 38BD     		pop	{r3, r4, r5, pc}
@@ -7798,7 +7798,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  149              		.cfi_def_cfa_offset 16
  150              		.cfi_offset 4, -16
  151              		.cfi_offset 5, -12
-ARM GAS  /tmp/cccouwDm.s 			page 131
+ARM GAS  /tmp/cckiGtEU.s 			page 131
 
 
  152              		.cfi_offset 6, -8
@@ -7858,7 +7858,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 7285:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       while(__HAL_ADC_GET_FLAG(hadc, ADC_FLAG_JEOS) == RESET)
 7286:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       {
 7287:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         if (Conversion_Timeout_CPU_cycles >= (ADC_CONVERSION_TIME_MAX_CPU_CYCLES *4U))
-ARM GAS  /tmp/cccouwDm.s 			page 132
+ARM GAS  /tmp/cckiGtEU.s 			page 132
 
 
  178              		.loc 1 7287 0
@@ -7918,7 +7918,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  215              	.L13:
  216              	.LVL19:
 7302:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     }
-ARM GAS  /tmp/cccouwDm.s 			page 133
+ARM GAS  /tmp/cckiGtEU.s 			page 133
 
 
 7303:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     
@@ -7978,7 +7978,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 7324:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         hadc->Instance->CR |= ADC_CR_JADSTP;
  248              		.loc 1 7324 0
  249 0086 9A68     		ldr	r2, [r3, #8]
-ARM GAS  /tmp/cccouwDm.s 			page 134
+ARM GAS  /tmp/cckiGtEU.s 			page 134
 
 
  250 0088 42F02002 		orr	r2, r2, #32
@@ -8038,7 +8038,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  281              	.L23:
 7347:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     {
 7348:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       if((HAL_GetTick() - tickstart) > ADC_STOP_CONVERSION_TIMEOUT)
-ARM GAS  /tmp/cccouwDm.s 			page 135
+ARM GAS  /tmp/cckiGtEU.s 			page 135
 
 
  282              		.loc 1 7348 0
@@ -8098,7 +8098,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  319 00d8 FF930900 		.word	627711
  320              		.cfi_endproc
  321              	.LFE164:
-ARM GAS  /tmp/cccouwDm.s 			page 136
+ARM GAS  /tmp/cckiGtEU.s 			page 136
 
 
  323              		.section	.text.ADC_Enable,"ax",%progbits
@@ -8158,7 +8158,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  371 002c 636C     		ldr	r3, [r4, #68]
  372 002e 43F01003 		orr	r3, r3, #16
  373 0032 6364     		str	r3, [r4, #68]
-ARM GAS  /tmp/cccouwDm.s 			page 137
+ARM GAS  /tmp/cckiGtEU.s 			page 137
 
 
 7161:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       SET_BIT(hadc->ErrorCode, HAL_ADC_ERROR_INTERNAL);
@@ -8218,7 +8218,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  418 0070 1B68     		ldr	r3, [r3]
  419 0072 13F0010F 		tst	r3, #1
  420 0076 EBD0     		beq	.L36
-ARM GAS  /tmp/cccouwDm.s 			page 138
+ARM GAS  /tmp/cckiGtEU.s 			page 138
 
 
 7188:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   return HAL_OK;
@@ -8278,7 +8278,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  470              		.cfi_endproc
  471              	.LFE161:
  473 001a 00BF     		.section	.text.ADC_DMAHalfConvCplt,"ax",%progbits
-ARM GAS  /tmp/cccouwDm.s 			page 139
+ARM GAS  /tmp/cckiGtEU.s 			page 139
 
 
  474              		.align	2
@@ -8338,7 +8338,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  525 000c 5A6C     		ldr	r2, [r3, #68]
  526 000e 42F40072 		orr	r2, r2, #512
  527 0012 5A64     		str	r2, [r3, #68]
-ARM GAS  /tmp/cccouwDm.s 			page 140
+ARM GAS  /tmp/cckiGtEU.s 			page 140
 
 
 7077:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     if(ADC_IS_SOFTWARE_START_REGULAR(hadc)        && 
@@ -8398,7 +8398,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  253:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** {
  576              		.loc 1 253 0
  577              		.cfi_startproc
-ARM GAS  /tmp/cccouwDm.s 			page 141
+ARM GAS  /tmp/cckiGtEU.s 			page 141
 
 
  578              		@ args = 0, pretend = 0, frame = 88
@@ -8458,7 +8458,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  326:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         tmp_hal_status = ADC_Disable(hadc);
  622              		.loc 1 326 0
  623 0036 2046     		mov	r0, r4
-ARM GAS  /tmp/cccouwDm.s 			page 142
+ARM GAS  /tmp/cckiGtEU.s 			page 142
 
 
  624 0038 FFF7FEFF 		bl	ADC_Disable
@@ -8518,7 +8518,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  669 008c 02E0     		b	.L52
  670              	.LVL61:
  671              	.L73:
-ARM GAS  /tmp/cccouwDm.s 			page 143
+ARM GAS  /tmp/cckiGtEU.s 			page 143
 
 
  254:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   HAL_StatusTypeDef tmp_hal_status = HAL_OK;
@@ -8578,7 +8578,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  716 00cc 40F09680 		bne	.L56
  381:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       (ADC_IS_CONVERSION_ONGOING_REGULAR(hadc) == RESET)          )
  717              		.loc 1 381 0 is_stmt 1
-ARM GAS  /tmp/cccouwDm.s 			page 144
+ARM GAS  /tmp/cckiGtEU.s 			page 144
 
 
  718 00d0 2368     		ldr	r3, [r4]
@@ -8638,7 +8638,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  762 0118 019B     		ldr	r3, [sp, #4]
  402:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     if ((ADC_IS_ENABLE(hadc) == RESET)                                   &&
  763              		.loc 1 402 0 discriminator 1
-ARM GAS  /tmp/cccouwDm.s 			page 145
+ARM GAS  /tmp/cckiGtEU.s 			page 145
 
 
  764 011a 73B1     		cbz	r3, .L61
@@ -8698,7 +8698,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  811              	.LVL68:
  439:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     if (hadc->Init.DiscontinuousConvMode == ENABLE)
  812              		.loc 1 439 0 is_stmt 1 discriminator 3
-ARM GAS  /tmp/cccouwDm.s 			page 146
+ARM GAS  /tmp/cckiGtEU.s 			page 146
 
 
  813 0164 616A     		ldr	r1, [r4, #36]
@@ -8758,7 +8758,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  858 01b0 A269     		ldr	r2, [r4, #24]
  859 01b2 616B     		ldr	r1, [r4, #52]
  860 01b4 4900     		lsls	r1, r1, #1
-ARM GAS  /tmp/cccouwDm.s 			page 147
+ARM GAS  /tmp/cckiGtEU.s 			page 147
 
 
  861 01b6 41EA8232 		orr	r2, r1, r2, lsl #14
@@ -8818,7 +8818,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  908 0206 6364     		str	r3, [r4, #68]
  909              	.LVL75:
  537:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     tmp_hal_status = HAL_ERROR; 
-ARM GAS  /tmp/cccouwDm.s 			page 148
+ARM GAS  /tmp/cckiGtEU.s 			page 148
 
 
  910              		.loc 1 537 0
@@ -8878,7 +8878,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  961 0004 0446     		mov	r4, r0
  962 0006 0028     		cmp	r0, #0
  963 0008 00F0CF80 		beq	.L92
-ARM GAS  /tmp/cccouwDm.s 			page 149
+ARM GAS  /tmp/cckiGtEU.s 			page 149
 
 
  807:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   SET_BIT(hadc->State, HAL_ADC_STATE_BUSY_INTERNAL);
@@ -8938,7 +8938,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  1007 004e 2368     		ldr	r3, [r4]
  1008 0050 40F2FF72 		movw	r2, #2047
  1009 0054 1A60     		str	r2, [r3]
-ARM GAS  /tmp/cccouwDm.s 			page 150
+ARM GAS  /tmp/cckiGtEU.s 			page 150
 
 
  866:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     CLEAR_BIT(hadc->Instance->CR, ADC_CR_ADVREGEN_1 | ADC_CR_ADVREGEN_0 | ADC_CR_ADCALDIF);
@@ -8998,7 +8998,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  1055 00b2 2268     		ldr	r2, [r4]
  1056 00b4 116B     		ldr	r1, [r2, #48]
  1057 00b6 3F4B     		ldr	r3, .L98+4
-ARM GAS  /tmp/cccouwDm.s 			page 151
+ARM GAS  /tmp/cckiGtEU.s 			page 151
 
 
  1058 00b8 0B40     		ands	r3, r3, r1
@@ -9058,7 +9058,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  931:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     CLEAR_BIT(hadc->Instance->AWD3CR, ADC_AWD3CR_AWD3CH);
  1104              		.loc 1 931 0
  1105 010c 2268     		ldr	r2, [r4]
-ARM GAS  /tmp/cccouwDm.s 			page 152
+ARM GAS  /tmp/cckiGtEU.s 			page 152
 
 
  1106 010e D2F8A430 		ldr	r3, [r2, #164]
@@ -9118,7 +9118,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  1152              	.L88:
  956:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     if ((ADC_IS_ENABLE(hadc) == RESET)                                  &&
  1153              		.loc 1 956 0 discriminator 4
-ARM GAS  /tmp/cccouwDm.s 			page 153
+ARM GAS  /tmp/cckiGtEU.s 			page 153
 
 
  1154 0166 ABB9     		cbnz	r3, .L89
@@ -9178,7 +9178,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  999:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   __HAL_UNLOCK(hadc);
  1198              		.loc 1 999 0
  1199 01a0 0023     		movs	r3, #0
-ARM GAS  /tmp/cccouwDm.s 			page 154
+ARM GAS  /tmp/cckiGtEU.s 			page 154
 
 
  1200 01a2 84F84030 		strb	r3, [r4, #64]
@@ -9238,7 +9238,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  1251 0008 13F0040F 		tst	r3, #4
  1252 000c 72D1     		bne	.L111
 1217:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     __HAL_LOCK(hadc);
-ARM GAS  /tmp/cccouwDm.s 			page 155
+ARM GAS  /tmp/cckiGtEU.s 			page 155
 
 
  1253              		.loc 1 1217 0
@@ -9298,7 +9298,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  1298              	.L105:
 1250:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         SET_BIT(hadc->State, HAL_ADC_STATE_MULTIMODE_SLAVE);
  1299              		.loc 1 1250 0
-ARM GAS  /tmp/cccouwDm.s 			page 156
+ARM GAS  /tmp/cckiGtEU.s 			page 156
 
 
  1300 0068 616C     		ldr	r1, [r4, #68]
@@ -9358,7 +9358,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  1344 00b6 124A     		ldr	r2, .L113
  1345 00b8 9268     		ldr	r2, [r2, #8]
  1346 00ba 12F01F0F 		tst	r2, #31
-ARM GAS  /tmp/cccouwDm.s 			page 157
+ARM GAS  /tmp/cckiGtEU.s 			page 157
 
 
  1347 00be 0FD0     		beq	.L110
@@ -9418,7 +9418,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  1394 0100 00030050 		.word	1342178048
  1395 0104 00010050 		.word	1342177536
  1396              		.cfi_endproc
-ARM GAS  /tmp/cccouwDm.s 			page 158
+ARM GAS  /tmp/cckiGtEU.s 			page 158
 
 
  1397              	.LFE125:
@@ -9478,7 +9478,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  1445 0030 42F00102 		orr	r2, r2, #1
  1446 0034 6264     		str	r2, [r4, #68]
  1447              	.L117:
-ARM GAS  /tmp/cccouwDm.s 			page 159
+ARM GAS  /tmp/cckiGtEU.s 			page 159
 
 
  1448              	.LVL105:
@@ -9538,7 +9538,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  1497 0010 9B68     		ldr	r3, [r3, #8]
  1498 0012 13F01F0F 		tst	r3, #31
  1499 0016 0ED1     		bne	.L121
-ARM GAS  /tmp/cccouwDm.s 			page 160
+ARM GAS  /tmp/cckiGtEU.s 			page 160
 
 
 1550:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       if (HAL_IS_BIT_SET(hadc->Instance->CFGR, ADC_CFGR_DMAEN))
@@ -9598,7 +9598,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  1544              	.L134:
  1545 005c 0C26     		movs	r6, #12
  1546              	.LVL116:
-ARM GAS  /tmp/cccouwDm.s 			page 161
+ARM GAS  /tmp/cckiGtEU.s 			page 161
 
 
  1547              	.L120:
@@ -9658,7 +9658,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  1591              		.loc 1 1604 0 is_stmt 1
  1592 0098 636C     		ldr	r3, [r4, #68]
  1593 009a 43F00403 		orr	r3, r3, #4
-ARM GAS  /tmp/cccouwDm.s 			page 162
+ARM GAS  /tmp/cckiGtEU.s 			page 162
 
 
  1594 009e 6364     		str	r3, [r4, #68]
@@ -9718,7 +9718,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  1637 00ec 42F00102 		orr	r2, r2, #1
  1638 00f0 6264     		str	r2, [r4, #68]
  1639 00f2 07E0     		b	.L130
-ARM GAS  /tmp/cccouwDm.s 			page 163
+ARM GAS  /tmp/cckiGtEU.s 			page 163
 
 
  1640              	.L131:
@@ -9778,7 +9778,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  1689              		.cfi_offset 5, -16
  1690              		.cfi_offset 6, -12
  1691              		.cfi_offset 7, -8
-ARM GAS  /tmp/cccouwDm.s 			page 164
+ARM GAS  /tmp/cckiGtEU.s 			page 164
 
 
  1692              		.cfi_offset 14, -4
@@ -9838,7 +9838,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  1736 003e B4F5807F 		cmp	r4, #256
  1737 0042 12D0     		beq	.L146
  1738 0044 02D8     		bhi	.L147
-ARM GAS  /tmp/cccouwDm.s 			page 165
+ARM GAS  /tmp/cckiGtEU.s 			page 165
 
 
  1739 0046 802C     		cmp	r4, #128
@@ -9898,7 +9898,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  1782              		.loc 1 1921 0
  1783 008a 0020     		movs	r0, #0
 1886:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     break;
-ARM GAS  /tmp/cccouwDm.s 			page 166
+ARM GAS  /tmp/cckiGtEU.s 			page 166
 
 
  1784              		.loc 1 1886 0
@@ -9958,7 +9958,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  1828 00c6 00BF     		.section	.text.HAL_ADC_Start_IT,"ax",%progbits
  1829              		.align	2
  1830              		.global	HAL_ADC_Start_IT
-ARM GAS  /tmp/cccouwDm.s 			page 167
+ARM GAS  /tmp/cckiGtEU.s 			page 167
 
 
  1831              		.thumb
@@ -10018,7 +10018,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 2027:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       if (ADC_NONMULTIMODE_OR_MULTIMODEMASTER(hadc))
  1878              		.loc 1 2027 0 is_stmt 0 discriminator 1
  1879 0044 2268     		ldr	r2, [r4]
-ARM GAS  /tmp/cccouwDm.s 			page 168
+ARM GAS  /tmp/cckiGtEU.s 			page 168
 
 
  1880 0046 B2F1A04F 		cmp	r2, #1342177280
@@ -10078,7 +10078,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  1925 009e 04D0     		beq	.L161
 2056:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         CLEAR_BIT(hadc->ErrorCode, (HAL_ADC_ERROR_OVR | HAL_ADC_ERROR_DMA));         
  1926              		.loc 1 2056 0
-ARM GAS  /tmp/cccouwDm.s 			page 169
+ARM GAS  /tmp/cckiGtEU.s 			page 169
 
 
  1927 00a0 A26C     		ldr	r2, [r4, #72]
@@ -10138,7 +10138,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  1971 00e6 2268     		ldr	r2, [r4]
  1972 00e8 5168     		ldr	r1, [r2, #4]
  1973 00ea 21F01001 		bic	r1, r1, #16
-ARM GAS  /tmp/cccouwDm.s 			page 170
+ARM GAS  /tmp/cckiGtEU.s 			page 170
 
 
  1974 00ee 5160     		str	r1, [r2, #4]
@@ -10198,7 +10198,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 2123:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** }
  2021              		.loc 1 2123 0
  2022 0136 10BD     		pop	{r4, pc}
-ARM GAS  /tmp/cccouwDm.s 			page 171
+ARM GAS  /tmp/cckiGtEU.s 			page 171
 
 
  2023              	.LVL144:
@@ -10258,7 +10258,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  2072 0026 2046     		mov	r0, r4
  2073              	.LVL148:
  2074 0028 FFF7FEFF 		bl	ADC_Disable
-ARM GAS  /tmp/cccouwDm.s 			page 172
+ARM GAS  /tmp/cckiGtEU.s 			page 172
 
 
  2075              	.LVL149:
@@ -10318,7 +10318,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  2124              		.cfi_offset 14, -4
  2125 0002 0446     		mov	r4, r0
  2126 0004 0F46     		mov	r7, r1
-ARM GAS  /tmp/cccouwDm.s 			page 173
+ARM GAS  /tmp/cckiGtEU.s 			page 173
 
 
  2127 0006 1646     		mov	r6, r2
@@ -10378,7 +10378,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  2171              		.loc 1 2378 0 is_stmt 1
  2172 005c 636C     		ldr	r3, [r4, #68]
  2173 005e 23F48013 		bic	r3, r3, #1048576
-ARM GAS  /tmp/cccouwDm.s 			page 174
+ARM GAS  /tmp/cckiGtEU.s 			page 174
 
 
  2174 0062 6364     		str	r3, [r4, #68]
@@ -10438,7 +10438,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  2219              	.L186:
 2409:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****           ADC_CLEAR_ERRORCODE(hadc);
  2220              		.loc 1 2409 0
-ARM GAS  /tmp/cccouwDm.s 			page 175
+ARM GAS  /tmp/cckiGtEU.s 			page 175
 
 
  2221 00ba 0023     		movs	r3, #0
@@ -10498,7 +10498,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  2266 0106 9A60     		str	r2, [r3, #8]
  2267 0108 09E0     		b	.L178
  2268              	.LVL159:
-ARM GAS  /tmp/cccouwDm.s 			page 176
+ARM GAS  /tmp/cckiGtEU.s 			page 176
 
 
  2269              	.L181:
@@ -10558,7 +10558,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  2317              		.loc 1 2613 0
  2318              		.cfi_startproc
  2319              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/cccouwDm.s 			page 177
+ARM GAS  /tmp/cckiGtEU.s 			page 177
 
 
  2320              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -10618,7 +10618,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  2365 003a 5A68     		ldr	r2, [r3, #4]
  2366 003c 22F01002 		bic	r2, r2, #16
  2367 0040 5A60     		str	r2, [r3, #4]
-ARM GAS  /tmp/cccouwDm.s 			page 178
+ARM GAS  /tmp/cckiGtEU.s 			page 178
 
 
 2648:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     if (tmp_hal_status == HAL_OK)
@@ -10678,7 +10678,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  2414              		.thumb
  2415              		.thumb_func
  2417              	HAL_ADC_GetValue:
-ARM GAS  /tmp/cccouwDm.s 			page 179
+ARM GAS  /tmp/cckiGtEU.s 			page 179
 
 
  2418              	.LFB133:
@@ -10738,7 +10738,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 3265:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   if (tmp_hal_status == HAL_OK)
  2467              		.loc 1 3265 0 discriminator 2
  2468 0018 0646     		mov	r6, r0
-ARM GAS  /tmp/cccouwDm.s 			page 180
+ARM GAS  /tmp/cckiGtEU.s 			page 180
 
 
  2469 001a 0028     		cmp	r0, #0
@@ -10798,7 +10798,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  2513              		.loc 1 3293 0
  2514 0062 0023     		movs	r3, #0
  2515 0064 84F84030 		strb	r3, [r4, #64]
-ARM GAS  /tmp/cccouwDm.s 			page 181
+ARM GAS  /tmp/cckiGtEU.s 			page 181
 
 
 3295:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         return HAL_ERROR;
@@ -10858,7 +10858,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  2563              		.cfi_startproc
  2564              		@ args = 0, pretend = 0, frame = 0
  2565              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/cccouwDm.s 			page 182
+ARM GAS  /tmp/cckiGtEU.s 			page 182
 
 
  2566              		@ link register save eliminated.
@@ -10918,7 +10918,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 3490:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   if ( (ADC_IS_ENABLE(hadc) != RESET)                              &&
  2615              		.loc 1 3490 0 is_stmt 1 discriminator 2
  2616 0010 0368     		ldr	r3, [r0]
-ARM GAS  /tmp/cccouwDm.s 			page 183
+ARM GAS  /tmp/cckiGtEU.s 			page 183
 
 
  2617 0012 9C68     		ldr	r4, [r3, #8]
@@ -10978,7 +10978,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  2663              	.L215:
 3510:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     SET_BIT(hadc->State, HAL_ADC_STATE_ERROR_CONFIG);
  2664              		.loc 1 3510 0
-ARM GAS  /tmp/cccouwDm.s 			page 184
+ARM GAS  /tmp/cckiGtEU.s 			page 184
 
 
  2665 005e 436C     		ldr	r3, [r0, #68]
@@ -11038,7 +11038,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  2714 0004 0368     		ldr	r3, [r0]
  2715 0006 9B68     		ldr	r3, [r3, #8]
  2716 0008 13F0080F 		tst	r3, #8
-ARM GAS  /tmp/cccouwDm.s 			page 185
+ARM GAS  /tmp/cckiGtEU.s 			page 185
 
 
  2717 000c 53D1     		bne	.L230
@@ -11098,7 +11098,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  2761 005c 12F4807F 		tst	r2, #256
  2762 0060 01D1     		bne	.L228
 3585:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         ADC_CLEAR_ERRORCODE(hadc);
-ARM GAS  /tmp/cccouwDm.s 			page 186
+ARM GAS  /tmp/cckiGtEU.s 			page 186
 
 
  2763              		.loc 1 3585 0
@@ -11158,7 +11158,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  2808 00b0 84F84020 		strb	r2, [r4, #64]
  2809 00b4 00E0     		b	.L222
  2810              	.LVL211:
-ARM GAS  /tmp/cccouwDm.s 			page 187
+ARM GAS  /tmp/cckiGtEU.s 			page 187
 
 
  2811              	.L230:
@@ -11218,7 +11218,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  2860 000e 80F84030 		strb	r3, [r0, #64]
 3750:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   if(HAL_IS_BIT_CLR(hadc->Instance->CFGR, ADC_CFGR_JAUTO))
  2861              		.loc 1 3750 0 is_stmt 1 discriminator 2
-ARM GAS  /tmp/cccouwDm.s 			page 188
+ARM GAS  /tmp/cckiGtEU.s 			page 188
 
 
  2862 0012 0368     		ldr	r3, [r0]
@@ -11278,7 +11278,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  2906              		.loc 1 3787 0
  2907 005e 436C     		ldr	r3, [r0, #68]
  2908 0060 43F02003 		orr	r3, r3, #32
-ARM GAS  /tmp/cccouwDm.s 			page 189
+ARM GAS  /tmp/cckiGtEU.s 			page 189
 
 
  2909 0064 4364     		str	r3, [r0, #68]
@@ -11338,7 +11338,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  2958 000a 082B     		cmp	r3, #8
  2959 000c 01D1     		bne	.L252
 3884:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     tmp_Flag_EOC = ADC_FLAG_JEOS;
-ARM GAS  /tmp/cccouwDm.s 			page 190
+ARM GAS  /tmp/cckiGtEU.s 			page 190
 
 
  2960              		.loc 1 3884 0
@@ -11398,7 +11398,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  3004              		.loc 1 3913 0 is_stmt 0 discriminator 1
  3005 0042 FFF7FEFF 		bl	HAL_GetTick
  3006              	.LVL235:
-ARM GAS  /tmp/cccouwDm.s 			page 191
+ARM GAS  /tmp/cckiGtEU.s 			page 191
 
 
  3007 0046 C8EB0000 		rsb	r0, r8, r0
@@ -11458,7 +11458,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  3050 0090 22F48052 		bic	r2, r2, #4096
  3051 0094 6264     		str	r2, [r4, #68]
 3940:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     if (HAL_IS_BIT_CLR(hadc->State, HAL_ADC_STATE_REG_BUSY))
-ARM GAS  /tmp/cccouwDm.s 			page 192
+ARM GAS  /tmp/cckiGtEU.s 			page 192
 
 
  3052              		.loc 1 3940 0
@@ -11518,7 +11518,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 4107:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   if (ADC_IS_CONVERSION_ONGOING_INJECTED(hadc) == RESET)
  3102              		.loc 1 4107 0
  3103 0004 0368     		ldr	r3, [r0]
-ARM GAS  /tmp/cccouwDm.s 			page 193
+ARM GAS  /tmp/cckiGtEU.s 			page 193
 
 
  3104 0006 9B68     		ldr	r3, [r3, #8]
@@ -11578,7 +11578,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  3148              		.loc 1 4141 0
  3149 005a 626C     		ldr	r2, [r4, #68]
  3150 005c 12F4807F 		tst	r2, #256
-ARM GAS  /tmp/cccouwDm.s 			page 194
+ARM GAS  /tmp/cckiGtEU.s 			page 194
 
 
  3151 0060 01D1     		bne	.L264
@@ -11638,7 +11638,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  3195              	.L268:
 4185:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       if (HAL_IS_BIT_CLR(hadc->Instance->CFGR, ADC_CFGR_JAUTO) && 
  3196              		.loc 1 4185 0
-ARM GAS  /tmp/cccouwDm.s 			page 195
+ARM GAS  /tmp/cckiGtEU.s 			page 195
 
 
  3197 00aa 2268     		ldr	r2, [r4]
@@ -11698,7 +11698,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 4110:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     __HAL_LOCK(hadc);
  3243              		.loc 1 4110 0
  3244 00f4 0220     		movs	r0, #2
-ARM GAS  /tmp/cccouwDm.s 			page 196
+ARM GAS  /tmp/cckiGtEU.s 			page 196
 
 
  3245              	.LVL245:
@@ -11758,7 +11758,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  3294 0024 28BB     		cbnz	r0, .L278
 4351:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       __HAL_ADC_DISABLE_IT(hadc, (ADC_IT_JEOC | ADC_IT_JEOS | ADC_IT_JQOVF));
  3295              		.loc 1 4351 0
-ARM GAS  /tmp/cccouwDm.s 			page 197
+ARM GAS  /tmp/cckiGtEU.s 			page 197
 
 
  3296 0026 2268     		ldr	r2, [r4]
@@ -11818,7 +11818,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  3341              	.L278:
 4386:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   __HAL_UNLOCK(hadc);
  3342              		.loc 1 4386 0
-ARM GAS  /tmp/cccouwDm.s 			page 198
+ARM GAS  /tmp/cckiGtEU.s 			page 198
 
 
  3343 0072 0022     		movs	r2, #0
@@ -11878,7 +11878,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  3393 0014 84F84000 		strb	r0, [r4, #64]
 4496:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   if (ADC_IS_CONVERSION_ONGOING_REGULAR(hadc) == RESET)
  3394              		.loc 1 4496 0 is_stmt 1 discriminator 2
-ARM GAS  /tmp/cccouwDm.s 			page 199
+ARM GAS  /tmp/cckiGtEU.s 			page 199
 
 
  3395 0018 2068     		ldr	r0, [r4]
@@ -11938,7 +11938,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  3438              		.loc 1 4528 0
  3439 0058 626C     		ldr	r2, [r4, #68]
  3440 005a 1E4B     		ldr	r3, .L291+4
-ARM GAS  /tmp/cccouwDm.s 			page 200
+ARM GAS  /tmp/cckiGtEU.s 			page 200
 
 
  3441 005c 1340     		ands	r3, r3, r2
@@ -11998,7 +11998,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  3485 00a8 3A46     		mov	r2, r7
  3486 00aa 3346     		mov	r3, r6
  3487 00ac FFF7FEFF 		bl	HAL_DMA_Start_IT
-ARM GAS  /tmp/cccouwDm.s 			page 201
+ARM GAS  /tmp/cckiGtEU.s 			page 201
 
 
  3488              	.LVL265:
@@ -12058,7 +12058,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  3537              		.thumb_func
  3539              	HAL_ADCEx_MultiModeStop_DMA:
  3540              	.LFB144:
-ARM GAS  /tmp/cccouwDm.s 			page 202
+ARM GAS  /tmp/cckiGtEU.s 			page 202
 
 
 4620:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** {
@@ -12118,7 +12118,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  3586 0038 6364     		str	r3, [r4, #68]
 4648:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       __HAL_UNLOCK(hadc);
  3587              		.loc 1 4648 0
-ARM GAS  /tmp/cccouwDm.s 			page 203
+ARM GAS  /tmp/cckiGtEU.s 			page 203
 
 
  3588 003a 0023     		movs	r3, #0
@@ -12178,7 +12178,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  3632 007a E7D1     		bne	.L299
 4680:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     tmp_hal_status = HAL_DMA_Abort(hadc->DMA_Handle);
  3633              		.loc 1 4680 0
-ARM GAS  /tmp/cccouwDm.s 			page 204
+ARM GAS  /tmp/cckiGtEU.s 			page 204
 
 
  3634 007c E06B     		ldr	r0, [r4, #60]
@@ -12238,7 +12238,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  3679              	.LVL288:
  3680 00c2 FFF7FEFF 		bl	ADC_Disable
  3681              	.LVL289:
-ARM GAS  /tmp/cccouwDm.s 			page 205
+ARM GAS  /tmp/cckiGtEU.s 			page 205
 
 
 4715:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       ADC_Disable(&tmphadcSlave);
@@ -12298,7 +12298,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  3729              		.loc 1 4753 0
  3730 0004 7047     		bx	lr
  3731              	.L306:
-ARM GAS  /tmp/cccouwDm.s 			page 206
+ARM GAS  /tmp/cckiGtEU.s 			page 206
 
 
  3732 0006 00BF     		.align	2
@@ -12358,7 +12358,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 4812:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       break;
  3781              		.loc 1 4812 0
  3782 0024 7047     		bx	lr
-ARM GAS  /tmp/cccouwDm.s 			page 207
+ARM GAS  /tmp/cckiGtEU.s 			page 207
 
 
  3783              	.LVL302:
@@ -12418,7 +12418,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 4932:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****      ((hadc->State & HAL_ADC_STATE_INJ_BUSY) == RESET)     )
  3832              		.loc 1 4932 0 discriminator 1
  3833 0024 626C     		ldr	r2, [r4, #68]
-ARM GAS  /tmp/cccouwDm.s 			page 208
+ARM GAS  /tmp/cckiGtEU.s 			page 208
 
 
 4931:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   if((ADC_IS_CONVERSION_ONGOING_INJECTED(hadc) == RESET) &&
@@ -12478,7 +12478,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  3881              	HAL_ADCEx_RegularStop_IT:
  3882              	.LFB148:
 4979:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** {
-ARM GAS  /tmp/cccouwDm.s 			page 209
+ARM GAS  /tmp/cckiGtEU.s 			page 209
 
 
  3883              		.loc 1 4979 0
@@ -12538,7 +12538,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  3928 003a 0246     		mov	r2, r0
  3929 003c 60B9     		cbnz	r0, .L322
 5019:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       ADC_STATE_CLR_SET(hadc->State,
-ARM GAS  /tmp/cccouwDm.s 			page 210
+ARM GAS  /tmp/cckiGtEU.s 			page 210
 
 
  3930              		.loc 1 5019 0
@@ -12598,7 +12598,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  3980 0002 0446     		mov	r4, r0
  3981              	.LVL323:
 5066:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   __HAL_LOCK(hadc);
-ARM GAS  /tmp/cccouwDm.s 			page 211
+ARM GAS  /tmp/cckiGtEU.s 			page 211
 
 
  3982              		.loc 1 5066 0
@@ -12658,7 +12658,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  4026 004e 5A60     		str	r2, [r3, #4]
 5108:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     if (tmp_hal_status == HAL_OK)
  4027              		.loc 1 5108 0
-ARM GAS  /tmp/cccouwDm.s 			page 212
+ARM GAS  /tmp/cckiGtEU.s 			page 212
 
 
  4028 0050 25B9     		cbnz	r5, .L328
@@ -12718,7 +12718,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  4073 008a 38BD     		pop	{r3, r4, r5, pc}
  4074              		.cfi_endproc
  4075              	.LFE149:
-ARM GAS  /tmp/cccouwDm.s 			page 213
+ARM GAS  /tmp/cckiGtEU.s 			page 213
 
 
  4077              		.section	.text.HAL_ADCEx_RegularMultiModeStop_DMA,"ax",%progbits
@@ -12778,7 +12778,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  4124              		.loc 1 5204 0
  4125 002e B3F1A04F 		cmp	r3, #1342177280
  4126 0032 02D1     		bne	.L335
-ARM GAS  /tmp/cccouwDm.s 			page 214
+ARM GAS  /tmp/cckiGtEU.s 			page 214
 
 
 5204:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     ADC_MULTI_SLAVE(hadc, &tmphadcSlave);
@@ -12838,7 +12838,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  4170 0070 0120     		movs	r0, #1
  4171 0072 40E0     		b	.L333
  4172              	.L337:
-ARM GAS  /tmp/cccouwDm.s 			page 215
+ARM GAS  /tmp/cckiGtEU.s 			page 215
 
 
 5223:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     while(ADC_IS_CONVERSION_ONGOING_REGULAR(hadc)          || 
@@ -12898,7 +12898,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  4216 00b6 0128     		cmp	r0, #1
  4217 00b8 17D0     		beq	.L341
  4218              	.LVL352:
-ARM GAS  /tmp/cccouwDm.s 			page 216
+ARM GAS  /tmp/cckiGtEU.s 			page 216
 
 
 5270:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         ADC_STATE_CLR_SET(hadc->State,
@@ -12958,7 +12958,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  4264              		@ sp needed
  4265 00f8 30BD     		pop	{r4, r5, pc}
  4266              		.cfi_endproc
-ARM GAS  /tmp/cccouwDm.s 			page 217
+ARM GAS  /tmp/cckiGtEU.s 			page 217
 
 
  4267              	.LFE150:
@@ -13018,7 +13018,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  4325              		.weak	HAL_ADCEx_LevelOutOfWindow3Callback
  4326              		.thumb
  4327              		.thumb_func
-ARM GAS  /tmp/cccouwDm.s 			page 218
+ARM GAS  /tmp/cckiGtEU.s 			page 218
 
 
  4329              	HAL_ADCEx_LevelOutOfWindow3Callback:
@@ -13078,7 +13078,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  4377              		.loc 1 2834 0
  4378 001e 5A68     		ldr	r2, [r3, #4]
  4379 0020 12F0080F 		tst	r2, #8
-ARM GAS  /tmp/cccouwDm.s 			page 219
+ARM GAS  /tmp/cckiGtEU.s 			page 219
 
 
  4380 0024 4ED0     		beq	.L351
@@ -13138,7 +13138,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  4426 0070 11F4005F 		tst	r1, #8192
  4427 0074 20D1     		bne	.L356
 2862:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       if( __HAL_ADC_GET_FLAG(hadc, ADC_FLAG_EOS) )
-ARM GAS  /tmp/cccouwDm.s 			page 220
+ARM GAS  /tmp/cckiGtEU.s 			page 220
 
 
  4428              		.loc 1 2862 0 is_stmt 1
@@ -13198,7 +13198,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 2911:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   if( (__HAL_ADC_GET_FLAG(hadc, ADC_FLAG_JEOC) && __HAL_ADC_GET_IT_SOURCE(hadc, ADC_IT_JEOC)) ||   
  4473              		.loc 1 2911 0
  4474 00c4 2368     		ldr	r3, [r4]
-ARM GAS  /tmp/cccouwDm.s 			page 221
+ARM GAS  /tmp/cckiGtEU.s 			page 221
 
 
  4475 00c6 1A68     		ldr	r2, [r3]
@@ -13258,7 +13258,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  4521              	.L362:
 2926:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       tmp_cfgr = READ_REG(ADC_MASTER_INSTANCE(hadc)->CFGR);
  4522              		.loc 1 2926 0
-ARM GAS  /tmp/cccouwDm.s 			page 222
+ARM GAS  /tmp/cckiGtEU.s 			page 222
 
 
  4523 011a 4FF0A042 		mov	r2, #1342177280
@@ -13318,7 +13318,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  4568              	.LVL375:
  4569 016e 02E0     		b	.L368
  4570              	.LVL376:
-ARM GAS  /tmp/cccouwDm.s 			page 223
+ARM GAS  /tmp/cckiGtEU.s 			page 223
 
 
  4571              	.L367:
@@ -13378,7 +13378,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  4615              	.LVL379:
 2997:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     __HAL_ADC_CLEAR_FLAG(hadc, ADC_FLAG_JEOC | ADC_FLAG_JEOS);
  4616              		.loc 1 2997 0
-ARM GAS  /tmp/cccouwDm.s 			page 224
+ARM GAS  /tmp/cckiGtEU.s 			page 224
 
 
  4617 01bc 2368     		ldr	r3, [r4]
@@ -13438,7 +13438,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  4661 0208 2368     		ldr	r3, [r4]
  4662 020a 4FF48072 		mov	r2, #256
  4663 020e 1A60     		str	r2, [r3]
-ARM GAS  /tmp/cccouwDm.s 			page 225
+ARM GAS  /tmp/cckiGtEU.s 			page 225
 
 
  4664              	.L371:
@@ -13498,7 +13498,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  4708 025c 13F0010F 		tst	r3, #1
  4709 0260 0AD1     		bne	.L379
 2822:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   uint32_t overrun_error = 0U; /* flag set if overrun occurrence has to be considered as an error *
-ARM GAS  /tmp/cccouwDm.s 			page 226
+ARM GAS  /tmp/cckiGtEU.s 			page 226
 
 
  4710              		.loc 1 2822 0
@@ -13558,7 +13558,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  4754 0296 2368     		ldr	r3, [r4]
  4755 0298 1022     		movs	r2, #16
  4756 029a 1A60     		str	r2, [r3]
-ARM GAS  /tmp/cccouwDm.s 			page 227
+ARM GAS  /tmp/cckiGtEU.s 			page 227
 
 
  4757              	.L373:
@@ -13618,7 +13618,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  4806 0000 30B4     		push	{r4, r5}
  4807              	.LCFI35:
  4808              		.cfi_def_cfa_offset 8
-ARM GAS  /tmp/cccouwDm.s 			page 228
+ARM GAS  /tmp/cckiGtEU.s 			page 228
 
 
  4809              		.cfi_offset 4, -8
@@ -13678,7 +13678,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  4855 0054 1F25     		movs	r5, #31
  4856 0056 9540     		lsls	r5, r5, r2
  4857 0058 24EA0505 		bic	r5, r4, r5
-ARM GAS  /tmp/cccouwDm.s 			page 229
+ARM GAS  /tmp/cckiGtEU.s 			page 229
 
 
  4858 005c 0C68     		ldr	r4, [r1]
@@ -13738,7 +13738,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  4906 00be 1E3A     		subs	r2, r2, #30
  4907 00c0 0725     		movs	r5, #7
  4908 00c2 9540     		lsls	r5, r5, r2
-ARM GAS  /tmp/cccouwDm.s 			page 230
+ARM GAS  /tmp/cckiGtEU.s 			page 230
 
 
  4909 00c4 24EA0505 		bic	r5, r4, r5
@@ -13798,7 +13798,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  4958 0120 4FE0     		b	.L390
  4959              	.L396:
 5551:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       MODIFY_REG(hadc->Instance->OFR2               ,
-ARM GAS  /tmp/cccouwDm.s 			page 231
+ARM GAS  /tmp/cckiGtEU.s 			page 231
 
 
  4960              		.loc 1 5551 0
@@ -13858,7 +13858,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  5007              	.L399:
 5588:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       if (((hadc->Instance->OFR2) & ADC_OFR2_OFFSET2_CH) == ADC_OFR_CHANNEL(sConfig->Channel))
  5008              		.loc 1 5588 0
-ARM GAS  /tmp/cccouwDm.s 			page 232
+ARM GAS  /tmp/cckiGtEU.s 			page 232
 
 
  5009 017a 0368     		ldr	r3, [r0]
@@ -13918,7 +13918,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  5055 01d6 0022     		movs	r2, #0
  5056 01d8 02E0     		b	.L402
  5057              	.L421:
-ARM GAS  /tmp/cccouwDm.s 			page 233
+ARM GAS  /tmp/cckiGtEU.s 			page 233
 
 
  5058 01da 0022     		movs	r2, #0
@@ -13978,7 +13978,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  5105 0238 0268     		ldr	r2, [r0]
  5106 023a 5469     		ldr	r4, [r2, #20]
  5107 023c 0133     		adds	r3, r3, #1
-ARM GAS  /tmp/cccouwDm.s 			page 234
+ARM GAS  /tmp/cckiGtEU.s 			page 234
 
 
  5108 023e 03EB4303 		add	r3, r3, r3, lsl #1
@@ -14038,7 +14038,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  5152 0286 02D1     		bne	.L410
 5668:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       ADC_COMMON_ADC_OTHER(hadc, &tmphadcSharingSameCommonRegister);
  5153              		.loc 1 5668 0 is_stmt 0 discriminator 1
-ARM GAS  /tmp/cccouwDm.s 			page 235
+ARM GAS  /tmp/cckiGtEU.s 			page 235
 
 
  5154 0288 3C49     		ldr	r1, .L431+8
@@ -14098,7 +14098,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 5674:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****             (ADC_IS_ENABLE(&tmphadcSharingSameCommonRegister) == RESET)   )   )
  5199              		.loc 1 5674 0
  5200 02ca 0021     		movs	r1, #0
-ARM GAS  /tmp/cccouwDm.s 			page 236
+ARM GAS  /tmp/cckiGtEU.s 			page 236
 
 
  5201 02cc 02E0     		b	.L415
@@ -14158,7 +14158,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  5246              	.L416:
 5692:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         else if ((sConfig->Channel == ADC_CHANNEL_VBAT) && (hadc->Instance == ADC1))
  5247              		.loc 1 5692 0
-ARM GAS  /tmp/cccouwDm.s 			page 237
+ARM GAS  /tmp/cckiGtEU.s 			page 237
 
 
  5248 0310 112B     		cmp	r3, #17
@@ -14218,7 +14218,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  5291 034e 0122     		movs	r2, #1
  5292 0350 06E0     		b	.L403
  5293              	.LVL402:
-ARM GAS  /tmp/cccouwDm.s 			page 238
+ARM GAS  /tmp/cckiGtEU.s 			page 238
 
 
  5294              	.L423:
@@ -14278,7 +14278,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  5345              	HAL_ADCEx_InjectedConfigChannel:
  5346              	.LFB156:
 5899:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** {
-ARM GAS  /tmp/cccouwDm.s 			page 239
+ARM GAS  /tmp/cckiGtEU.s 			page 239
 
 
  5347              		.loc 1 5899 0
@@ -14338,7 +14338,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  5392 002e 0A68     		ldr	r2, [r1]
  5393 0030 43EA0223 		orr	r3, r3, r2, lsl #8
  5394 0034 CA6A     		ldr	r2, [r1, #44]
-ARM GAS  /tmp/cccouwDm.s 			page 240
+ARM GAS  /tmp/cckiGtEU.s 			page 240
 
 
  5395 0036 1343     		orrs	r3, r3, r2
@@ -14398,7 +14398,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  5439              		.loc 1 6044 0
  5440 0072 8B6A     		ldr	r3, [r1, #40]
  5441 0074 012B     		cmp	r3, #1
-ARM GAS  /tmp/cccouwDm.s 			page 241
+ARM GAS  /tmp/cckiGtEU.s 			page 241
 
 
  5442 0076 06D0     		beq	.L442
@@ -14458,7 +14458,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  5489 00ce 0022     		movs	r2, #0
  5490              	.LVL418:
  5491              	.L440:
-ARM GAS  /tmp/cccouwDm.s 			page 242
+ARM GAS  /tmp/cckiGtEU.s 			page 242
 
 
 6094:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   if (ADC_IS_CONVERSION_ONGOING_INJECTED(hadc) == RESET)
@@ -14518,7 +14518,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  5537 0120 012C     		cmp	r4, #1
  5538 0122 07D1     		bne	.L446
 6141:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       MODIFY_REG(hadc->Instance->CFGR                                              ,
-ARM GAS  /tmp/cccouwDm.s 			page 243
+ARM GAS  /tmp/cckiGtEU.s 			page 243
 
 
  5539              		.loc 1 6141 0
@@ -14578,7 +14578,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  5586 0178 0726     		movs	r6, #7
  5587 017a 9E40     		lsls	r6, r6, r3
  5588 017c 25EA0606 		bic	r6, r5, r6
-ARM GAS  /tmp/cccouwDm.s 			page 244
+ARM GAS  /tmp/cckiGtEU.s 			page 244
 
 
  5589 0180 8D68     		ldr	r5, [r1, #8]
@@ -14638,7 +14638,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  5637 01d4 44E0     		b	.L445
  5638              	.L454:
 6212:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       MODIFY_REG(hadc->Instance->OFR3                               ,
-ARM GAS  /tmp/cccouwDm.s 			page 245
+ARM GAS  /tmp/cckiGtEU.s 			page 245
 
 
  5639              		.loc 1 6212 0
@@ -14698,7 +14698,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  5686              	.L457:
 6244:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       if (((hadc->Instance->OFR3) & ADC_OFR3_OFFSET3_CH) == ADC_OFR_CHANNEL(sConfigInjected->Inject
  5687              		.loc 1 6244 0
-ARM GAS  /tmp/cccouwDm.s 			page 246
+ARM GAS  /tmp/cckiGtEU.s 			page 246
 
 
  5688 0230 0368     		ldr	r3, [r0]
@@ -14758,7 +14758,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  5734              		.loc 1 6267 0 is_stmt 1
  5735 0284 CC68     		ldr	r4, [r1, #12]
  5736 0286 012C     		cmp	r4, #1
-ARM GAS  /tmp/cccouwDm.s 			page 247
+ARM GAS  /tmp/cckiGtEU.s 			page 247
 
 
  5737 0288 0AD0     		beq	.L461
@@ -14818,7 +14818,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 6309:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     if (( (sConfigInjected->InjectedChannel == ADC_CHANNEL_TEMPSENSOR) &&
  5786              		.loc 1 6309 0
  5787 02f2 0B68     		ldr	r3, [r1]
-ARM GAS  /tmp/cccouwDm.s 			page 248
+ARM GAS  /tmp/cckiGtEU.s 			page 248
 
 
  5788 02f4 102B     		cmp	r3, #16
@@ -14878,7 +14878,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 6323:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       if ((ADC_IS_ENABLE(hadc) == RESET)                                    &&
  5831              		.loc 1 6323 0 is_stmt 1
  5832 0332 8C68     		ldr	r4, [r1, #8]
-ARM GAS  /tmp/cccouwDm.s 			page 249
+ARM GAS  /tmp/cckiGtEU.s 			page 249
 
 
  5833 0334 04F00304 		and	r4, r4, #3
@@ -14938,7 +14938,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 6329:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         if ((sConfigInjected->InjectedChannel == ADC_CHANNEL_TEMPSENSOR) && (hadc->Instance == ADC1
  5878              		.loc 1 6329 0
  5879 0376 102B     		cmp	r3, #16
-ARM GAS  /tmp/cccouwDm.s 			page 250
+ARM GAS  /tmp/cckiGtEU.s 			page 250
 
 
  5880 0378 19D1     		bne	.L473
@@ -14998,7 +14998,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
 6351:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         else if (sConfigInjected->InjectedChannel == ADC_CHANNEL_VREFINT)
  5925              		.loc 1 6351 0
  5926 03c4 122B     		cmp	r3, #18
-ARM GAS  /tmp/cccouwDm.s 			page 251
+ARM GAS  /tmp/cckiGtEU.s 			page 251
 
 
  5927 03c6 0AD1     		bne	.L460
@@ -15058,7 +15058,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  5975              		.global	HAL_ADC_AnalogWDGConfig
  5976              		.thumb
  5977              		.thumb_func
-ARM GAS  /tmp/cccouwDm.s 			page 252
+ARM GAS  /tmp/cckiGtEU.s 			page 252
 
 
  5979              	HAL_ADC_AnalogWDGConfig:
@@ -15118,7 +15118,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  6026              	.LVL435:
 6708:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       tmpAWDLowThresholdShifted  = ADC_AWD1THRESHOLD_SHIFT_RESOLUTION(hadc, AnalogWDGConfig->LowThr
  6027              		.loc 1 6708 0
-ARM GAS  /tmp/cccouwDm.s 			page 253
+ARM GAS  /tmp/cckiGtEU.s 			page 253
 
 
  6028 004a 4A69     		ldr	r2, [r1, #20]
@@ -15178,7 +15178,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  6073 0098 0D69     		ldr	r5, [r1, #16]
  6074 009a DC68     		ldr	r4, [r3, #12]
  6075 009c C4F3C104 		ubfx	r4, r4, #3, #2
-ARM GAS  /tmp/cccouwDm.s 			page 254
+ARM GAS  /tmp/cckiGtEU.s 			page 254
 
 
  6076 00a0 6400     		lsls	r4, r4, #1
@@ -15238,7 +15238,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  6122 00ea D3F8A040 		ldr	r4, [r3, #160]
  6123 00ee 8A68     		ldr	r2, [r1, #8]
  6124 00f0 0125     		movs	r5, #1
-ARM GAS  /tmp/cccouwDm.s 			page 255
+ARM GAS  /tmp/cckiGtEU.s 			page 255
 
 
  6125 00f2 05FA02F2 		lsl	r2, r5, r2
@@ -15298,7 +15298,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  6170              		.loc 1 6791 0
  6171 014a 9A6A     		ldr	r2, [r3, #40]
  6172 014c 02F0FF22 		and	r2, r2, #-16711936
-ARM GAS  /tmp/cccouwDm.s 			page 256
+ARM GAS  /tmp/cckiGtEU.s 			page 256
 
 
  6173 0150 9A62     		str	r2, [r3, #40]
@@ -15358,7 +15358,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  6218 018e 4364     		str	r3, [r0, #68]
  6219              	.LVL451:
 6825:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****     tmp_hal_status = HAL_ERROR;
-ARM GAS  /tmp/cccouwDm.s 			page 257
+ARM GAS  /tmp/cckiGtEU.s 			page 257
 
 
  6220              		.loc 1 6825 0
@@ -15418,7 +15418,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  6270 000a 00F09080 		beq	.L514
 6951:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****   __HAL_LOCK(hadc);
  6271              		.loc 1 6951 0 is_stmt 0 discriminator 2
-ARM GAS  /tmp/cccouwDm.s 			page 258
+ARM GAS  /tmp/cckiGtEU.s 			page 258
 
 
  6272 000e 0123     		movs	r3, #1
@@ -15478,7 +15478,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  6317 0060 1268     		ldr	r2, [r2]
  6318 0062 12F0010F 		tst	r2, #1
  6319 0066 03D1     		bne	.L516
-ARM GAS  /tmp/cccouwDm.s 			page 259
+ARM GAS  /tmp/cckiGtEU.s 			page 259
 
 
 7000:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       if ((ADC_IS_ENABLE(hadc) == RESET)                              &&
@@ -15538,7 +15538,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  6366 00ae 39E0     		b	.L510
  6367              	.LVL460:
  6368              	.L508:
-ARM GAS  /tmp/cccouwDm.s 			page 260
+ARM GAS  /tmp/cckiGtEU.s 			page 260
 
 
 7012:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****       CLEAR_BIT(tmpADC_Common->CCR, ADC_CCR_MDMA | ADC_CCR_DMACFG);
@@ -15598,7 +15598,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  6414              		.loc 1 7017 0 is_stmt 1
  6415 00f6 A3B9     		cbnz	r3, .L526
 7020:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c ****         CLEAR_BIT(tmpADC_Common->CCR, ADC_CCR_MULTI | ADC_CCR_DELAY);
-ARM GAS  /tmp/cccouwDm.s 			page 261
+ARM GAS  /tmp/cckiGtEU.s 			page 261
 
 
  6416              		.loc 1 7020 0
@@ -15658,7 +15658,7 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  6463              	.L504:
 7040:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c **** } 
  6464              		.loc 1 7040 0
-ARM GAS  /tmp/cccouwDm.s 			page 262
+ARM GAS  /tmp/cckiGtEU.s 			page 262
 
 
  6465 0130 17B0     		add	sp, sp, #92
@@ -15685,119 +15685,119 @@ ARM GAS  /tmp/cccouwDm.s 			page 1
  6487              		.file 10 "Drivers/CMSIS/Include/core_cm4.h"
  6488              		.file 11 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h"
  6489              		.file 12 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
-ARM GAS  /tmp/cccouwDm.s 			page 263
+ARM GAS  /tmp/cckiGtEU.s 			page 263
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f3xx_hal_adc_ex.c
-     /tmp/cccouwDm.s:21     .text.ADC_Disable:00000000 $t
-     /tmp/cccouwDm.s:25     .text.ADC_Disable:00000000 ADC_Disable
-     /tmp/cccouwDm.s:136    .text.ADC_ConversionStop:00000000 $t
-     /tmp/cccouwDm.s:140    .text.ADC_ConversionStop:00000000 ADC_ConversionStop
-     /tmp/cccouwDm.s:319    .text.ADC_ConversionStop:000000d8 $d
-     /tmp/cccouwDm.s:324    .text.ADC_Enable:00000000 $t
-     /tmp/cccouwDm.s:328    .text.ADC_Enable:00000000 ADC_Enable
-     /tmp/cccouwDm.s:434    .text.ADC_Enable:00000080 $d
-     /tmp/cccouwDm.s:439    .text.ADC_DMAError:00000000 $t
-     /tmp/cccouwDm.s:443    .text.ADC_DMAError:00000000 ADC_DMAError
-     /tmp/cccouwDm.s:474    .text.ADC_DMAHalfConvCplt:00000000 $t
-     /tmp/cccouwDm.s:478    .text.ADC_DMAHalfConvCplt:00000000 ADC_DMAHalfConvCplt
-     /tmp/cccouwDm.s:501    .text.ADC_DMAConvCplt:00000000 $t
-     /tmp/cccouwDm.s:505    .text.ADC_DMAConvCplt:00000000 ADC_DMAConvCplt
-     /tmp/cccouwDm.s:569    .text.HAL_ADC_Init:00000000 $t
-     /tmp/cccouwDm.s:574    .text.HAL_ADC_Init:00000000 HAL_ADC_Init
-     /tmp/cccouwDm.s:929    .text.HAL_ADC_Init:00000214 $d
-     /tmp/cccouwDm.s:938    .text.HAL_ADC_DeInit:00000000 $t
-     /tmp/cccouwDm.s:943    .text.HAL_ADC_DeInit:00000000 HAL_ADC_DeInit
-     /tmp/cccouwDm.s:1218   .text.HAL_ADC_DeInit:000001b0 $d
-     /tmp/cccouwDm.s:1229   .text.HAL_ADC_Start:00000000 $t
-     /tmp/cccouwDm.s:1234   .text.HAL_ADC_Start:00000000 HAL_ADC_Start
-     /tmp/cccouwDm.s:1394   .text.HAL_ADC_Start:00000100 $d
-     /tmp/cccouwDm.s:1400   .text.HAL_ADC_Stop:00000000 $t
-     /tmp/cccouwDm.s:1405   .text.HAL_ADC_Stop:00000000 HAL_ADC_Stop
-     /tmp/cccouwDm.s:1466   .text.HAL_ADC_PollForConversion:00000000 $t
-     /tmp/cccouwDm.s:1471   .text.HAL_ADC_PollForConversion:00000000 HAL_ADC_PollForConversion
-     /tmp/cccouwDm.s:1667   .text.HAL_ADC_PollForConversion:00000118 $d
-     /tmp/cccouwDm.s:1672   .text.HAL_ADC_PollForEvent:00000000 $t
-     /tmp/cccouwDm.s:1677   .text.HAL_ADC_PollForEvent:00000000 HAL_ADC_PollForEvent
-     /tmp/cccouwDm.s:1829   .text.HAL_ADC_Start_IT:00000000 $t
-     /tmp/cccouwDm.s:1834   .text.HAL_ADC_Start_IT:00000000 HAL_ADC_Start_IT
-     /tmp/cccouwDm.s:2027   .text.HAL_ADC_Start_IT:00000138 $d
-     /tmp/cccouwDm.s:2033   .text.HAL_ADC_Stop_IT:00000000 $t
-     /tmp/cccouwDm.s:2038   .text.HAL_ADC_Stop_IT:00000000 HAL_ADC_Stop_IT
-     /tmp/cccouwDm.s:2104   .text.HAL_ADC_Start_DMA:00000000 $t
-     /tmp/cccouwDm.s:2109   .text.HAL_ADC_Start_DMA:00000000 HAL_ADC_Start_DMA
-     /tmp/cccouwDm.s:2301   .text.HAL_ADC_Start_DMA:00000128 $d
-     /tmp/cccouwDm.s:2310   .text.HAL_ADC_Stop_DMA:00000000 $t
-     /tmp/cccouwDm.s:2315   .text.HAL_ADC_Stop_DMA:00000000 HAL_ADC_Stop_DMA
-     /tmp/cccouwDm.s:2412   .text.HAL_ADC_GetValue:00000000 $t
-     /tmp/cccouwDm.s:2417   .text.HAL_ADC_GetValue:00000000 HAL_ADC_GetValue
-     /tmp/cccouwDm.s:2435   .text.HAL_ADCEx_Calibration_Start:00000000 $t
-     /tmp/cccouwDm.s:2440   .text.HAL_ADCEx_Calibration_Start:00000000 HAL_ADCEx_Calibration_Start
-     /tmp/cccouwDm.s:2555   .text.HAL_ADCEx_Calibration_GetValue:00000000 $t
-     /tmp/cccouwDm.s:2560   .text.HAL_ADCEx_Calibration_GetValue:00000000 HAL_ADCEx_Calibration_GetValue
-     /tmp/cccouwDm.s:2590   .text.HAL_ADCEx_Calibration_SetValue:00000000 $t
-     /tmp/cccouwDm.s:2595   .text.HAL_ADCEx_Calibration_SetValue:00000000 HAL_ADCEx_Calibration_SetValue
-     /tmp/cccouwDm.s:2694   .text.HAL_ADCEx_InjectedStart:00000000 $t
-     /tmp/cccouwDm.s:2699   .text.HAL_ADCEx_InjectedStart:00000000 HAL_ADCEx_InjectedStart
-     /tmp/cccouwDm.s:2830   .text.HAL_ADCEx_InjectedStart:000000c0 $d
-     /tmp/cccouwDm.s:2835   .text.HAL_ADCEx_InjectedStop:00000000 $t
-     /tmp/cccouwDm.s:2840   .text.HAL_ADCEx_InjectedStop:00000000 HAL_ADCEx_InjectedStop
-     /tmp/cccouwDm.s:2932   .text.HAL_ADCEx_InjectedPollForConversion:00000000 $t
-     /tmp/cccouwDm.s:2937   .text.HAL_ADCEx_InjectedPollForConversion:00000000 HAL_ADCEx_InjectedPollForConversion
-ARM GAS  /tmp/cccouwDm.s 			page 264
+     /tmp/cckiGtEU.s:21     .text.ADC_Disable:00000000 $t
+     /tmp/cckiGtEU.s:25     .text.ADC_Disable:00000000 ADC_Disable
+     /tmp/cckiGtEU.s:136    .text.ADC_ConversionStop:00000000 $t
+     /tmp/cckiGtEU.s:140    .text.ADC_ConversionStop:00000000 ADC_ConversionStop
+     /tmp/cckiGtEU.s:319    .text.ADC_ConversionStop:000000d8 $d
+     /tmp/cckiGtEU.s:324    .text.ADC_Enable:00000000 $t
+     /tmp/cckiGtEU.s:328    .text.ADC_Enable:00000000 ADC_Enable
+     /tmp/cckiGtEU.s:434    .text.ADC_Enable:00000080 $d
+     /tmp/cckiGtEU.s:439    .text.ADC_DMAError:00000000 $t
+     /tmp/cckiGtEU.s:443    .text.ADC_DMAError:00000000 ADC_DMAError
+     /tmp/cckiGtEU.s:474    .text.ADC_DMAHalfConvCplt:00000000 $t
+     /tmp/cckiGtEU.s:478    .text.ADC_DMAHalfConvCplt:00000000 ADC_DMAHalfConvCplt
+     /tmp/cckiGtEU.s:501    .text.ADC_DMAConvCplt:00000000 $t
+     /tmp/cckiGtEU.s:505    .text.ADC_DMAConvCplt:00000000 ADC_DMAConvCplt
+     /tmp/cckiGtEU.s:569    .text.HAL_ADC_Init:00000000 $t
+     /tmp/cckiGtEU.s:574    .text.HAL_ADC_Init:00000000 HAL_ADC_Init
+     /tmp/cckiGtEU.s:929    .text.HAL_ADC_Init:00000214 $d
+     /tmp/cckiGtEU.s:938    .text.HAL_ADC_DeInit:00000000 $t
+     /tmp/cckiGtEU.s:943    .text.HAL_ADC_DeInit:00000000 HAL_ADC_DeInit
+     /tmp/cckiGtEU.s:1218   .text.HAL_ADC_DeInit:000001b0 $d
+     /tmp/cckiGtEU.s:1229   .text.HAL_ADC_Start:00000000 $t
+     /tmp/cckiGtEU.s:1234   .text.HAL_ADC_Start:00000000 HAL_ADC_Start
+     /tmp/cckiGtEU.s:1394   .text.HAL_ADC_Start:00000100 $d
+     /tmp/cckiGtEU.s:1400   .text.HAL_ADC_Stop:00000000 $t
+     /tmp/cckiGtEU.s:1405   .text.HAL_ADC_Stop:00000000 HAL_ADC_Stop
+     /tmp/cckiGtEU.s:1466   .text.HAL_ADC_PollForConversion:00000000 $t
+     /tmp/cckiGtEU.s:1471   .text.HAL_ADC_PollForConversion:00000000 HAL_ADC_PollForConversion
+     /tmp/cckiGtEU.s:1667   .text.HAL_ADC_PollForConversion:00000118 $d
+     /tmp/cckiGtEU.s:1672   .text.HAL_ADC_PollForEvent:00000000 $t
+     /tmp/cckiGtEU.s:1677   .text.HAL_ADC_PollForEvent:00000000 HAL_ADC_PollForEvent
+     /tmp/cckiGtEU.s:1829   .text.HAL_ADC_Start_IT:00000000 $t
+     /tmp/cckiGtEU.s:1834   .text.HAL_ADC_Start_IT:00000000 HAL_ADC_Start_IT
+     /tmp/cckiGtEU.s:2027   .text.HAL_ADC_Start_IT:00000138 $d
+     /tmp/cckiGtEU.s:2033   .text.HAL_ADC_Stop_IT:00000000 $t
+     /tmp/cckiGtEU.s:2038   .text.HAL_ADC_Stop_IT:00000000 HAL_ADC_Stop_IT
+     /tmp/cckiGtEU.s:2104   .text.HAL_ADC_Start_DMA:00000000 $t
+     /tmp/cckiGtEU.s:2109   .text.HAL_ADC_Start_DMA:00000000 HAL_ADC_Start_DMA
+     /tmp/cckiGtEU.s:2301   .text.HAL_ADC_Start_DMA:00000128 $d
+     /tmp/cckiGtEU.s:2310   .text.HAL_ADC_Stop_DMA:00000000 $t
+     /tmp/cckiGtEU.s:2315   .text.HAL_ADC_Stop_DMA:00000000 HAL_ADC_Stop_DMA
+     /tmp/cckiGtEU.s:2412   .text.HAL_ADC_GetValue:00000000 $t
+     /tmp/cckiGtEU.s:2417   .text.HAL_ADC_GetValue:00000000 HAL_ADC_GetValue
+     /tmp/cckiGtEU.s:2435   .text.HAL_ADCEx_Calibration_Start:00000000 $t
+     /tmp/cckiGtEU.s:2440   .text.HAL_ADCEx_Calibration_Start:00000000 HAL_ADCEx_Calibration_Start
+     /tmp/cckiGtEU.s:2555   .text.HAL_ADCEx_Calibration_GetValue:00000000 $t
+     /tmp/cckiGtEU.s:2560   .text.HAL_ADCEx_Calibration_GetValue:00000000 HAL_ADCEx_Calibration_GetValue
+     /tmp/cckiGtEU.s:2590   .text.HAL_ADCEx_Calibration_SetValue:00000000 $t
+     /tmp/cckiGtEU.s:2595   .text.HAL_ADCEx_Calibration_SetValue:00000000 HAL_ADCEx_Calibration_SetValue
+     /tmp/cckiGtEU.s:2694   .text.HAL_ADCEx_InjectedStart:00000000 $t
+     /tmp/cckiGtEU.s:2699   .text.HAL_ADCEx_InjectedStart:00000000 HAL_ADCEx_InjectedStart
+     /tmp/cckiGtEU.s:2830   .text.HAL_ADCEx_InjectedStart:000000c0 $d
+     /tmp/cckiGtEU.s:2835   .text.HAL_ADCEx_InjectedStop:00000000 $t
+     /tmp/cckiGtEU.s:2840   .text.HAL_ADCEx_InjectedStop:00000000 HAL_ADCEx_InjectedStop
+     /tmp/cckiGtEU.s:2932   .text.HAL_ADCEx_InjectedPollForConversion:00000000 $t
+     /tmp/cckiGtEU.s:2937   .text.HAL_ADCEx_InjectedPollForConversion:00000000 HAL_ADCEx_InjectedPollForConversion
+ARM GAS  /tmp/cckiGtEU.s 			page 264
 
 
-     /tmp/cccouwDm.s:3078   .text.HAL_ADCEx_InjectedPollForConversion:000000bc $d
-     /tmp/cccouwDm.s:3083   .text.HAL_ADCEx_InjectedStart_IT:00000000 $t
-     /tmp/cccouwDm.s:3088   .text.HAL_ADCEx_InjectedStart_IT:00000000 HAL_ADCEx_InjectedStart_IT
-     /tmp/cccouwDm.s:3252   .text.HAL_ADCEx_InjectedStart_IT:000000f8 $d
-     /tmp/cccouwDm.s:3257   .text.HAL_ADCEx_InjectedStop_IT:00000000 $t
-     /tmp/cccouwDm.s:3262   .text.HAL_ADCEx_InjectedStop_IT:00000000 HAL_ADCEx_InjectedStop_IT
-     /tmp/cccouwDm.s:3359   .text.HAL_ADCEx_MultiModeStart_DMA:00000000 $t
-     /tmp/cccouwDm.s:3364   .text.HAL_ADCEx_MultiModeStart_DMA:00000000 HAL_ADCEx_MultiModeStart_DMA
-     /tmp/cccouwDm.s:3524   .text.HAL_ADCEx_MultiModeStart_DMA:000000d0 $d
-     /tmp/cccouwDm.s:3534   .text.HAL_ADCEx_MultiModeStop_DMA:00000000 $t
-     /tmp/cccouwDm.s:3539   .text.HAL_ADCEx_MultiModeStop_DMA:00000000 HAL_ADCEx_MultiModeStop_DMA
-     /tmp/cccouwDm.s:3712   .text.HAL_ADCEx_MultiModeGetValue:00000000 $t
-     /tmp/cccouwDm.s:3717   .text.HAL_ADCEx_MultiModeGetValue:00000000 HAL_ADCEx_MultiModeGetValue
-     /tmp/cccouwDm.s:3734   .text.HAL_ADCEx_MultiModeGetValue:00000008 $d
-     /tmp/cccouwDm.s:3739   .text.HAL_ADCEx_InjectedGetValue:00000000 $t
-     /tmp/cccouwDm.s:3744   .text.HAL_ADCEx_InjectedGetValue:00000000 HAL_ADCEx_InjectedGetValue
-     /tmp/cccouwDm.s:3795   .text.HAL_ADCEx_RegularStop:00000000 $t
-     /tmp/cccouwDm.s:3800   .text.HAL_ADCEx_RegularStop:00000000 HAL_ADCEx_RegularStop
-     /tmp/cccouwDm.s:3876   .text.HAL_ADCEx_RegularStop_IT:00000000 $t
-     /tmp/cccouwDm.s:3881   .text.HAL_ADCEx_RegularStop_IT:00000000 HAL_ADCEx_RegularStop_IT
-     /tmp/cccouwDm.s:3961   .text.HAL_ADCEx_RegularStop_DMA:00000000 $t
-     /tmp/cccouwDm.s:3966   .text.HAL_ADCEx_RegularStop_DMA:00000000 HAL_ADCEx_RegularStop_DMA
-     /tmp/cccouwDm.s:4078   .text.HAL_ADCEx_RegularMultiModeStop_DMA:00000000 $t
-     /tmp/cccouwDm.s:4083   .text.HAL_ADCEx_RegularMultiModeStop_DMA:00000000 HAL_ADCEx_RegularMultiModeStop_DMA
-     /tmp/cccouwDm.s:4270   .text.HAL_ADCEx_InjectedConvCpltCallback:00000000 $t
-     /tmp/cccouwDm.s:4275   .text.HAL_ADCEx_InjectedConvCpltCallback:00000000 HAL_ADCEx_InjectedConvCpltCallback
-     /tmp/cccouwDm.s:4288   .text.HAL_ADCEx_InjectedQueueOverflowCallback:00000000 $t
-     /tmp/cccouwDm.s:4293   .text.HAL_ADCEx_InjectedQueueOverflowCallback:00000000 HAL_ADCEx_InjectedQueueOverflowCallback
-     /tmp/cccouwDm.s:4306   .text.HAL_ADCEx_LevelOutOfWindow2Callback:00000000 $t
-     /tmp/cccouwDm.s:4311   .text.HAL_ADCEx_LevelOutOfWindow2Callback:00000000 HAL_ADCEx_LevelOutOfWindow2Callback
-     /tmp/cccouwDm.s:4324   .text.HAL_ADCEx_LevelOutOfWindow3Callback:00000000 $t
-     /tmp/cccouwDm.s:4329   .text.HAL_ADCEx_LevelOutOfWindow3Callback:00000000 HAL_ADCEx_LevelOutOfWindow3Callback
-     /tmp/cccouwDm.s:4342   .text.HAL_ADC_IRQHandler:00000000 $t
-     /tmp/cccouwDm.s:4347   .text.HAL_ADC_IRQHandler:00000000 HAL_ADC_IRQHandler
-     /tmp/cccouwDm.s:4788   .text.HAL_ADC_IRQHandler:000002cc $d
-     /tmp/cccouwDm.s:4793   .text.HAL_ADC_ConfigChannel:00000000 $t
-     /tmp/cccouwDm.s:4798   .text.HAL_ADC_ConfigChannel:00000000 HAL_ADC_ConfigChannel
-     /tmp/cccouwDm.s:4942   .text.HAL_ADC_ConfigChannel:00000108 $d
-     /tmp/cccouwDm.s:4946   .text.HAL_ADC_ConfigChannel:0000010c $t
-     /tmp/cccouwDm.s:5331   .text.HAL_ADC_ConfigChannel:00000374 $d
-     /tmp/cccouwDm.s:5340   .text.HAL_ADCEx_InjectedConfigChannel:00000000 $t
-     /tmp/cccouwDm.s:5345   .text.HAL_ADCEx_InjectedConfigChannel:00000000 HAL_ADCEx_InjectedConfigChannel
-     /tmp/cccouwDm.s:5609   .text.HAL_ADCEx_InjectedConfigChannel:000001a6 $d
-     /tmp/cccouwDm.s:5613   .text.HAL_ADCEx_InjectedConfigChannel:000001aa $t
-     /tmp/cccouwDm.s:5965   .text.HAL_ADCEx_InjectedConfigChannel:000003f0 $d
-     /tmp/cccouwDm.s:5974   .text.HAL_ADC_AnalogWDGConfig:00000000 $t
-     /tmp/cccouwDm.s:5979   .text.HAL_ADC_AnalogWDGConfig:00000000 HAL_ADC_AnalogWDGConfig
-     /tmp/cccouwDm.s:6244   .text.HAL_ADCEx_MultiModeConfigChannel:00000000 $t
-     /tmp/cccouwDm.s:6249   .text.HAL_ADCEx_MultiModeConfigChannel:00000000 HAL_ADCEx_MultiModeConfigChannel
-     /tmp/cccouwDm.s:6472   .text.HAL_ADCEx_MultiModeConfigChannel:00000138 $d
+     /tmp/cckiGtEU.s:3078   .text.HAL_ADCEx_InjectedPollForConversion:000000bc $d
+     /tmp/cckiGtEU.s:3083   .text.HAL_ADCEx_InjectedStart_IT:00000000 $t
+     /tmp/cckiGtEU.s:3088   .text.HAL_ADCEx_InjectedStart_IT:00000000 HAL_ADCEx_InjectedStart_IT
+     /tmp/cckiGtEU.s:3252   .text.HAL_ADCEx_InjectedStart_IT:000000f8 $d
+     /tmp/cckiGtEU.s:3257   .text.HAL_ADCEx_InjectedStop_IT:00000000 $t
+     /tmp/cckiGtEU.s:3262   .text.HAL_ADCEx_InjectedStop_IT:00000000 HAL_ADCEx_InjectedStop_IT
+     /tmp/cckiGtEU.s:3359   .text.HAL_ADCEx_MultiModeStart_DMA:00000000 $t
+     /tmp/cckiGtEU.s:3364   .text.HAL_ADCEx_MultiModeStart_DMA:00000000 HAL_ADCEx_MultiModeStart_DMA
+     /tmp/cckiGtEU.s:3524   .text.HAL_ADCEx_MultiModeStart_DMA:000000d0 $d
+     /tmp/cckiGtEU.s:3534   .text.HAL_ADCEx_MultiModeStop_DMA:00000000 $t
+     /tmp/cckiGtEU.s:3539   .text.HAL_ADCEx_MultiModeStop_DMA:00000000 HAL_ADCEx_MultiModeStop_DMA
+     /tmp/cckiGtEU.s:3712   .text.HAL_ADCEx_MultiModeGetValue:00000000 $t
+     /tmp/cckiGtEU.s:3717   .text.HAL_ADCEx_MultiModeGetValue:00000000 HAL_ADCEx_MultiModeGetValue
+     /tmp/cckiGtEU.s:3734   .text.HAL_ADCEx_MultiModeGetValue:00000008 $d
+     /tmp/cckiGtEU.s:3739   .text.HAL_ADCEx_InjectedGetValue:00000000 $t
+     /tmp/cckiGtEU.s:3744   .text.HAL_ADCEx_InjectedGetValue:00000000 HAL_ADCEx_InjectedGetValue
+     /tmp/cckiGtEU.s:3795   .text.HAL_ADCEx_RegularStop:00000000 $t
+     /tmp/cckiGtEU.s:3800   .text.HAL_ADCEx_RegularStop:00000000 HAL_ADCEx_RegularStop
+     /tmp/cckiGtEU.s:3876   .text.HAL_ADCEx_RegularStop_IT:00000000 $t
+     /tmp/cckiGtEU.s:3881   .text.HAL_ADCEx_RegularStop_IT:00000000 HAL_ADCEx_RegularStop_IT
+     /tmp/cckiGtEU.s:3961   .text.HAL_ADCEx_RegularStop_DMA:00000000 $t
+     /tmp/cckiGtEU.s:3966   .text.HAL_ADCEx_RegularStop_DMA:00000000 HAL_ADCEx_RegularStop_DMA
+     /tmp/cckiGtEU.s:4078   .text.HAL_ADCEx_RegularMultiModeStop_DMA:00000000 $t
+     /tmp/cckiGtEU.s:4083   .text.HAL_ADCEx_RegularMultiModeStop_DMA:00000000 HAL_ADCEx_RegularMultiModeStop_DMA
+     /tmp/cckiGtEU.s:4270   .text.HAL_ADCEx_InjectedConvCpltCallback:00000000 $t
+     /tmp/cckiGtEU.s:4275   .text.HAL_ADCEx_InjectedConvCpltCallback:00000000 HAL_ADCEx_InjectedConvCpltCallback
+     /tmp/cckiGtEU.s:4288   .text.HAL_ADCEx_InjectedQueueOverflowCallback:00000000 $t
+     /tmp/cckiGtEU.s:4293   .text.HAL_ADCEx_InjectedQueueOverflowCallback:00000000 HAL_ADCEx_InjectedQueueOverflowCallback
+     /tmp/cckiGtEU.s:4306   .text.HAL_ADCEx_LevelOutOfWindow2Callback:00000000 $t
+     /tmp/cckiGtEU.s:4311   .text.HAL_ADCEx_LevelOutOfWindow2Callback:00000000 HAL_ADCEx_LevelOutOfWindow2Callback
+     /tmp/cckiGtEU.s:4324   .text.HAL_ADCEx_LevelOutOfWindow3Callback:00000000 $t
+     /tmp/cckiGtEU.s:4329   .text.HAL_ADCEx_LevelOutOfWindow3Callback:00000000 HAL_ADCEx_LevelOutOfWindow3Callback
+     /tmp/cckiGtEU.s:4342   .text.HAL_ADC_IRQHandler:00000000 $t
+     /tmp/cckiGtEU.s:4347   .text.HAL_ADC_IRQHandler:00000000 HAL_ADC_IRQHandler
+     /tmp/cckiGtEU.s:4788   .text.HAL_ADC_IRQHandler:000002cc $d
+     /tmp/cckiGtEU.s:4793   .text.HAL_ADC_ConfigChannel:00000000 $t
+     /tmp/cckiGtEU.s:4798   .text.HAL_ADC_ConfigChannel:00000000 HAL_ADC_ConfigChannel
+     /tmp/cckiGtEU.s:4942   .text.HAL_ADC_ConfigChannel:00000108 $d
+     /tmp/cckiGtEU.s:4946   .text.HAL_ADC_ConfigChannel:0000010c $t
+     /tmp/cckiGtEU.s:5331   .text.HAL_ADC_ConfigChannel:00000374 $d
+     /tmp/cckiGtEU.s:5340   .text.HAL_ADCEx_InjectedConfigChannel:00000000 $t
+     /tmp/cckiGtEU.s:5345   .text.HAL_ADCEx_InjectedConfigChannel:00000000 HAL_ADCEx_InjectedConfigChannel
+     /tmp/cckiGtEU.s:5609   .text.HAL_ADCEx_InjectedConfigChannel:000001a6 $d
+     /tmp/cckiGtEU.s:5613   .text.HAL_ADCEx_InjectedConfigChannel:000001aa $t
+     /tmp/cckiGtEU.s:5965   .text.HAL_ADCEx_InjectedConfigChannel:000003f0 $d
+     /tmp/cckiGtEU.s:5974   .text.HAL_ADC_AnalogWDGConfig:00000000 $t
+     /tmp/cckiGtEU.s:5979   .text.HAL_ADC_AnalogWDGConfig:00000000 HAL_ADC_AnalogWDGConfig
+     /tmp/cckiGtEU.s:6244   .text.HAL_ADCEx_MultiModeConfigChannel:00000000 $t
+     /tmp/cckiGtEU.s:6249   .text.HAL_ADCEx_MultiModeConfigChannel:00000000 HAL_ADCEx_MultiModeConfigChannel
+     /tmp/cckiGtEU.s:6472   .text.HAL_ADCEx_MultiModeConfigChannel:00000138 $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS
@@ -15805,7 +15805,7 @@ HAL_GetTick
 HAL_ADC_ErrorCallback
 HAL_ADC_ConvHalfCpltCallback
 HAL_ADC_ConvCpltCallback
-ARM GAS  /tmp/cccouwDm.s 			page 265
+ARM GAS  /tmp/cckiGtEU.s 			page 265
 
 
 HAL_ADC_MspInit

@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccLYaFuH.s 			page 1
+ARM GAS  /tmp/ccVYEPWf.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
   29:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   * Redistribution and use in source and binary forms, with or without modification,
   30:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   * are permitted provided that the following conditions are met:
   31:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   *   1. Redistributions of source code must retain the above copyright notice,
-ARM GAS  /tmp/ccLYaFuH.s 			page 2
+ARM GAS  /tmp/ccVYEPWf.s 			page 2
 
 
   32:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   *      this list of conditions and the following disclaimer.
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
   86:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c **** static void DAC_DMAErrorCh2(DMA_HandleTypeDef *hdma);
   87:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c **** static void DAC_DMAHalfConvCpltCh2(DMA_HandleTypeDef *hdma); 
   88:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c **** #endif /* STM32F303xE || STM32F398xx                || */
-ARM GAS  /tmp/ccLYaFuH.s 			page 3
+ARM GAS  /tmp/ccVYEPWf.s 			page 3
 
 
   89:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****        /* STM32F303xC || STM32F358xx                || */
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  143:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c **** 
  144:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   if(Channel == DAC_CHANNEL_1)
  145:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   {
-ARM GAS  /tmp/ccLYaFuH.s 			page 4
+ARM GAS  /tmp/ccVYEPWf.s 			page 4
 
 
  146:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****     tmp += DAC_DHR12R1_ALIGNMENT(Alignment);
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  200:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****     data = ((uint32_t)Data2 << 8U) | Data1;
  201:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   }
  202:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   else
-ARM GAS  /tmp/ccLYaFuH.s 			page 5
+ARM GAS  /tmp/ccVYEPWf.s 			page 5
 
 
  203:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   {
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  257:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   *            @arg DAC_CHANNEL_2: DAC1 Channel2 selected
  258:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   * @retval HAL status
  259:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   */
-ARM GAS  /tmp/ccLYaFuH.s 			page 6
+ARM GAS  /tmp/ccVYEPWf.s 			page 6
 
 
  260:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c **** HAL_StatusTypeDef HAL_DAC_Start(DAC_HandleTypeDef* hdac, uint32_t Channel)
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  314:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   *         the configuration information for the specified DAC.
  315:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   * @param  Channel: The selected DAC channel. 
  316:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   *          This parameter can be one of the following values:
-ARM GAS  /tmp/ccLYaFuH.s 			page 7
+ARM GAS  /tmp/ccVYEPWf.s 			page 7
 
 
  317:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   *            @arg DAC_CHANNEL_1: DAC1 Channel1 selected
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  371:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   * @param  Alignment: Specifies the data alignment for DAC channel.
  372:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   *          This parameter can be one of the following values:
  373:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   *            @arg DAC_ALIGN_8B_R: 8bit right data alignment selected
-ARM GAS  /tmp/ccLYaFuH.s 			page 8
+ARM GAS  /tmp/ccVYEPWf.s 			page 8
 
 
  374:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   *            @arg DAC_ALIGN_12B_L: 12bit left data alignment selected
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  428:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****     hdac->DMA_Handle2->XferCpltCallback = DAC_DMAConvCpltCh2;
  429:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****     
  430:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****     /* Set the DMA half transfer complete callback for channel2 */
-ARM GAS  /tmp/ccLYaFuH.s 			page 9
+ARM GAS  /tmp/ccVYEPWf.s 			page 9
 
 
  431:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****     hdac->DMA_Handle2->XferHalfCpltCallback = DAC_DMAHalfConvCpltCh2;
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  485:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c **** }
  486:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c **** #endif /* STM32F303xE || STM32F398xx                || */
  487:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****        /* STM32F303xC || STM32F358xx                || */
-ARM GAS  /tmp/ccLYaFuH.s 			page 10
+ARM GAS  /tmp/ccVYEPWf.s 			page 10
 
 
  488:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****        /* STM32F303x8 || STM32F334x8 || STM32F328xx || */
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  542:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****       tmpreg = (uint32_t)&hdac->Instance->DHR12R1;
  543:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****       break;
  544:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****     case DAC_ALIGN_12B_L:
-ARM GAS  /tmp/ccLYaFuH.s 			page 11
+ARM GAS  /tmp/ccVYEPWf.s 			page 11
 
 
  545:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****       /* Get DHR12L1 address */
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  599:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   {
  600:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****     return hdac->Instance->DOR1;
  601:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   }
-ARM GAS  /tmp/ccLYaFuH.s 			page 12
+ARM GAS  /tmp/ccVYEPWf.s 			page 12
 
 
  602:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   else /* channel = DAC_CHANNEL_2  */
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  656:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****        /* STM32F303xC || STM32F358xx                || */
  657:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****        /* STM32F303x8 || STM32F334x8 || STM32F328xx || */
  658:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****        /* STM32F373xC || STM32F378xx                   */
-ARM GAS  /tmp/ccLYaFuH.s 			page 13
+ARM GAS  /tmp/ccVYEPWf.s 			page 13
 
 
  659:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c **** 
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  713:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****       __HAL_DAC_CLEAR_FLAG(hdac,DAC_FLAG_DMAUDR2);
  714:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****     
  715:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****       /* Disable the selected DAC channel1 DMA request */
-ARM GAS  /tmp/ccLYaFuH.s 			page 14
+ARM GAS  /tmp/ccVYEPWf.s 			page 14
 
 
  716:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****       CLEAR_BIT(hdac->Instance->CR, DAC_CR_DMAEN2);
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  770:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   * @param  hdac: pointer to a DAC_HandleTypeDef structure that contains
  771:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   *         the configuration information for the specified DAC.
  772:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   * @param  sConfig: DAC configuration structure.
-ARM GAS  /tmp/ccLYaFuH.s 			page 15
+ARM GAS  /tmp/ccVYEPWf.s 			page 15
 
 
  773:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   * @param  Channel: The selected DAC channel. 
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  827:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   {
  828:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****     /* Output Switch (OUTEN) control */
  829:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****     tmpreg1 &= ~(((uint32_t)(DAC_CR_MAMP1 | DAC_CR_WAVE1 | DAC_CR_TSEL1 | DAC_CR_TEN1 | DAC_CR_OUTE
-ARM GAS  /tmp/ccLYaFuH.s 			page 16
+ARM GAS  /tmp/ccVYEPWf.s 			page 16
 
 
  830:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****     tmpreg2 = (sConfig->DAC_Trigger | sConfig->DAC_OutputSwitch);    
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  884:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   assert_param(IS_DAC_LFSR_UNMASK_TRIANGLE_AMPLITUDE(Amplitude));
  885:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c **** 
  886:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   /* Process locked */
-ARM GAS  /tmp/ccLYaFuH.s 			page 17
+ARM GAS  /tmp/ccVYEPWf.s 			page 17
 
 
  887:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   __HAL_LOCK(hdac);
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  941:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   /* Enable the selected wave generation for the selected DAC channel */
  942:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   MODIFY_REG(hdac->Instance->CR, ((DAC_CR_WAVE1)|(DAC_CR_MAMP1))<<Channel, (DAC_CR_WAVE1_0 | Amplit
  943:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   
-ARM GAS  /tmp/ccLYaFuH.s 			page 18
+ARM GAS  /tmp/ccVYEPWf.s 			page 18
 
 
  944:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   /* Change DAC state */
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  998:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c **** {
  999:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   /* Prevent unused argument(s) compilation warning */
 1000:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   UNUSED(hdac);
-ARM GAS  /tmp/ccLYaFuH.s 			page 19
+ARM GAS  /tmp/ccVYEPWf.s 			page 19
 
 
 1001:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c **** 
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
 1055:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c **** 
 1056:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c **** /**
 1057:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   * @brief  DMA half transfer complete callback. 
-ARM GAS  /tmp/ccLYaFuH.s 			page 20
+ARM GAS  /tmp/ccVYEPWf.s 			page 20
 
 
 1058:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   * @param  hdma: pointer to DMA handle.
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
   58              		.align	2
   59              		.thumb
   60              		.thumb_func
-ARM GAS  /tmp/ccLYaFuH.s 			page 21
+ARM GAS  /tmp/ccVYEPWf.s 			page 21
 
 
   62              	DAC_DMAHalfConvCpltCh1:
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  112 000e 10BD     		pop	{r4, pc}
  113              		.cfi_endproc
  114              	.LFE137:
-ARM GAS  /tmp/ccLYaFuH.s 			page 22
+ARM GAS  /tmp/ccVYEPWf.s 			page 22
 
 
  116              		.section	.text.HAL_DAC_SetValue,"ax",%progbits
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  164              		.loc 1 162 0
  165 0020 019A     		ldr	r2, [sp, #4]
  166 0022 1360     		str	r3, [r2]
-ARM GAS  /tmp/ccLYaFuH.s 			page 23
+ARM GAS  /tmp/ccVYEPWf.s 			page 23
 
 
  166:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c **** }
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  214              		.cfi_endproc
  215              	.LFE124:
  217              		.section	.text.HAL_DAC_Start,"ax",%progbits
-ARM GAS  /tmp/ccLYaFuH.s 			page 24
+ARM GAS  /tmp/ccVYEPWf.s 			page 24
 
 
  218              		.align	2
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  286:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****     if((hdac->Instance->CR & (DAC_CR_TEN2 | DAC_CR_TSEL2)) == (DAC_CR_TEN2 | DAC_CR_TSEL2))
  265              		.loc 1 286 0
  266 0032 0368     		ldr	r3, [r0]
-ARM GAS  /tmp/ccLYaFuH.s 			page 25
+ARM GAS  /tmp/ccVYEPWf.s 			page 25
 
 
  267 0034 1A68     		ldr	r2, [r3]
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  316              		.cfi_offset 6, -8
  317              		.cfi_offset 14, -4
  318 0002 0446     		mov	r4, r0
-ARM GAS  /tmp/ccLYaFuH.s 			page 26
+ARM GAS  /tmp/ccVYEPWf.s 			page 26
 
 
  319 0004 0D46     		mov	r5, r1
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  363              	.LVL33:
  412:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****         break;
  364              		.loc 1 412 0
-ARM GAS  /tmp/ccLYaFuH.s 			page 27
+ARM GAS  /tmp/ccVYEPWf.s 			page 27
 
 
  365 0044 24E0     		b	.L18
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  409 007a 1432     		adds	r2, r2, #20
  410              	.LVL39:
  445:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****         break;
-ARM GAS  /tmp/ccLYaFuH.s 			page 28
+ARM GAS  /tmp/ccVYEPWf.s 			page 28
 
 
  411              		.loc 1 445 0
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  456 00ac 0660     		str	r6, [r0]
  474:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****     HAL_DMA_Start_IT(hdac->DMA_Handle2, (uint32_t)pData, tmpreg, Length);
  457              		.loc 1 474 0
-ARM GAS  /tmp/ccLYaFuH.s 			page 29
+ARM GAS  /tmp/ccVYEPWf.s 			page 29
 
 
  458 00ae E068     		ldr	r0, [r4, #12]
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  598:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   if(Channel == DAC_CHANNEL_1) 
  508              		.loc 1 598 0
  509 0000 11B9     		cbnz	r1, .L35
-ARM GAS  /tmp/ccLYaFuH.s 			page 30
+ARM GAS  /tmp/ccVYEPWf.s 			page 30
 
 
  600:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****     return hdac->Instance->DOR1;
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  561              	.LFB130:
  782:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c **** {
  562              		.loc 1 782 0
-ARM GAS  /tmp/ccLYaFuH.s 			page 31
+ARM GAS  /tmp/ccVYEPWf.s 			page 31
 
 
  563              		.cfi_startproc
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  829:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****     tmpreg1 &= ~(((uint32_t)(DAC_CR_MAMP1 | DAC_CR_WAVE1 | DAC_CR_TSEL1 | DAC_CR_TEN1 | DAC_CR_OUTE
  609              		.loc 1 829 0
  610 002e 40F6FE75 		movw	r5, #4094
-ARM GAS  /tmp/ccLYaFuH.s 			page 32
+ARM GAS  /tmp/ccVYEPWf.s 			page 32
 
 
  611 0032 9540     		lsls	r5, r5, r2
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  656 0066 7047     		bx	lr
  657              	.L44:
  658              		.align	2
-ARM GAS  /tmp/ccLYaFuH.s 			page 33
+ARM GAS  /tmp/ccVYEPWf.s 			page 33
 
 
  659              	.L43:
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  708              		.loc 1 899 0 discriminator 2
  709 002c 0023     		movs	r3, #0
  710 002e 4371     		strb	r3, [r0, #5]
-ARM GAS  /tmp/ccLYaFuH.s 			page 34
+ARM GAS  /tmp/ccVYEPWf.s 			page 34
 
 
  902:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****   return HAL_OK;
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  759 0012 2668     		ldr	r6, [r4]
  760 0014 4FF47C65 		mov	r5, #4032
  761 0018 8D40     		lsls	r5, r5, r1
-ARM GAS  /tmp/ccLYaFuH.s 			page 35
+ARM GAS  /tmp/ccVYEPWf.s 			page 35
 
 
  762 001a 26EA0505 		bic	r5, r6, r5
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  814              	.LFB140:
 1083:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c **** }
 1084:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c **** 
-ARM GAS  /tmp/ccLYaFuH.s 			page 36
+ARM GAS  /tmp/ccVYEPWf.s 			page 36
 
 
 1085:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c **** #if  defined(STM32F303xE) || defined(STM32F398xx)                         || \
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  853              		@ link register save eliminated.
  854              	.LVL95:
  855 0000 7047     		bx	lr
-ARM GAS  /tmp/ccLYaFuH.s 			page 37
+ARM GAS  /tmp/ccVYEPWf.s 			page 37
 
 
  856              		.cfi_endproc
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  901 0000 7047     		bx	lr
  902              		.cfi_endproc
  903              	.LFE135:
-ARM GAS  /tmp/ccLYaFuH.s 			page 38
+ARM GAS  /tmp/ccVYEPWf.s 			page 38
 
 
  905 0002 00BF     		.section	.text.DAC_DMAErrorCh2,"ax",%progbits
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  944              		.weak	HAL_DACEx_DMAUnderrunCallbackCh2
  945              		.thumb
  946              		.thumb_func
-ARM GAS  /tmp/ccLYaFuH.s 			page 39
+ARM GAS  /tmp/ccVYEPWf.s 			page 39
 
 
  948              	HAL_DACEx_DMAUnderrunCallbackCh2:
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  996              		.loc 1 691 0
  997 0022 4FF40052 		mov	r2, #8192
  998 0026 5A63     		str	r2, [r3, #52]
-ARM GAS  /tmp/ccLYaFuH.s 			page 40
+ARM GAS  /tmp/ccVYEPWf.s 			page 40
 
 
  694:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dac_ex.c ****       CLEAR_BIT(hdac->Instance->CR, DAC_CR_DMAEN1);
@@ -2398,58 +2398,58 @@ ARM GAS  /tmp/ccLYaFuH.s 			page 1
  1045              		.file 4 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f334x8.h"
  1046              		.file 5 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h"
  1047              		.file 6 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h"
-ARM GAS  /tmp/ccLYaFuH.s 			page 41
+ARM GAS  /tmp/ccVYEPWf.s 			page 41
 
 
  1048              		.file 7 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dac.h"
  1049              		.file 8 "Drivers/CMSIS/Include/core_cm4.h"
-ARM GAS  /tmp/ccLYaFuH.s 			page 42
+ARM GAS  /tmp/ccVYEPWf.s 			page 42
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f3xx_hal_dac_ex.c
-     /tmp/ccLYaFuH.s:21     .text.DAC_DMAErrorCh1:00000000 $t
-     /tmp/ccLYaFuH.s:25     .text.DAC_DMAErrorCh1:00000000 DAC_DMAErrorCh1
-     /tmp/ccLYaFuH.s:58     .text.DAC_DMAHalfConvCpltCh1:00000000 $t
-     /tmp/ccLYaFuH.s:62     .text.DAC_DMAHalfConvCpltCh1:00000000 DAC_DMAHalfConvCpltCh1
-     /tmp/ccLYaFuH.s:85     .text.DAC_DMAConvCpltCh1:00000000 $t
-     /tmp/ccLYaFuH.s:89     .text.DAC_DMAConvCpltCh1:00000000 DAC_DMAConvCpltCh1
-     /tmp/ccLYaFuH.s:117    .text.HAL_DAC_SetValue:00000000 $t
-     /tmp/ccLYaFuH.s:122    .text.HAL_DAC_SetValue:00000000 HAL_DAC_SetValue
-     /tmp/ccLYaFuH.s:177    .text.HAL_DACEx_DualSetValue:00000000 $t
-     /tmp/ccLYaFuH.s:182    .text.HAL_DACEx_DualSetValue:00000000 HAL_DACEx_DualSetValue
-     /tmp/ccLYaFuH.s:218    .text.HAL_DAC_Start:00000000 $t
-     /tmp/ccLYaFuH.s:223    .text.HAL_DAC_Start:00000000 HAL_DAC_Start
-     /tmp/ccLYaFuH.s:299    .text.HAL_DAC_Start_DMA:00000000 $t
-     /tmp/ccLYaFuH.s:304    .text.HAL_DAC_Start_DMA:00000000 HAL_DAC_Start_DMA
-     /tmp/ccLYaFuH.s:485    .text.HAL_DAC_Start_DMA:000000cc $d
-     /tmp/ccLYaFuH.s:813    .text.DAC_DMAConvCpltCh2:00000000 DAC_DMAConvCpltCh2
-     /tmp/ccLYaFuH.s:864    .text.DAC_DMAHalfConvCpltCh2:00000000 DAC_DMAHalfConvCpltCh2
-     /tmp/ccLYaFuH.s:910    .text.DAC_DMAErrorCh2:00000000 DAC_DMAErrorCh2
-     /tmp/ccLYaFuH.s:495    .text.HAL_DAC_GetValue:00000000 $t
-     /tmp/ccLYaFuH.s:500    .text.HAL_DAC_GetValue:00000000 HAL_DAC_GetValue
-     /tmp/ccLYaFuH.s:527    .text.HAL_DACEx_DualGetValue:00000000 $t
-     /tmp/ccLYaFuH.s:532    .text.HAL_DACEx_DualGetValue:00000000 HAL_DACEx_DualGetValue
-     /tmp/ccLYaFuH.s:555    .text.HAL_DAC_ConfigChannel:00000000 $t
-     /tmp/ccLYaFuH.s:560    .text.HAL_DAC_ConfigChannel:00000000 HAL_DAC_ConfigChannel
-     /tmp/ccLYaFuH.s:660    .text.HAL_DAC_ConfigChannel:00000068 $d
-     /tmp/ccLYaFuH.s:665    .text.HAL_DACEx_TriangleWaveGenerate:00000000 $t
-     /tmp/ccLYaFuH.s:670    .text.HAL_DACEx_TriangleWaveGenerate:00000000 HAL_DACEx_TriangleWaveGenerate
-     /tmp/ccLYaFuH.s:728    .text.HAL_DACEx_NoiseWaveGenerate:00000000 $t
-     /tmp/ccLYaFuH.s:733    .text.HAL_DACEx_NoiseWaveGenerate:00000000 HAL_DACEx_NoiseWaveGenerate
-     /tmp/ccLYaFuH.s:791    .text.HAL_DACEx_ConvCpltCallbackCh2:00000000 $t
-     /tmp/ccLYaFuH.s:796    .text.HAL_DACEx_ConvCpltCallbackCh2:00000000 HAL_DACEx_ConvCpltCallbackCh2
-     /tmp/ccLYaFuH.s:809    .text.DAC_DMAConvCpltCh2:00000000 $t
-     /tmp/ccLYaFuH.s:842    .text.HAL_DACEx_ConvHalfCpltCallbackCh2:00000000 $t
-     /tmp/ccLYaFuH.s:847    .text.HAL_DACEx_ConvHalfCpltCallbackCh2:00000000 HAL_DACEx_ConvHalfCpltCallbackCh2
-     /tmp/ccLYaFuH.s:860    .text.DAC_DMAHalfConvCpltCh2:00000000 $t
-     /tmp/ccLYaFuH.s:888    .text.HAL_DACEx_ErrorCallbackCh2:00000000 $t
-     /tmp/ccLYaFuH.s:893    .text.HAL_DACEx_ErrorCallbackCh2:00000000 HAL_DACEx_ErrorCallbackCh2
-     /tmp/ccLYaFuH.s:906    .text.DAC_DMAErrorCh2:00000000 $t
-     /tmp/ccLYaFuH.s:943    .text.HAL_DACEx_DMAUnderrunCallbackCh2:00000000 $t
-     /tmp/ccLYaFuH.s:948    .text.HAL_DACEx_DMAUnderrunCallbackCh2:00000000 HAL_DACEx_DMAUnderrunCallbackCh2
-     /tmp/ccLYaFuH.s:961    .text.HAL_DAC_IRQHandler:00000000 $t
-     /tmp/ccLYaFuH.s:966    .text.HAL_DAC_IRQHandler:00000000 HAL_DAC_IRQHandler
+     /tmp/ccVYEPWf.s:21     .text.DAC_DMAErrorCh1:00000000 $t
+     /tmp/ccVYEPWf.s:25     .text.DAC_DMAErrorCh1:00000000 DAC_DMAErrorCh1
+     /tmp/ccVYEPWf.s:58     .text.DAC_DMAHalfConvCpltCh1:00000000 $t
+     /tmp/ccVYEPWf.s:62     .text.DAC_DMAHalfConvCpltCh1:00000000 DAC_DMAHalfConvCpltCh1
+     /tmp/ccVYEPWf.s:85     .text.DAC_DMAConvCpltCh1:00000000 $t
+     /tmp/ccVYEPWf.s:89     .text.DAC_DMAConvCpltCh1:00000000 DAC_DMAConvCpltCh1
+     /tmp/ccVYEPWf.s:117    .text.HAL_DAC_SetValue:00000000 $t
+     /tmp/ccVYEPWf.s:122    .text.HAL_DAC_SetValue:00000000 HAL_DAC_SetValue
+     /tmp/ccVYEPWf.s:177    .text.HAL_DACEx_DualSetValue:00000000 $t
+     /tmp/ccVYEPWf.s:182    .text.HAL_DACEx_DualSetValue:00000000 HAL_DACEx_DualSetValue
+     /tmp/ccVYEPWf.s:218    .text.HAL_DAC_Start:00000000 $t
+     /tmp/ccVYEPWf.s:223    .text.HAL_DAC_Start:00000000 HAL_DAC_Start
+     /tmp/ccVYEPWf.s:299    .text.HAL_DAC_Start_DMA:00000000 $t
+     /tmp/ccVYEPWf.s:304    .text.HAL_DAC_Start_DMA:00000000 HAL_DAC_Start_DMA
+     /tmp/ccVYEPWf.s:485    .text.HAL_DAC_Start_DMA:000000cc $d
+     /tmp/ccVYEPWf.s:813    .text.DAC_DMAConvCpltCh2:00000000 DAC_DMAConvCpltCh2
+     /tmp/ccVYEPWf.s:864    .text.DAC_DMAHalfConvCpltCh2:00000000 DAC_DMAHalfConvCpltCh2
+     /tmp/ccVYEPWf.s:910    .text.DAC_DMAErrorCh2:00000000 DAC_DMAErrorCh2
+     /tmp/ccVYEPWf.s:495    .text.HAL_DAC_GetValue:00000000 $t
+     /tmp/ccVYEPWf.s:500    .text.HAL_DAC_GetValue:00000000 HAL_DAC_GetValue
+     /tmp/ccVYEPWf.s:527    .text.HAL_DACEx_DualGetValue:00000000 $t
+     /tmp/ccVYEPWf.s:532    .text.HAL_DACEx_DualGetValue:00000000 HAL_DACEx_DualGetValue
+     /tmp/ccVYEPWf.s:555    .text.HAL_DAC_ConfigChannel:00000000 $t
+     /tmp/ccVYEPWf.s:560    .text.HAL_DAC_ConfigChannel:00000000 HAL_DAC_ConfigChannel
+     /tmp/ccVYEPWf.s:660    .text.HAL_DAC_ConfigChannel:00000068 $d
+     /tmp/ccVYEPWf.s:665    .text.HAL_DACEx_TriangleWaveGenerate:00000000 $t
+     /tmp/ccVYEPWf.s:670    .text.HAL_DACEx_TriangleWaveGenerate:00000000 HAL_DACEx_TriangleWaveGenerate
+     /tmp/ccVYEPWf.s:728    .text.HAL_DACEx_NoiseWaveGenerate:00000000 $t
+     /tmp/ccVYEPWf.s:733    .text.HAL_DACEx_NoiseWaveGenerate:00000000 HAL_DACEx_NoiseWaveGenerate
+     /tmp/ccVYEPWf.s:791    .text.HAL_DACEx_ConvCpltCallbackCh2:00000000 $t
+     /tmp/ccVYEPWf.s:796    .text.HAL_DACEx_ConvCpltCallbackCh2:00000000 HAL_DACEx_ConvCpltCallbackCh2
+     /tmp/ccVYEPWf.s:809    .text.DAC_DMAConvCpltCh2:00000000 $t
+     /tmp/ccVYEPWf.s:842    .text.HAL_DACEx_ConvHalfCpltCallbackCh2:00000000 $t
+     /tmp/ccVYEPWf.s:847    .text.HAL_DACEx_ConvHalfCpltCallbackCh2:00000000 HAL_DACEx_ConvHalfCpltCallbackCh2
+     /tmp/ccVYEPWf.s:860    .text.DAC_DMAHalfConvCpltCh2:00000000 $t
+     /tmp/ccVYEPWf.s:888    .text.HAL_DACEx_ErrorCallbackCh2:00000000 $t
+     /tmp/ccVYEPWf.s:893    .text.HAL_DACEx_ErrorCallbackCh2:00000000 HAL_DACEx_ErrorCallbackCh2
+     /tmp/ccVYEPWf.s:906    .text.DAC_DMAErrorCh2:00000000 $t
+     /tmp/ccVYEPWf.s:943    .text.HAL_DACEx_DMAUnderrunCallbackCh2:00000000 $t
+     /tmp/ccVYEPWf.s:948    .text.HAL_DACEx_DMAUnderrunCallbackCh2:00000000 HAL_DACEx_DMAUnderrunCallbackCh2
+     /tmp/ccVYEPWf.s:961    .text.HAL_DAC_IRQHandler:00000000 $t
+     /tmp/ccVYEPWf.s:966    .text.HAL_DAC_IRQHandler:00000000 HAL_DAC_IRQHandler
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

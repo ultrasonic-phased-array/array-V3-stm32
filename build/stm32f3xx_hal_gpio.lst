@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccDJSCSV.s 			page 1
+ARM GAS  /tmp/ccen8DGi.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccDJSCSV.s 			page 1
   28:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c **** 
   29:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c ****     (+) All GPIO pins have weak internal pull-up and pull-down resistors, which can be
   30:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c ****         activated or not.
-ARM GAS  /tmp/ccDJSCSV.s 			page 2
+ARM GAS  /tmp/ccen8DGi.s 			page 2
 
 
   31:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c **** 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccDJSCSV.s 			page 1
   85:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c ****         (PC14 and PC15U, respectively) when the LSE oscillator is off. The LSE has
   86:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c ****         priority over the GPIO function.
   87:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c **** 
-ARM GAS  /tmp/ccDJSCSV.s 			page 3
+ARM GAS  /tmp/ccen8DGi.s 			page 3
 
 
   88:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c ****     (#) The HSE oscillator pins OSC_IN/OSC_OUT can be used as
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccDJSCSV.s 			page 1
  142:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c **** #define GPIO_MODE             (0x00000003U)
  143:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c **** #define EXTI_MODE             (0x10000000U)
  144:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c **** #define GPIO_MODE_IT          (0x00010000U)
-ARM GAS  /tmp/ccDJSCSV.s 			page 4
+ARM GAS  /tmp/ccen8DGi.s 			page 4
 
 
  145:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c **** #define GPIO_MODE_EVT         (0x00020000U)
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccDJSCSV.s 			page 1
   36              	.LCFI0:
   37              		.cfi_def_cfa_offset 32
   38              		.cfi_offset 4, -32
-ARM GAS  /tmp/ccDJSCSV.s 			page 5
+ARM GAS  /tmp/ccen8DGi.s 			page 5
 
 
   39              		.cfi_offset 5, -28
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccDJSCSV.s 			page 1
  230:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c **** 
  231:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c ****       /* In case of Output or Alternate function mode selection */
  232:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c ****       if((GPIO_Init->Mode == GPIO_MODE_OUTPUT_PP) || (GPIO_Init->Mode == GPIO_MODE_AF_PP) ||
-ARM GAS  /tmp/ccDJSCSV.s 			page 6
+ARM GAS  /tmp/ccen8DGi.s 			page 6
 
 
  233:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c ****          (GPIO_Init->Mode == GPIO_MODE_OUTPUT_OD) || (GPIO_Init->Mode == GPIO_MODE_AF_OD))
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccDJSCSV.s 			page 1
   69              	.LVL4:
   70 001c 00F0BE80 		beq	.L3
  212:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c ****       if((GPIO_Init->Mode == GPIO_MODE_AF_PP) || (GPIO_Init->Mode == GPIO_MODE_AF_OD))
-ARM GAS  /tmp/ccDJSCSV.s 			page 7
+ARM GAS  /tmp/ccen8DGi.s 			page 7
 
 
   71              		.loc 1 212 0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccDJSCSV.s 			page 1
  117 006c 47EA0B07 		orr	r7, r7, fp
  118              	.LVL12:
  229:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c ****       GPIOx->MODER = temp;
-ARM GAS  /tmp/ccDJSCSV.s 			page 8
+ARM GAS  /tmp/ccen8DGi.s 			page 8
 
 
  119              		.loc 1 229 0
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccDJSCSV.s 			page 1
  247:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c ****         GPIOx->OTYPER = temp;
  163              		.loc 1 247 0
  164 00b0 4760     		str	r7, [r0, #4]
-ARM GAS  /tmp/ccDJSCSV.s 			page 9
+ARM GAS  /tmp/ccen8DGi.s 			page 9
 
 
  165              	.LVL22:
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccDJSCSV.s 			page 1
  210              		.loc 1 265 0
  211 00fe B0F1904F 		cmp	r0, #1207959552
  212 0102 16D0     		beq	.L17
-ARM GAS  /tmp/ccDJSCSV.s 			page 10
+ARM GAS  /tmp/ccen8DGi.s 			page 10
 
 
  265:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c ****         temp |= (GPIO_GET_INDEX(GPIOx) << (4U * (position & 0x03U)));
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccDJSCSV.s 			page 1
  259              	.LVL34:
  260              	.L12:
  274:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c ****         }
-ARM GAS  /tmp/ccDJSCSV.s 			page 11
+ARM GAS  /tmp/ccen8DGi.s 			page 11
 
 
  275:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c ****         EXTI->IMR = temp;
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccDJSCSV.s 			page 1
  295              		.loc 1 294 0
  296 018a EC68     		ldr	r4, [r5, #12]
  297              	.LVL41:
-ARM GAS  /tmp/ccDJSCSV.s 			page 12
+ARM GAS  /tmp/ccen8DGi.s 			page 12
 
 
  295:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c ****         temp &= ~((uint32_t)iocurrent);
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccDJSCSV.s 			page 1
  340              		.global	HAL_GPIO_DeInit
  341              		.thumb
  342              		.thumb_func
-ARM GAS  /tmp/ccDJSCSV.s 			page 13
+ARM GAS  /tmp/ccen8DGi.s 			page 13
 
 
  344              	HAL_GPIO_DeInit:
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccDJSCSV.s 			page 1
  337:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c ****       /* Configure the default Alternate Function in current IO */
  338:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c ****       GPIOx->AFR[position >> 3] &= ~(0xFU << ((uint32_t)(position & 0x07U) * 4U)) ;
  368              		.loc 1 338 0
-ARM GAS  /tmp/ccDJSCSV.s 			page 14
+ARM GAS  /tmp/ccen8DGi.s 			page 14
 
 
  369 0008 4FF00F08 		mov	r8, #15
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccDJSCSV.s 			page 1
  395 0034 0835     		adds	r5, r5, #8
  396 0036 50F825B0 		ldr	fp, [r0, r5, lsl #2]
  397 003a 03F0070A 		and	r10, r3, #7
-ARM GAS  /tmp/ccDJSCSV.s 			page 15
+ARM GAS  /tmp/ccen8DGi.s 			page 15
 
 
  398 003e 4FEA8A0A 		lsl	r10, r10, #2
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccDJSCSV.s 			page 1
  444              	.L33:
  445 00a2 4FF0020B 		mov	fp, #2
  446 00a6 03E0     		b	.L26
-ARM GAS  /tmp/ccDJSCSV.s 			page 16
+ARM GAS  /tmp/ccen8DGi.s 			page 16
 
 
  447              	.L32:
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccDJSCSV.s 			page 1
  489 00ec 31FA03F2 		lsrs	r2, r1, r3
  490 00f0 90D1     		bne	.L30
  371:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c ****   }
-ARM GAS  /tmp/ccDJSCSV.s 			page 17
+ARM GAS  /tmp/ccen8DGi.s 			page 17
 
 
  372:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c **** }
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccDJSCSV.s 			page 1
  402:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c ****   assert_param(IS_GPIO_PIN(GPIO_Pin));
  403:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c **** 
  404:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c ****   if((GPIOx->IDR & GPIO_Pin) != (uint32_t)GPIO_PIN_RESET)
-ARM GAS  /tmp/ccDJSCSV.s 			page 18
+ARM GAS  /tmp/ccen8DGi.s 			page 18
 
 
  517              		.loc 1 404 0
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccDJSCSV.s 			page 1
  545              		@ args = 0, pretend = 0, frame = 0
  546              		@ frame_needed = 0, uses_anonymous_args = 0
  547              		@ link register save eliminated.
-ARM GAS  /tmp/ccDJSCSV.s 			page 19
+ARM GAS  /tmp/ccen8DGi.s 			page 19
 
 
  548              	.LVL62:
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccDJSCSV.s 			page 1
  578              	.LVL64:
  579 0004 4161     		str	r1, [r0, #20]
  580 0006 7047     		bx	lr
-ARM GAS  /tmp/ccDJSCSV.s 			page 20
+ARM GAS  /tmp/ccen8DGi.s 			page 20
 
 
  581              		.cfi_endproc
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccDJSCSV.s 			page 1
  485:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c ****   GPIOx->LCKR = GPIO_Pin;
  611              		.loc 1 485 0
  612 0012 C161     		str	r1, [r0, #28]
-ARM GAS  /tmp/ccDJSCSV.s 			page 21
+ARM GAS  /tmp/ccen8DGi.s 			page 21
 
 
  486:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c ****   /* Set LCKx bit(s): LCKK='1' + LCK[15U-0] */
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccDJSCSV.s 			page 1
  507:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c **** {
  508:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c ****   /* EXTI line interrupt detected */
  509:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c ****   if(__HAL_GPIO_EXTI_GET_IT(GPIO_Pin) != RESET)
-ARM GAS  /tmp/ccDJSCSV.s 			page 22
+ARM GAS  /tmp/ccen8DGi.s 			page 22
 
 
  510:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c ****   {
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccDJSCSV.s 			page 1
  686 000e FFF7FEFF 		bl	HAL_GPIO_EXTI_Callback
  687              	.LVL71:
  688              	.L48:
-ARM GAS  /tmp/ccDJSCSV.s 			page 23
+ARM GAS  /tmp/ccen8DGi.s 			page 23
 
 
  689 0012 08BD     		pop	{r3, pc}
@@ -1337,30 +1337,30 @@ ARM GAS  /tmp/ccDJSCSV.s 			page 1
  703              		.file 6 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h"
  704              		.file 7 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h"
  705              		.file 8 "Drivers/CMSIS/Include/core_cm4.h"
-ARM GAS  /tmp/ccDJSCSV.s 			page 24
+ARM GAS  /tmp/ccen8DGi.s 			page 24
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f3xx_hal_gpio.c
-     /tmp/ccDJSCSV.s:21     .text.HAL_GPIO_Init:00000000 $t
-     /tmp/ccDJSCSV.s:26     .text.HAL_GPIO_Init:00000000 HAL_GPIO_Init
-     /tmp/ccDJSCSV.s:330    .text.HAL_GPIO_Init:000001b4 $d
-     /tmp/ccDJSCSV.s:339    .text.HAL_GPIO_DeInit:00000000 $t
-     /tmp/ccDJSCSV.s:344    .text.HAL_GPIO_DeInit:00000000 HAL_GPIO_DeInit
-     /tmp/ccDJSCSV.s:497    .text.HAL_GPIO_DeInit:000000f8 $d
-     /tmp/ccDJSCSV.s:504    .text.HAL_GPIO_ReadPin:00000000 $t
-     /tmp/ccDJSCSV.s:509    .text.HAL_GPIO_ReadPin:00000000 HAL_GPIO_ReadPin
-     /tmp/ccDJSCSV.s:536    .text.HAL_GPIO_WritePin:00000000 $t
-     /tmp/ccDJSCSV.s:541    .text.HAL_GPIO_WritePin:00000000 HAL_GPIO_WritePin
-     /tmp/ccDJSCSV.s:562    .text.HAL_GPIO_TogglePin:00000000 $t
-     /tmp/ccDJSCSV.s:567    .text.HAL_GPIO_TogglePin:00000000 HAL_GPIO_TogglePin
-     /tmp/ccDJSCSV.s:585    .text.HAL_GPIO_LockPin:00000000 $t
-     /tmp/ccDJSCSV.s:590    .text.HAL_GPIO_LockPin:00000000 HAL_GPIO_LockPin
-     /tmp/ccDJSCSV.s:641    .text.HAL_GPIO_EXTI_Callback:00000000 $t
-     /tmp/ccDJSCSV.s:646    .text.HAL_GPIO_EXTI_Callback:00000000 HAL_GPIO_EXTI_Callback
-     /tmp/ccDJSCSV.s:659    .text.HAL_GPIO_EXTI_IRQHandler:00000000 $t
-     /tmp/ccDJSCSV.s:664    .text.HAL_GPIO_EXTI_IRQHandler:00000000 HAL_GPIO_EXTI_IRQHandler
-     /tmp/ccDJSCSV.s:693    .text.HAL_GPIO_EXTI_IRQHandler:00000014 $d
+     /tmp/ccen8DGi.s:21     .text.HAL_GPIO_Init:00000000 $t
+     /tmp/ccen8DGi.s:26     .text.HAL_GPIO_Init:00000000 HAL_GPIO_Init
+     /tmp/ccen8DGi.s:330    .text.HAL_GPIO_Init:000001b4 $d
+     /tmp/ccen8DGi.s:339    .text.HAL_GPIO_DeInit:00000000 $t
+     /tmp/ccen8DGi.s:344    .text.HAL_GPIO_DeInit:00000000 HAL_GPIO_DeInit
+     /tmp/ccen8DGi.s:497    .text.HAL_GPIO_DeInit:000000f8 $d
+     /tmp/ccen8DGi.s:504    .text.HAL_GPIO_ReadPin:00000000 $t
+     /tmp/ccen8DGi.s:509    .text.HAL_GPIO_ReadPin:00000000 HAL_GPIO_ReadPin
+     /tmp/ccen8DGi.s:536    .text.HAL_GPIO_WritePin:00000000 $t
+     /tmp/ccen8DGi.s:541    .text.HAL_GPIO_WritePin:00000000 HAL_GPIO_WritePin
+     /tmp/ccen8DGi.s:562    .text.HAL_GPIO_TogglePin:00000000 $t
+     /tmp/ccen8DGi.s:567    .text.HAL_GPIO_TogglePin:00000000 HAL_GPIO_TogglePin
+     /tmp/ccen8DGi.s:585    .text.HAL_GPIO_LockPin:00000000 $t
+     /tmp/ccen8DGi.s:590    .text.HAL_GPIO_LockPin:00000000 HAL_GPIO_LockPin
+     /tmp/ccen8DGi.s:641    .text.HAL_GPIO_EXTI_Callback:00000000 $t
+     /tmp/ccen8DGi.s:646    .text.HAL_GPIO_EXTI_Callback:00000000 HAL_GPIO_EXTI_Callback
+     /tmp/ccen8DGi.s:659    .text.HAL_GPIO_EXTI_IRQHandler:00000000 $t
+     /tmp/ccen8DGi.s:664    .text.HAL_GPIO_EXTI_IRQHandler:00000000 HAL_GPIO_EXTI_IRQHandler
+     /tmp/ccen8DGi.s:693    .text.HAL_GPIO_EXTI_IRQHandler:00000014 $d
                      .debug_frame:00000010 $d
 
 NO UNDEFINED SYMBOLS
