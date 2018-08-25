@@ -53,8 +53,14 @@ float Temp1;
 float Temp2;
 float Iout;
 
+float US_pp;
+
 float duty;
 float esum;
+
+uint16_t lastTimer = 0;
+uint16_t periode = 0;
+uint16_t phase = 0;
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
@@ -87,6 +93,8 @@ void DCDC_Reg() {
   HAL_GPIO_TogglePin(LED_ACT_GPIO_Port, LED_ACT_Pin);
 }
 
+uint16_t uwIC2Value1 = 0;
+
 int main(void)
 {
 
@@ -107,7 +115,7 @@ int main(void)
   //MX_COMP6_Init();
   //MX_DAC1_Init();
   //MX_HRTIM1_Init();
-  //MX_TIM2_Init();
+  MX_TIM2_Init();
   //MX_TIM3_Init();
 
   MX_USART1_UART_Init();
@@ -121,22 +129,24 @@ int main(void)
 
   /* Infinite loop */
 
+
+
   while (1)
   {
-    for (int i = 0; i < 2000; i++) {
+    for (int i = 0; i < 1500; i++) {
       Vin = (HAL_ADCEx_InjectedGetValue(&hadc1, ADC_INJECTED_RANK_2) * ADC_VREF * VOUT_DIV)/ARES;
       Vout = (HAL_ADCEx_InjectedGetValue(&hadc1, ADC_INJECTED_RANK_1) * ADC_VREF * VOUT_DIV)/ARES;
-      int16_t USpp = (HAL_ADCEx_InjectedGetValue(&hadc1, ADC_INJECTED_RANK_3) * ADC_VREF)/ARES;
 
       Iout = (HAL_ADCEx_InjectedGetValue(&hadc2, ADC_INJECTED_RANK_1) * ADC_VREF * IOUT_DIV)/ARES;
 
       Temp1 = r2temp(NTC_R((HAL_ADCEx_InjectedGetValue(&hadc2, ADC_INJECTED_RANK_2) * ADC_VREF)/ARES));
       Temp2 = r2temp(NTC_R((HAL_ADCEx_InjectedGetValue(&hadc2, ADC_INJECTED_RANK_3) * ADC_VREF)/ARES));
 
+      US_pp = (HAL_ADCEx_InjectedGetValue(&hadc1, ADC_INJECTED_RANK_3) * ADC_VREF)/ARES;
+
       float error = VTARGET - Vout;
       esum += error;
       esum = CLAMP(esum, -2000, 2000);
-
 
       duty = 1.0f - (Vin / (VTARGET + DC_RES * Iout + (esum * 0.01f)));
       duty = MIN(duty, 0.76f); // limit dutycicle (max 50V at 12V in)
@@ -149,13 +159,48 @@ int main(void)
 
     HAL_GPIO_TogglePin(LED_READY_GPIO_Port, LED_READY_Pin);
 
+    if (US_pp > 1.7f) {
+      HAL_NVIC_EnableIRQ(ADC1_2_IRQn);
+    } else {
+      HAL_NVIC_DisableIRQ(ADC1_2_IRQn);
+    }
 
-    printf("%c[2J", 27); // clear terminal
-    printf("%c[H", 27);  // home cursor
+    //printf("%c[2J", 27); // clear terminal
+    //printf("%c[H", 27);  // home cursor
 
-    printf("NTC1: %.2f°C  NTC2: %.2f°C\n\r", Temp1, Temp2);
-    printf("Vin:  %.3fV  Vout: %.3fV\n\r", Vin, Vout);
-    printf("Iout: %.2fA    Pout: %.2fW  e: %.2f\n\r", Iout, Iout*Vout, esum);
+    HAL_GPIO_WritePin(FAN_GPIO_Port, FAN_Pin,(Temp1 > 50 || Temp2 > 50));
+
+
+    //printf("NTC1: %.2f°C  NTC2: %.2f°C\n\r", Temp1, Temp2);
+    //printf("Vin:  %.3fV  Vout: %.3fV\n\r", Vin, Vout);
+    //printf("Iout: %.2fA    Pout: %.2fW  e: %.2f\n\r", Iout, Iout*Vout, esum);
+    //printf("US pp: %.3fV\n\r", US_pp);
+    //printf("Periode: %d\n\r", periode);
+
+    printf("%.2f;%.2f;%.2f;%.2f;%.2f;%.2f;%d;%d\n\r", Temp1, Temp2, Vin, Vout, Iout, US_pp, periode, phase);
+  }
+}
+
+void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim)
+{
+  if (htim->Channel == HAL_TIM_ACTIVE_CHANNEL_1)
+  {
+    uint16_t curTimer = HAL_TIM_ReadCapturedValue(htim, TIM_CHANNEL_1);
+    if (curTimer < lastTimer) {
+      periode = curTimer + (0xFFFF - lastTimer);
+    } else {
+      periode = lastTimer - curTimer;
+    }
+    lastTimer = curTimer;
+  }
+  if (htim->Channel == HAL_TIM_ACTIVE_CHANNEL_4)
+  {
+    uint16_t curTimer = HAL_TIM_ReadCapturedValue(htim, TIM_CHANNEL_4);
+    if (curTimer < lastTimer) {
+      phase = curTimer + (0xFFFF - lastTimer);
+    } else {
+      phase = lastTimer - curTimer;
+    }
   }
 }
 
@@ -630,10 +675,12 @@ static void MX_TIM2_Init(void)
   TIM_MasterConfigTypeDef sMasterConfig;
   TIM_IC_InitTypeDef sConfigIC;
 
+  __HAL_RCC_TIM2_CLK_ENABLE();
+
   htim2.Instance = TIM2;
   htim2.Init.Prescaler = 0;
   htim2.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim2.Init.Period = 0;
+  htim2.Init.Period = 0xFFFF;
   htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim2.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
   if (HAL_TIM_Base_Init(&htim2) != HAL_OK)
@@ -668,6 +715,24 @@ static void MX_TIM2_Init(void)
     _Error_Handler(__FILE__, __LINE__);
   }
 
+  if (HAL_TIM_IC_ConfigChannel(&htim2, &sConfigIC, TIM_CHANNEL_4) != HAL_OK)
+  {
+    _Error_Handler(__FILE__, __LINE__);
+  }
+
+  if(HAL_TIM_IC_Start_IT(&htim2, TIM_CHANNEL_1) != HAL_OK)
+  {
+    /* Starting Error */
+    Error_Handler();
+  }
+
+  if(HAL_TIM_IC_Start_IT(&htim2, TIM_CHANNEL_4) != HAL_OK)
+  {
+    /* Starting Error */
+    Error_Handler();
+  }
+
+  HAL_TIM_Base_Start(&htim2);
 }
 
 /* TIM3 init function */
@@ -813,6 +878,12 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+  GPIO_InitStruct.Pin = FAN_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
   /*Configure GPIO pin : PA7 */
   GPIO_InitStruct.Pin = GPIO_PIN_7;

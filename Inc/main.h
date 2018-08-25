@@ -25,6 +25,9 @@
 #define NTC2_Pin GPIO_PIN_15
 #define NTC2_GPIO_Port GPIOB
 
+#define FAN_Pin GPIO_PIN_4
+#define FAN_GPIO_Port GPIOB
+
 void _Error_Handler(char *, int);
 
 #define Error_Handler() _Error_Handler(__FILE__, __LINE__)
